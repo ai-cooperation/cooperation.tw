@@ -6,13 +6,13 @@ page-layout: full
 
 ## 簡報 Pipeline — 版面演示
 
-這個互動演示展示 **簡報產生 Pipeline（PPTX）** 技能模組如何從結構化 QMD 標記自動觸發 5 種不同的 PowerPoint 版面。同一份原始檔可同時產生此 HTML 預覽和專業風格的 `.pptx` 檔案。
+這個互動演示展示 **簡報產生 Pipeline（PPTX）** 技能模組如何從結構化 QMD 標記自動觸發 7 種不同的 PowerPoint 版面。同一份原始檔可同時產生此 HTML 預覽和專業風格的 `.pptx` 檔案。
 
 ::: {.column-screen-inset}
 
 ```{=html}
 <div style="position:relative; width:100%; max-width:1280px; margin:0 auto;">
-  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #0B1F33; border-radius:8px;" allowfullscreen></iframe>
+  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #2A3F55; border-radius:8px; box-shadow: 0 0 20px rgba(78,205,196,0.15);" allowfullscreen></iframe>
 </div>
 ```
 
@@ -29,24 +29,31 @@ page-layout: full
 |--------|-------------------|-------------|
 | 1 | Title and Content | `## Heading` + 項目符號 |
 | 2 | Two Content | `## Heading` + `:::: {.columns}`（純文字） |
-| 3 | Comparison | `## Heading` + `:::: {.columns}`（文字 + 圖片） |
-| 4 | Content with Caption | `## Heading` + 文字 + 圖片（無分欄） |
+| 3a | Comparison | `## Heading` + `:::: {.columns}`（文字 + 圖片） |
+| 3b | Comparison（左圖右文）| 左欄圖片，右欄文字 |
+| 4a | Content with Caption | `## Heading` + 文字 + 圖片（無分欄） |
+| 4b | 標題 + 圖片 | `## Heading` + 僅圖片（上下配置） |
+| 4c | 四象限對角圖文 | 對角對稱文字/圖片 |
 | 5 | Blank（背景圖） | `## {background-image="..."}` + `&nbsp;` |
 | 6 | 標題 + 背景圖 | `## 標題 {background-image="..."}` + 文字 |
 | 7 | Two Content | 總結 — layout 觸發規則 |
 
-### 模板設計
+### 模板設計：Roadmap
 
-深色「Pro」模板使用深海軍藍背景（`#1A1A2E`），搭配高對比度的強調色：
+「Roadmap」模板靈感來自現代 SaaS 儀表板美學，使用 PowerPoint 原生 `a:glow` XML 實現**霓虹發光效果**：
 
-- **標題**：青色 `#00D2FF`
-- **內文**：淺灰 `#E0E0E0`
-- **比較標題**：綠色 `#00FF88`
-- **強調色**：紫色 `#7C4DFF`
+- **背景**：深海軍藍漸層 `#0D1B2A` → `#1B2838`
+- **標題**：珊瑚粉 `#FF6B6B` + 霓虹光暈
+- **欄標題**：琥珀金 `#E8A838`
+- **強調/框**：青綠 `#4ECDC4` 霓虹發光框
+- **內文**：亮白 `#F0F0F0`
+
+設計原則：**線條或框，二選一不疊加** — 單欄 layout 用發光線條，多欄 layout 用霓虹框。
 
 ### 下載
 
-[下載 PPTX](../../assets/demos/demo-layouts.pptx){.btn .btn-primary}
+[下載 PPTX（Roadmap 風格）](../../assets/demos/demo-roadmap.pptx){.btn .btn-primary}
+[下載 PPTX（Pro 風格）](../../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 [查看原始 QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
 [全螢幕投影片](slides.html){.btn .btn-outline-secondary target="_blank"}
 

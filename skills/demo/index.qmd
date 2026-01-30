@@ -6,13 +6,13 @@ page-layout: full
 
 ## Presentation Pipeline — Layout Demo
 
-This interactive demo shows how the **Presentation Pipeline (PPTX)** skill module automatically triggers 5 distinct PowerPoint layouts from structured QMD markup. The same source file produces both this HTML preview and a professionally styled `.pptx` file.
+This interactive demo shows how the **Presentation Pipeline (PPTX)** skill module automatically triggers 7 distinct PowerPoint layouts from structured QMD markup. The same source file produces both this HTML preview and a professionally styled `.pptx` file.
 
 ::: {.column-screen-inset}
 
 ```{=html}
 <div style="position:relative; width:100%; max-width:1280px; margin:0 auto;">
-  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #0B1F33; border-radius:8px;" allowfullscreen></iframe>
+  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #2A3F55; border-radius:8px; box-shadow: 0 0 20px rgba(78,205,196,0.15);" allowfullscreen></iframe>
 </div>
 ```
 
@@ -29,24 +29,31 @@ Use arrow keys or click the edges to navigate. Press `F` for fullscreen. Press `
 |-------|-------------------|-------------|
 | 1 | Title and Content | `## Heading` + bullet list |
 | 2 | Two Content | `## Heading` + `:::: {.columns}` (text-only) |
-| 3 | Comparison | `## Heading` + `:::: {.columns}` (text + image) |
-| 4 | Content with Caption | `## Heading` + text + image (no columns) |
+| 3a | Comparison | `## Heading` + `:::: {.columns}` (text + image) |
+| 3b | Comparison (image-text) | Left: image, Right: text list |
+| 4a | Content with Caption | `## Heading` + text + image (no columns) |
+| 4b | Title + Image | `## Heading` + image only (top-bottom) |
+| 4c | Four Quadrants | Diagonal text/image symmetry |
 | 5 | Blank (Background) | `## {background-image="..."}` + `&nbsp;` |
 | 6 | Title + Background | `## Title {background-image="..."}` + text |
 | 7 | Two Content | Summary — layout trigger rules |
 
-### Template Design
+### Template Design: Roadmap
 
-The dark "Pro" template uses a deep navy background (`#1A1A2E`) with high-contrast accent colors:
+The "Roadmap" template is inspired by modern SaaS dashboard aesthetics with **neon glow effects** using native PowerPoint `a:glow` XML:
 
-- **Titles**: Cyan `#00D2FF`
-- **Body text**: Light gray `#E0E0E0`
-- **Comparison headers**: Green `#00FF88`
-- **Accent**: Purple `#7C4DFF`
+- **Background**: Deep navy gradient `#0D1B2A` → `#1B2838`
+- **Titles**: Coral `#FF6B6B` with neon glow
+- **Column headers**: Gold `#E8A838`
+- **Accent / Frames**: Teal `#4ECDC4` neon glow frames
+- **Text**: Bright white `#F0F0F0`
+
+Design principle: **lines or frames, never both** — line glow for single-content layouts, neon frames for multi-column layouts.
 
 ### Downloads
 
-[Download PPTX](../../assets/demos/demo-layouts.pptx){.btn .btn-primary}
+[Download PPTX (Roadmap style)](../../assets/demos/demo-roadmap.pptx){.btn .btn-primary}
+[Download PPTX (Pro style)](../../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 [View Source QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
 [Full Screen Slides](slides.html){.btn .btn-outline-secondary target="_blank"}
 

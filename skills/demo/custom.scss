@@ -1,13 +1,13 @@
 /*-- scss:defaults --*/
-$body-bg: #1A1A2E;
-$body-color: #E0E0E0;
-$link-color: #00D2FF;
-$presentation-heading-color: #00D2FF;
+$body-bg: #0D1B2A;
+$body-color: #F0F0F0;
+$link-color: #4ECDC4;
+$presentation-heading-color: #FF6B6B;
 $presentation-h1-font-size: 1.8em;
 $presentation-h2-font-size: 1.4em;
 $presentation-h3-font-size: 1.1em;
-$code-color: #00FF88;
-$selection-bg: #7C4DFF;
+$code-color: #4ECDC4;
+$selection-bg: #E8A838;
 
 /*-- scss:rules --*/
 .reveal {
@@ -15,26 +15,26 @@ $selection-bg: #7C4DFF;
 }
 
 .reveal .slide-background {
-  background-color: #1A1A2E;
+  background-color: #0D1B2A;
 }
 
 .reveal h1, .reveal h2 {
-  color: #00D2FF;
-  text-shadow: none;
+  color: #FF6B6B;
+  text-shadow: 0 0 20px rgba(255, 107, 107, 0.3);
   font-weight: 700;
 }
 
 .reveal h3 {
-  color: #FFFFFF;
+  color: #E8A838;
   font-weight: 600;
 }
 
 .reveal strong {
-  color: #FFFFFF;
+  color: #E8A838;
 }
 
 .reveal .slides section .column strong {
-  color: #00FF88;
+  color: #4ECDC4;
 }
 
 .reveal ul li {
@@ -42,14 +42,22 @@ $selection-bg: #7C4DFF;
 }
 
 .reveal .progress span {
-  background: #00D2FF;
+  background: #FF6B6B;
 }
 
 .reveal .controls {
-  color: #00D2FF;
+  color: #FF6B6B;
 }
 
 .reveal .slide-number {
-  color: #A0A0B0;
+  color: #A8B2C1;
   font-size: 0.6em;
+}
+
+/* Neon frame effect for two-column slides */
+.reveal .slides section .columns .column {
+  border: 1.5px solid rgba(78, 205, 196, 0.5);
+  border-radius: 12px;
+  padding: 1em;
+  box-shadow: 0 0 15px rgba(78, 205, 196, 0.15);
 }
