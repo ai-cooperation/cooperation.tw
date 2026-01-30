@@ -4,13 +4,13 @@ title: "Skill: Presentation Pipeline (PPTX)"
 
 ## Overview
 
-全自動 Quarto-to-PPTX 簡報產生 pipeline。從結構化規格到專業風格的 PowerPoint，完全由 AI agent 驅動。
+Fully automated Quarto-to-PPTX presentation pipeline. From structured specs to professionally styled PowerPoint, entirely driven by AI agents.
 
 | | |
 |---|---|
 | **Module ID** | `skill-presentation-pptx` |
 | **Version** | 2.0.0 |
-| **OpenSpec** | v1.0 |
+| **Spec** | v1.0 |
 | **License** | Apache 2.0 |
 | **GitHub** | [ai-cooperation/skill-presentation-pptx](https://github.com/ai-cooperation/skill-presentation-pptx) |
 

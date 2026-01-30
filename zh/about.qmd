@@ -1,0 +1,36 @@
+---
+title: "關於 AI Cooperation"
+---
+
+## 我們是誰
+
+AI Cooperation 是一套幫助個人與組織學會如何與 AI 協作、運作與持續進化的實踐體系。
+
+我們是 **Operator Designer（運作設計者）** — 不是工具商、不是 SaaS 平台、不是 prompt 教學課程。
+
+## 我們的使命
+
+> 讓 AI 成為企業的能力，而不是工具。
+
+我們相信 AI 導入最大的挑戰不是技術，而是 **運作設計**。大多數組織都能使用強大的 AI 模型，但缺乏將它們整合到實際工作流程中的方法論。
+
+AI Cooperation 透過以下方式填補這個落差：
+
+1. **Methodology 方法論** — 如何思考人機協作
+2. **Framework 架構** — 如何設計 AI 增強的流程
+3. **Skill Modules 技能模組** — 可部署、可複用的 AI 能力
+4. **Lab 實驗室** — 安全的學習與實驗環境
+5. **Service 服務** — 企業導入支持
+
+## 我們的原則
+
+- **不鎖模型** — 適用於任何 AI 模型
+- **不鎖工具** — 不依賴特定供應商
+- **能力優於自動化** — 我們建立的是人的能力，不只是自動化
+- **開放且可稽核** — 所有技能模組都是開源的
+- **可持續進化** — 不是一次性部署，而是持續成長
+
+## 聯繫我們
+
+- GitHub: [github.com/ai-cooperation](https://github.com/ai-cooperation)
+- 網站: [cooperation.tw](https://cooperation.tw)

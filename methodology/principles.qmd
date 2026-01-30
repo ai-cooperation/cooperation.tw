@@ -24,7 +24,7 @@ AI should augment human capability, not replace human judgment. Every pipeline s
 
 ### 4. Modules Over Monoliths
 
-Complex AI workflows should be composed of small, reusable, independently testable modules. Each module follows the [OpenSpec](https://github.com/ai-cooperation/openspec) standard.
+Complex AI workflows should be composed of small, reusable, independently testable modules. Each module follows a standardized structure with clear contracts.
 
 ### 5. Examples Are Documentation
 

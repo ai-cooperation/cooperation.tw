@@ -1,0 +1,64 @@
+---
+title: "什麼是 AI Operation？"
+description: "AI Operation 不是指模型運行，而是人類如何設計任務、流程與角色，讓 AI 成為可控的夥伴。"
+author: "AI Cooperation"
+date: "2025-01-30"
+categories: [methodology, fundamentals]
+---
+
+## 一個你可能沒想過的問題
+
+大多數人談 AI，談的是模型、工具、技術。
+
+但真正的問題是：**你會用 AI 工作嗎？**
+
+不是「會不會下 prompt」，而是：
+
+- 你能把一個複雜任務拆解成 AI 可執行的步驟嗎？
+- 你知道哪些部分該交給 AI，哪些該自己做嗎？
+- 你有辦法評估 AI 的產出品質嗎？
+- 你能設計一個讓 AI 持續改善的流程嗎？
+
+如果你覺得這些問題很難回答，那你需要的不是更好的 AI 工具——你需要的是 **AI Operation**。
+
+## AI Operation 是什麼？
+
+> AI Operation 是一套設計「人 × AI × 流程」如何協作的系統方法。
+
+它包含三個核心面向：
+
+### 1. Task Design（任務設計）
+
+把複雜工作拆解成 AI 可處理的步驟。定義每個步驟的輸入、輸出、品質標準。
+
+### 2. Process Architecture（流程架構）
+
+設計多步驟的 pipeline，包含 AI 執行步驟和人類審核點。管理狀態、處理錯誤、支持迭代。
+
+### 3. Capability Evolution（能力進化）
+
+把成功的 AI 工作模式封裝成可複用的模組。持續更新知識庫，量化組織 AI 成熟度。
+
+## 舉個例子
+
+假設你要做一份簡報。
+
+**沒有 AI Operation**：
+→ 打開 ChatGPT，說「幫我做一份關於 XX 的簡報」
+→ 得到一堆文字
+→ 手動貼到 PowerPoint
+→ 花好幾個小時調格式
+
+**有 AI Operation**：
+→ Planner Agent 分析需求，產出結構化規格（deck_spec.json）
+→ Worker Agent 根據規格和 layout 規則，產出正確格式的 QMD
+→ Pipeline 自動建構模板、渲染、後處理
+→ 輸出專業風格的 PPTX
+
+差別不在 AI 的能力，而在**操作設計**。
+
+## 想深入了解？
+
+- [AI Operation 方法論](/zh/methodology/) — 方法論詳解
+- [五層架構](/zh/framework/five-layers.qmd) — 五層架構
+- [技能模組](/zh/skills/) — 看實際的 AI skill 模組

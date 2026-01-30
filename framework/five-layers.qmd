@@ -2,64 +2,64 @@
 title: "Five-Layer Architecture"
 ---
 
-## AI Operation Lab 五層架構
+## AI Operation Lab Five-Layer Architecture
 
-AI Cooperation 的體系建立在五層架構上，每一層都在前一層基礎上展開。
+AI Cooperation's system is built on a five-layer architecture, where each layer builds upon the previous one.
 
-## L1 — Learning Environment（學習環境）
+## L1 — Learning Environment
 
-> 讓人「敢用、會用、不怕用錯」
+> Enable people to "dare to use, know how to use, and not fear making mistakes"
 
-- 提供安全的 AI 互動空間
-- 模擬真實工作場景
-- 所有操作可回溯、可回放
-- 降低初次使用 AI 的心理門檻
+- Provide safe AI interaction spaces
+- Simulate real work scenarios
+- All operations are traceable and replayable
+- Lower the psychological barrier to first-time AI use
 
-**解決的問題**：「我不知道怎麼開始」
+**Problem Solved**: "I don't know how to start"
 
-## L2 — Operation Method（操作方法）
+## L2 — Operation Method
 
-> 讓人「會設計 AI 工作方式」
+> Enable people to "design AI work methods"
 
-- **任務拆解方法** — 將複雜工作拆成 AI 可執行的步驟
-- **人機分工模型** — 明確人與 AI 各自負責什麼
-- **Agent 協作邏輯** — 設計多 Agent 協同運作
-- **AI 決策邊界設計** — 定義 AI 可自主決定的範圍
-- **錯誤修正與驗證流程** — 建立品質把關機制
+- **Task Decomposition** — Break complex work into AI-executable steps
+- **Human-AI Division** — Clearly define what humans and AI are each responsible for
+- **Agent Collaboration** — Design multi-agent cooperative logic
+- **AI Decision Boundaries** — Define the scope of AI autonomous decisions
+- **Error Correction & Validation** — Establish quality control mechanisms
 
-**解決的問題**：「AI 沒辦法真的幫我」
+**Problem Solved**: "AI can't really help me"
 
-## L3 — Evolution Path（進化路徑）
+## L3 — Evolution Path
 
-> 讓組織具備「持續進化能力」
+> Give organizations the "ability to continuously evolve"
 
-- **AI 使用成熟度評估** — 量化組織 AI 能力現況
-- **組織流程重構** — 重新設計適合人機協作的流程
-- **長期 AI 導入路線** — 分階段漸進導入策略
-- **人才與角色再設計** — 重新定義 AI 時代的職務內容
+- **AI Maturity Assessment** — Quantify the organization's current AI capability
+- **Process Restructuring** — Redesign workflows for human-AI collaboration
+- **Long-term AI Roadmap** — Phased, progressive adoption strategy
+- **Talent & Role Redesign** — Redefine job roles for the AI era
 
-**解決的問題**：「怎麼不被 AI 淘汰」
+**Problem Solved**: "How to not be replaced by AI"
 
-## L4 — Skill System（技能系統）
+## L4 — Skill System
 
-> 將方法論轉化為可部署的模組
+> Transform methodology into deployable modules
 
-- 遵循 [OpenSpec](https://github.com/ai-cooperation/openspec) 標準
-- 每個 skill 是獨立的、可測試的、可複用的
-- 包含 AI agent 行為規範 + 領域知識 + 執行工具
-- Pipeline 編排支持多步驟、多 agent 協作
+- Follow standardized Skill module structure
+- Each skill is independent, testable, and reusable
+- Includes AI agent behavior specs + domain knowledge + execution tools
+- Pipeline orchestration supports multi-step, multi-agent collaboration
 
-**解決的問題**：「方法論如何落地」
+**Problem Solved**: "How to make methodology actionable"
 
-## L5 — Enterprise Adoption（企業導入）
+## L5 — Enterprise Adoption
 
-> 將體系導入組織的實踐服務
+> Bring the system into organizations
 
-- Phase 1：導入學習型 AI 環境 + 員工試用
-- Phase 2：工作流程重構 + Agent 導入實驗
-- Phase 3：建立內部 AI 標準 + 成熟度評估 + 長期進化
+- Phase 1: Deploy learning AI environment + employee trial
+- Phase 2: Workflow restructuring + Agent adoption experiments
+- Phase 3: Establish internal AI standards + maturity assessment + long-term evolution
 
-**解決的問題**：「怎麼讓整個組織用起來」
+**Problem Solved**: "How to get the entire organization onboard"
 
 ## Layer Dependencies
 
@@ -75,4 +75,4 @@ L2 Operation Method
 L1 Learning Environment
 ```
 
-每一層都建立在前一層的基礎上，形成可持續的 AI 能力成長體系。
+Each layer builds on the foundation of the previous one, forming a sustainable AI capability growth system.

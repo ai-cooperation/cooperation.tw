@@ -18,9 +18,9 @@ AI Cooperation
 
 ## Key Concepts
 
-### OpenSpec Modules
+### Skill Modules
 
-Every AI capability is packaged as an **OpenSpec module** — a self-contained unit with:
+Every AI capability is packaged as a **Skill module** — a self-contained unit with:
 
 - **Contract** (`module.yaml`) — Inputs, outputs, dependencies, pipeline steps
 - **Skills** — AI agent behavior specifications
@@ -28,7 +28,7 @@ Every AI capability is packaged as an **OpenSpec module** — a self-contained u
 - **Tools** — Executable scripts and programs
 - **Examples** — Working demonstrations
 
-[Learn about OpenSpec →](https://github.com/ai-cooperation/openspec)
+[View Skill Modules →](../skills/index.qmd)
 
 ### Pipeline Architecture
 

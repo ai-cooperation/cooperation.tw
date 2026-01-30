@@ -1,121 +1,121 @@
 ---
-title: "AI Operation Lab 白皮書"
-subtitle: "從 AI 工具使用者，到 AI 協作者的成長路徑"
+title: "AI Operation Lab Whitepaper"
+subtitle: "From AI Tool User to AI Collaborator — A Growth Path"
 ---
 
-## 1. 為什麼需要 AI Operation Lab？
+## 1. Why Do We Need AI Operation Lab?
 
-AI 已經不是未來技術，而是現在進行式。問題不在於「有沒有 AI」，而在於：
+AI is no longer a future technology — it's happening now. The question isn't "do we have AI?" but rather:
 
-- 為什麼用了 AI，工作還是沒變快？
-- 為什麼 AI 常常答非所問？
-- 為什麼導入工具後，反而更混亂？
-- 為什麼學了很多 AI 技巧，卻無法落地？
+- Why hasn't AI made our work faster?
+- Why does AI often give irrelevant answers?
+- Why did adopting tools create more chaos?
+- Why can't we apply AI skills we've learned?
 
-### 核心問題只有一個：
+### The core problem is simple:
 
-> **大多數人學的是工具，但沒學會「怎麼跟 AI 一起工作」。**
-
----
-
-## 2. AI Operation 的核心概念
-
-AI Operation 指的不是模型運行，而是：
-
-> **人類如何設計任務、流程與角色，讓 AI 成為可控、可學、可成長的夥伴。**
-
-這包含三個層面：
-
-1. **人如何下指令** — Prompt 與任務設計
-2. **AI 如何回應與協作** — Agent 行為設計
-3. **組織如何管理與優化** — 流程與治理
+> **Most people learn tools, but never learn "how to work with AI."**
 
 ---
 
-## 3. 為什麼 AI 需要「學習環境」？
+## 2. The Core Concept of AI Operation
 
-AI 不適合一開始就進入生產系統，原因包括：
+AI Operation isn't about model runtime — it's about:
 
-- 容易誤用、濫用
-- 無法觀察決策過程
-- 缺乏回饋與修正機制
-- 組織成員尚未具備使用素養
+> **How humans design tasks, workflows, and roles to make AI a controllable, learnable, and evolvable partner.**
 
-### AI Operation Lab 的定位：
+This encompasses three dimensions:
 
-> **AI 的駕訓班，而不是高速公路。**
-
-在這裡你可以：
-
-- 安全嘗試
-- 重複實驗
-- 理解 AI 行為
-- 建立正確使用習慣
+1. **How humans give instructions** — Prompt and task design
+2. **How AI responds and collaborates** — Agent behavior design
+3. **How organizations manage and optimize** — Process and governance
 
 ---
 
-## 4. 三層架構
+## 3. Why Does AI Need a "Learning Environment"?
 
-### L1 — AI Learning Environment（學習環境）
+AI shouldn't be deployed directly into production systems, because:
 
-**目的**：讓學員「敢用、會用、不怕用錯」
+- Easy to misuse or abuse
+- Decision processes are opaque
+- No feedback or correction mechanisms
+- Organization members lack AI literacy
 
-- Agent 操作環境
-- 任務流程模擬
-- 操作紀錄與回放
-- 安全沙盒
-- 教學用 API 與模組
+### AI Operation Lab's positioning:
 
-**解決**：「我不知道怎麼開始用 AI」
+> **A driving school for AI, not a highway.**
 
-### L2 — AI Operation Method（方法層）
+Here you can:
 
-**目的**：讓學員「會設計 AI 工作方式」
-
-- 任務拆解方法
-- 人機分工模型
-- Agent 協作邏輯
-- AI 決策邊界設計
-- 錯誤修正與驗證流程
-
-**解決**：「為什麼 AI 沒辦法真的幫我工作？」
-
-### L3 — AI Evolution Path（進化層）
-
-**目的**：讓組織具備「持續進化能力」
-
-- AI 使用成熟度評估
-- 組織流程重構
-- 長期 AI 導入路線
-- 人才與角色再設計
-
-**解決**：「怎麼不被 AI 淘汰，反而用 AI 變強？」
+- Experiment safely
+- Repeat experiments
+- Understand AI behavior
+- Build correct usage habits
 
 ---
 
-## 5. 學習成果
+## 4. Three-Layer Architecture
 
-完成 AI Operation Lab 後，學員將具備：
+### L1 — AI Learning Environment
 
-- 能設計 AI 任務
-- 能與 AI 協作
-- 能評估 AI 結果
-- 能規劃 AI 導入
-- 能持續學習新模型
+**Purpose**: Enable learners to "dare to use, know how to use, not fear mistakes"
+
+- Agent operation environment
+- Task workflow simulation
+- Operation recording and replay
+- Safety sandbox
+- Teaching APIs and modules
+
+**Solves**: "I don't know how to start using AI"
+
+### L2 — AI Operation Method
+
+**Purpose**: Enable learners to "design AI work methods"
+
+- Task decomposition methodology
+- Human-AI division models
+- Agent collaboration logic
+- AI decision boundary design
+- Error correction and validation workflows
+
+**Solves**: "Why can't AI really help me work?"
+
+### L3 — AI Evolution Path
+
+**Purpose**: Give organizations the "ability to continuously evolve"
+
+- AI usage maturity assessment
+- Organizational process restructuring
+- Long-term AI adoption roadmap
+- Talent and role redesign
+
+**Solves**: "How to not be replaced by AI, but become stronger with it?"
 
 ---
 
-## 6. 課程與產品對照
+## 5. Learning Outcomes
 
-| 層級 | 對象 | 內容 | 形式 | 收費模式 |
-|------|------|------|------|----------|
-| L1 | 初學者 / 員工 | AI 操作環境 | 線上平台 | 帳號制 |
-| L2 | 專員 / PM | AI 工作法 | 課程 + 實作 | 課程費 |
-| L3 | 團隊 | AI 流程設計 | 工作坊 | 專案制 |
-| L4 | 企業 | AI 導入與治理 | 顧問制 | 年費 |
-| L5 | 組織 | AI 成長陪跑 | 訂閱制 | 年約 |
+After completing AI Operation Lab, learners will be able to:
+
+- Design AI tasks
+- Collaborate with AI
+- Evaluate AI outputs
+- Plan AI adoption
+- Continuously learn new models
 
 ---
 
-> **AI Operation Lab 是一套讓人與組織，能夠安全、有效、持續地學會與 AI 共事的系統。**
-> 它不是工具、不是平台，而是一套「AI 時代的學習與進化機制」。
+## 6. Courses and Products
+
+| Level | Audience | Content | Format | Pricing |
+|-------|----------|---------|--------|---------|
+| L1 | Beginners / Employees | AI operation environment | Online platform | Account-based |
+| L2 | Specialists / PMs | AI work methodology | Course + hands-on | Course fee |
+| L3 | Teams | AI process design | Workshop | Project-based |
+| L4 | Enterprises | AI adoption & governance | Consulting | Annual fee |
+| L5 | Organizations | AI growth partnership | Subscription | Annual contract |
+
+---
+
+> **AI Operation Lab is a system for people and organizations to safely, effectively, and continuously learn to work with AI.**
+> It's not a tool, not a platform — it's a "learning and evolution mechanism for the AI era."

@@ -1,0 +1,65 @@
+---
+title: "AI Operation 架構"
+---
+
+## 總覽
+
+AI Operation 架構提供了一個結構化的體系，用於建構、部署和進化 AI 增強的工作流程。
+
+```
+AI Cooperation
+│
+├── Methodology 方法論  → 原則與思維模型
+├── Framework 架構      → 系統架構（本頁）
+├── Skills 技能         → 可部署的模組
+├── Lab 實驗室          → 學習環境
+└── Service 服務        → 企業導入
+```
+
+## 核心概念
+
+### 技能模組
+
+每個 AI 能力都封裝為一個 **Skill 模組** — 一個獨立的單元，包含：
+
+- **合約**（`module.yaml`）— 輸入、輸出、依賴、pipeline 步驟
+- **技能** — AI agent 行為規格
+- **參考文件** — 領域知識庫
+- **工具** — 可執行腳本和程式
+- **範例** — 可運行的示範
+
+[查看技能模組 →](../skills/index.qmd)
+
+### Pipeline 架構
+
+複雜任務被分解為多步驟 pipeline：
+
+```
+使用者請求
+    ↓
+[規劃 Skill] → 結構化計畫 (JSON)
+    ↓
+[工作 Skill] → 內容產出 (QMD, MD, Code...)
+    ↓
+[工具 Pipeline] → 最終成品 (PPTX, PDF, Deploy...)
+    ↓
+[人工審查] → 批准 / 迭代
+```
+
+每個步驟可以是 LLM 呼叫（skill）或工具執行（script）。
+
+### 知識架構
+
+```
+prompts/         → 誰：agent 的身份（簡短、聚焦）
+skills/          → 做什麼：agent 的行為（行為規格）
+reference/       → 怎麼做：領域知識（參考文件）
+tools/           → 執行：腳本、CLI
+```
+
+**核心原則**：Skills 指向 reference docs，不內嵌詳細知識。
+
+## 深入了解
+
+- [五層架構](five-layers.qmd) — 逐層詳細說明
+- [技能目錄](../skills/index.qmd) — 可用的技能模組

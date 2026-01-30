@@ -42,4 +42,6 @@ format:
     theme:
       light: [cosmo, styles.css]
     toc: true
-    lang: zh-TW
+    lang: en
+    include-after-body:
+      text: '<script src="/cooperation.tw/assets/lang-switcher.js"></script>'

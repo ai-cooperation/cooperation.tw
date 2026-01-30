@@ -1,65 +1,64 @@
 ---
-title: "什麼是 AI Operation？"
-description: "AI Operation 不是指模型運行，而是人類如何設計任務、流程與角色，讓 AI 成為可控的夥伴。"
+title: "What is AI Operation?"
+description: "AI Operation isn't about model runtime — it's about how humans design tasks, workflows, and roles to make AI a controllable partner."
 author: "AI Cooperation"
 date: "2025-01-30"
 categories: [methodology, fundamentals]
 ---
 
-## 一個你可能沒想過的問題
+## A Question You May Not Have Considered
 
-大多數人談 AI，談的是模型、工具、技術。
+When most people talk about AI, they talk about models, tools, and technology.
 
-但真正的問題是：**你會用 AI 工作嗎？**
+But the real question is: **Can you work with AI?**
 
-不是「會不會下 prompt」，而是：
+Not "can you write prompts," but:
 
-- 你能把一個複雜任務拆解成 AI 可執行的步驟嗎？
-- 你知道哪些部分該交給 AI，哪些該自己做嗎？
-- 你有辦法評估 AI 的產出品質嗎？
-- 你能設計一個讓 AI 持續改善的流程嗎？
+- Can you decompose a complex task into AI-executable steps?
+- Do you know which parts to give AI and which to do yourself?
+- Can you evaluate the quality of AI outputs?
+- Can you design a process for AI to continuously improve?
 
-如果你覺得這些問題很難回答，那你需要的不是更好的 AI 工具——你需要的是 **AI Operation**。
+If you find these questions hard to answer, what you need isn't a better AI tool — what you need is **AI Operation**.
 
-## AI Operation 是什麼？
+## What is AI Operation?
 
-> AI Operation 是一套設計「人 × AI × 流程」如何協作的系統方法。
+> AI Operation is a systematic approach to designing how humans, AI, and processes collaborate.
 
-它包含三個核心面向：
+It encompasses three core dimensions:
 
-### 1. Task Design（任務設計）
+### 1. Task Design
 
-把複雜工作拆解成 AI 可處理的步驟。定義每個步驟的輸入、輸出、品質標準。
+Decompose complex work into AI-processable steps. Define inputs, outputs, and quality standards for each step.
 
-### 2. Process Architecture（流程架構）
+### 2. Process Architecture
 
-設計多步驟的 pipeline，包含 AI 執行步驟和人類審核點。管理狀態、處理錯誤、支持迭代。
+Design multi-step pipelines with AI execution steps and human review points. Manage state, handle errors, support iteration.
 
-### 3. Capability Evolution（能力進化）
+### 3. Capability Evolution
 
-把成功的 AI 工作模式封裝成可複用的模組。持續更新知識庫，量化組織 AI 成熟度。
+Encapsulate successful AI work patterns into reusable modules. Continuously update knowledge bases and quantify organizational AI maturity.
 
-## 舉個例子
+## An Example
 
-假設你要做一份簡報。
+Suppose you need to create a presentation.
 
-**沒有 AI Operation**：
-→ 打開 ChatGPT，說「幫我做一份關於 XX 的簡報」
-→ 得到一堆文字
-→ 手動貼到 PowerPoint
-→ 花 2 小時調格式
+**Without AI Operation**:
+→ Open ChatGPT, say "make me a presentation about XX"
+→ Get a bunch of text
+→ Manually paste into PowerPoint
+→ Spend hours formatting
 
-**有 AI Operation**：
-→ Planner Agent 分析需求，產出結構化規格（deck_spec.json）
-→ Worker Agent 根據規格和 layout 規則，產出正確格式的 QMD
-→ Pipeline 自動建構模板、渲染、後處理
-→ 輸出專業風格的 PPTX
+**With AI Operation**:
+→ Planner Agent analyzes requirements, produces structured spec (deck_spec.json)
+→ Worker Agent generates correctly formatted QMD based on spec and layout rules
+→ Pipeline automatically builds template, renders, and postprocesses
+→ Outputs a professionally styled PPTX
 
-差別不在 AI 的能力，而在**操作設計**。
+The difference isn't AI's capability — it's **operation design**.
 
-## 想深入了解？
+## Want to Learn More?
 
-- [AI Operation Methodology](/methodology/) — 方法論詳解
-- [Five-Layer Framework](/framework/five-layers.qmd) — 五層架構
-- [Skill Modules](/skills/) — 看實際的 AI skill 模組
-- [OpenSpec](https://github.com/ai-cooperation/openspec) — 模組標準規範
+- [AI Operation Methodology](/methodology/) — Methodology deep dive
+- [Five-Layer Framework](/framework/five-layers.qmd) — Five-layer architecture
+- [Skill Modules](/skills/) — See actual AI skill modules

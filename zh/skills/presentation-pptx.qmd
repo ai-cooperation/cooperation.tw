@@ -1,0 +1,120 @@
+---
+title: "技能：簡報產生 Pipeline（PPTX）"
+---
+
+## 總覽
+
+全自動 Quarto-to-PPTX 簡報產生 pipeline。從結構化規格到專業風格的 PowerPoint，完全由 AI agent 驅動。
+
+| | |
+|---|---|
+| **模組 ID** | `skill-presentation-pptx` |
+| **版本** | 2.0.0 |
+| **規格** | v1.0 |
+| **授權** | Apache 2.0 |
+| **GitHub** | [ai-cooperation/skill-presentation-pptx](https://github.com/ai-cooperation/skill-presentation-pptx) |
+
+## 快速開始
+
+```bash
+git clone https://github.com/ai-cooperation/skill-presentation-pptx
+cd skill-presentation-pptx
+
+# 安裝依賴
+pip install python-pptx lxml
+# 需要：Quarto CLI
+
+# 編譯範例
+bash tools/compile_pptx.sh examples/deck-basic.qmd basic outputs deck.pptx
+```
+
+## Pipeline 架構
+
+```
+使用者請求
+    ↓
+[規劃 Skill] → deck_spec.json
+    ↓                (模板風格 + layout 計畫)
+[工作 Skill] → deck.qmd
+    ↓                (符合 layout 的正確 QMD 語法)
+[compile_pptx.sh]
+    ├─ 階段 1: build_template.py → template-{style}.pptx
+    ├─ 階段 2: quarto render     → 原始 PPTX
+    └─ 階段 3: postprocess.py    → 最終 PPTX（已修補）
+    ↓
+最終風格化 PPTX
+```
+
+## 12 種模板風格
+
+### 手工打造
+
+| 風格 | 說明 |
+|------|------|
+| `basic` | 乾淨企業風 — 青色強調、淺色背景、底部線條裝飾 |
+| `rich` | 編輯精品風 — 金色條、暖色象牙背景、漸層標題 |
+
+### 色彩主題
+
+| ID | 名稱 | 特色 |
+|----|------|------|
+| `01` | Corporate Navy | 專業深色企業風 |
+| `02` | Midnight Neon | 大膽未來科技風 |
+| `03` | Emerald Dark | 自然、永續、ESG |
+| `04` | Clean Corporate | 標準商務淺色 |
+| `05` | Warm Neutral | 溫暖、親切、人文 |
+| `06` | Serene Blue | 沈穩、可信賴、醫療 |
+| `07` | Sunset Vibrant | 活力、創意、新創 |
+| `08` | Ocean Gradient | 深邃、沉浸、海洋 |
+| `09` | Berry Garden | 精緻、奢華 |
+| `10` | Modern Mono | 極簡、優雅設計 |
+
+## 7 種支援 Layout
+
+模組的參考知識庫教導 AI agent 如何透過特定 QMD 語法觸發每種 PowerPoint layout：
+
+| Layout | QMD 觸發方式 |
+|--------|-------------|
+| 標題投影片 | YAML front matter `title`/`subtitle` |
+| 標題與內容 | `## Heading` + 項目符號 |
+| 雙欄內容 | `## Heading` + `:::: {.columns}`（純文字） |
+| 比較 | `## Heading` + `:::: {.columns}`（文字 + 圖片） |
+| 內容附標題 | `## Heading` + 文字 + 圖片（無分欄） |
+| 章節標題 | `# Heading`（一級標題） |
+| 背景圖片 | `## {background-image="..."}` + `&nbsp;` |
+
+## 關鍵技術創新
+
+1. **Layout 觸發規則** — 記錄了 QMD 結構如何對應 Pandoc layout 選擇（Pandoc 未記錄的行為）
+2. **動態模板建構** — 無需手動編輯 PowerPoint；使用 `python-pptx` 程式化建構模板
+3. **後處理** — 修復 Pandoc 移除的屬性（垂直置中等）
+4. **AI 知識庫** — 參考文件專為 AI 消費設計，而非人類教學
+
+## 模組結構
+
+```
+skill-presentation-pptx/
+├── module.yaml
+├── skills/
+│   ├── presentation_planner.md    # 規劃投影片 + 選擇模板
+│   └── presentation_worker.md     # 產生正確的 QMD 語法
+├── reference/
+│   ├── layout_trigger_rules.md    # QMD → layout 對應
+│   ├── qmd_patterns.md            # 語法速查手冊
+│   ├── template_catalog.md        # 模板選擇指南
+│   └── pandoc_quirks.md           # 已知問題 + 修復
+├── tools/
+│   ├── build_template.py          # 統一模板建構器
+│   ├── postprocess.py             # 修復 Pandoc 移除的屬性
+│   └── compile_pptx.sh            # 3 階段 pipeline
+├── templates/
+│   ├── base-template.pptx
+│   └── themes.json
+├── examples/
+│   ├── deck-basic.qmd
+│   ├── deck-rich.qmd
+│   └── deck_spec_example.json
+└── assets/stock/                  # 12 張內建圖片
+```
+
+[在 GitHub 上查看 →](https://github.com/ai-cooperation/skill-presentation-pptx)

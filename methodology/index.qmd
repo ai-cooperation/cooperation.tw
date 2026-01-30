@@ -6,7 +6,7 @@ title: "AI Operation Methodology"
 
 AI Operation is not about running AI models. It's about designing how humans and AI collaborate in structured, repeatable, and improvable ways.
 
-> **AI Operation = 人類如何設計任務、流程與角色，讓 AI 成為可控、可學、可成長的夥伴。**
+> **AI Operation = Designing how humans structure tasks, workflows, and roles to make AI a controllable, learnable, and evolvable partner.**
 
 ## Core Question
 
@@ -16,21 +16,21 @@ The central question of AI Operation is:
 
 ## Three Pillars
 
-### 1. Task Design (任務設計)
+### 1. Task Design
 
 - **Decomposition** — Break complex work into AI-executable steps
 - **Role Assignment** — Define what humans do vs. what AI does
 - **Quality Boundaries** — Set acceptance criteria for AI outputs
 - **Error Handling** — Design feedback loops for when AI gets it wrong
 
-### 2. Process Architecture (流程架構)
+### 2. Process Architecture
 
 - **Pipeline Design** — Chain multiple AI steps into a coherent workflow
 - **Human Checkpoints** — Where humans review, approve, or redirect
 - **State Management** — Track what's done, what's pending, what failed
 - **Iteration Protocol** — How to improve outputs across cycles
 
-### 3. Capability Evolution (能力進化)
+### 3. Capability Evolution
 
 - **Skill Modules** — Encapsulate proven AI workflows as reusable modules
 - **Knowledge Codification** — Turn tribal knowledge into machine-readable reference docs

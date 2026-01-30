@@ -1,0 +1,88 @@
+---
+title: "技能模組"
+---
+
+## AI Operation 技能
+
+每個 Skill 都是一個遵循標準結構的獨立模組，可被任何 AI agent 框架發現、驗證、執行。
+
+## 可用技能
+
+::: {.card-grid}
+
+::: {.card}
+### 簡報產生 Pipeline（PPTX）
+
+Quarto-to-PPTX 全自動簡報產生 pipeline。
+
+- 12 種模板風格（2 手工 + 10 主題）
+- 7 種 PowerPoint layout 自動觸發
+- 3 階段 pipeline（建模板 → 渲染 → 後處理）
+- 內建 stock 圖片庫
+
+**狀態**：`v2.0.0` — 正式版
+
+[詳細說明 →](presentation-pptx.qmd) | [GitHub →](https://github.com/ai-cooperation/skill-presentation-pptx)
+:::
+
+::: {.card}
+### 研究 Agent
+
+結構化網路研究與資料整理。
+
+- 多來源搜尋與交叉驗證
+- 自動摘要與結構化輸出
+- 來源追蹤與可信度評估
+
+**狀態**：即將推出
+:::
+
+::: {.card}
+### 寫作助手
+
+結構化文件撰寫與編輯。
+
+- 多種文件格式支援
+- 風格一致性檢查
+- 引用管理
+
+**狀態**：即將推出
+:::
+
+::: {.card}
+### 驗證引擎
+
+資料與輸出品質驗證。
+
+- Schema 驗證
+- 一致性檢查
+- 自動化測試生成
+
+**狀態**：即將推出
+:::
+
+:::
+
+## 什麼是 Skill？
+
+我們定義了 AI skill module 的標準結構：
+
+```
+skill-{name}/
+├── module.yaml       # 合約：輸入、輸出、pipeline
+├── skills/           # AI agent 行為規格
+├── reference/        # 領域知識庫
+├── tools/            # 可執行腳本
+├── examples/         # 工作示範
+└── README.md
+```
+
+任何支援 tool-use 的 AI 框架（LangChain, CrewAI, Claude, OpenAI Assistants）都能整合 Skill 模組。
+
+## 建立你自己的 Skill
+
+1. Clone [技能模板](https://github.com/ai-cooperation/openspec/tree/main/examples/minimal-skill)
+2. 定義你的 `module.yaml`
+3. 撰寫你的 skills 和 reference 文件
+4. 加入範例
+5. 用 `python3 validate.py your-skill/` 驗證

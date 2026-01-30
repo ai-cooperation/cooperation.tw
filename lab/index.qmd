@@ -2,53 +2,53 @@
 title: "AI Operation Lab"
 ---
 
-## 讓 AI 成為企業的能力，而不是工具
+## Make AI an Organizational Capability, Not Just a Tool
 
-AI Operation Lab 是一套完整的 AI 能力建構體系，幫助組織從「不會用 AI」到「能設計 AI 工作方式」再到「持續與 AI 共同進化」。
+AI Operation Lab is a comprehensive AI capability building system that helps organizations progress from "can't use AI" to "can design AI workflows" to "continuously co-evolving with AI."
 
-## 三層能力建構
+## Three-Layer Capability Building
 
 ### L1 — Learning Environment
 
-> 敢用、會用、不怕用錯
+> Dare to use, know how to use, don't fear mistakes
 
-提供安全的 AI 互動空間，模擬真實工作場景。所有操作可回溯、可回放，讓學員在零風險環境中建立 AI 操作信心。
+Provide safe AI interaction spaces that simulate real work scenarios. All operations are traceable and replayable, letting learners build AI operation confidence in a zero-risk environment.
 
-**解決**：「我不知道怎麼開始」
+**Solves**: "I don't know how to start"
 
 ### L2 — Operation Method
 
-> 會設計 AI 工作方式
+> Design AI work methods
 
-| 方法 | 說明 |
-|------|------|
-| 任務拆解 | 將複雜工作拆成 AI 可執行的步驟 |
-| 人機分工 | 明確人與 AI 各自負責什麼 |
-| Agent 協作 | 設計多 Agent 協同運作邏輯 |
-| 決策邊界 | 定義 AI 可自主決定的範圍 |
-| 錯誤修正 | 建立品質把關機制 |
+| Method | Description |
+|--------|-------------|
+| Task Decomposition | Break complex work into AI-executable steps |
+| Human-AI Division | Clearly define what humans and AI are each responsible for |
+| Agent Collaboration | Design multi-agent cooperative logic |
+| Decision Boundaries | Define the scope of AI autonomous decisions |
+| Error Correction | Establish quality control mechanisms |
 
-**解決**：「AI 沒辦法真的幫我」
+**Solves**: "AI can't really help me"
 
 ### L3 — Evolution Path
 
-> 具備持續進化能力
+> Develop continuous evolution capability
 
-- AI 使用成熟度評估
-- 組織流程重構
-- 長期 AI 導入路線
-- 人才與角色再設計
+- AI usage maturity assessment
+- Organizational process restructuring
+- Long-term AI adoption roadmap
+- Talent and role redesign
 
-**解決**：「怎麼不被 AI 淘汰」
+**Solves**: "How to not be replaced by AI"
 
 ## Whitepaper
 
-深入了解 AI Operation Lab 的理論基礎與實施方法。
+Dive deep into the theoretical foundations and implementation methods of AI Operation Lab.
 
 [Read the Whitepaper →](whitepaper.qmd)
 
 ## Enterprise Adoption
 
-想了解如何在組織內導入 AI Operation Lab？
+Want to learn how to adopt AI Operation Lab in your organization?
 
 [Enterprise Service →](../service/index.qmd)

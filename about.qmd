@@ -10,7 +10,7 @@ We are **Operator Designers** — not tool vendors, not SaaS platforms, not prom
 
 ## Our Mission
 
-> 讓 AI 成為企業的能力，而不是工具。
+> Make AI an organizational capability, not just a tool.
 
 We believe the biggest challenge in AI adoption isn't technology — it's **operation design**. Most organizations have access to powerful AI models, but lack the methodology to integrate them into real workflows.
 
@@ -27,7 +27,7 @@ AI Cooperation bridges this gap by providing:
 - **Not model-locked** — Works with any AI model
 - **Not tool-locked** — No vendor dependency
 - **Capability over automation** — We build human capability, not just automation
-- **Open and auditable** — All skill modules are open source ([OpenSpec](https://github.com/ai-cooperation/openspec))
+- **Open and auditable** — All skill modules are open source
 - **Sustainable evolution** — Not a one-time deployment, but continuous growth
 
 ## Connect
