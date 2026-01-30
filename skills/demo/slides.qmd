@@ -58,7 +58,7 @@ Layout: Two Content.
 Trigger: columns syntax with text-only in both columns.
 :::
 
-## Layout 3: Comparison
+## Layout 3a: Comparison (both columns with images)
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -80,9 +80,43 @@ Trigger: columns syntax with text-only in both columns.
 ::: {.notes}
 Layout: Comparison.
 Trigger: columns with at least one column containing text + image.
+
+Image source: AI-generated images (bundled stock library).
 :::
 
-## Layout 4: Content with Caption
+## Layout 3b: Comparison (image left, text right)
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Team Collaboration**
+
+![](office-collab.jpg){height="300px"}
+
+:::
+::: {.column width="50%"}
+
+**AI Operation Lab Architecture**
+
+- **L1** Safe Learning Environment
+- **L2** AI Work Methodology
+- **L3** Organization Evolution Path
+
+Each layer builds on the previous.
+
+:::
+::::
+
+::: {.notes}
+Layout: Comparison (image-text variant).
+Trigger: Both columns contain text + non-text content.
+Left: image + header, Right: text content.
+postprocess.py restores vertical centering.
+
+Image source: AI-generated (bundled stock library).
+:::
+
+## Layout 4a: Content with Caption
 
 The three-layer architecture is the core design philosophy of AI Operation Lab. From individual "dare to use" to organizational "continuous evolution", each layer solves specific enterprise AI adoption pain points. L1 builds safe environments, L2 builds methodology, L3 builds evolution paths.
 
@@ -91,6 +125,48 @@ The three-layer architecture is the core design philosophy of AI Operation Lab. 
 ::: {.notes}
 Layout: Content with Caption.
 Trigger: text paragraph followed by image (no columns).
+
+Image source: AI-generated (bundled stock library).
+:::
+
+## Layout 4b: Title + Image (top-bottom)
+
+![](team-meeting.jpg){height="480px"}
+
+::: {.notes}
+Layout: Title and Content (image variant).
+Trigger: Heading followed by image only, no text paragraph.
+Creates a "title on top, image below" visual — different from Content with Caption (left-right).
+
+Image source: AI-generated (bundled stock library).
+:::
+
+## Layout 4c: Four Quadrants (diagonal) {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**L1 Safe Learning Environment**
+
+![](ai-chip.jpg){height="220px"}
+
+:::
+::: {.column width="50%"}
+
+![](coding-screen.jpg){height="220px"}
+
+**L3 Organization Evolution Path**
+
+:::
+::::
+
+::: {.notes}
+Layout: Comparison (four-quadrant variant).
+Trigger: Both columns contain text + image.
+Left: text-top/image-bottom, Right: image-top/text-bottom → diagonal symmetry.
+postprocess.py repositions into 4 equal quadrants.
+
+Image source: AI-generated (bundled stock library).
 :::
 
 ## {background-image="ai-brain.jpg" background-size="cover"}
@@ -99,6 +175,8 @@ Trigger: text paragraph followed by image (no columns).
 Layout: Blank + background-image.
 Trigger: Slide with only non-breaking space content and background-image attribute.
 Full-bleed background for visual impact pages or section transitions.
+
+Image source: AI-generated (bundled stock library).
 :::
 
 ## Background Image + Title {background-image="collaboration.jpg" background-size="cover" background-opacity="0.6"}
@@ -110,6 +188,8 @@ From "dare to use" → "know how to use" → "continuous evolution"
 ::: {.notes}
 Layout: Title and Content + background-image.
 Background image fills the slide in stretch mode, text overlaid on top.
+
+Image source: AI-generated (bundled stock library).
 :::
 
 ## Layout Summary {.smaller}
@@ -119,20 +199,21 @@ Background image fills the slide in stretch mode, text overlaid on top.
 
 **Pandoc Auto-Selected Layouts**
 
-- **Title and Content** — Text-only bullets
+- **Title and Content** — Text-only / title + image
 - **Two Content** — Two-column text
-- **Comparison** — Two-column with images
-- **Content with Caption** — Text + image
+- **Comparison** — Both with images / image-text / 4 quadrants
+- **Content with Caption** — Text + image (left-right)
 - **Blank** — Background image (no title)
 
 :::
 ::: {.column width="50%"}
 
-**Trigger Conditions**
+**Trigger Conditions & Variants**
 
 - Text only → Title and Content
+- Title + image only → Title and Content (top-bottom)
 - columns + text → Two Content
-- columns + text + image → Comparison
+- columns + text + image → Comparison (multiple variants)
 - Text then image → Content with Caption
 - background-image → Blank or with title
 
@@ -141,4 +222,5 @@ Background image fills the slide in stretch mode, text overlaid on top.
 
 ::: {.notes}
 This slide itself uses Two Content layout — both columns are text-only lists.
+All images are AI-generated (bundled stock library), no external copyright issues.
 :::
