@@ -1,0 +1,80 @@
+---
+title: "Building a Neon Glow PPTX Template with Python"
+description: "How we created the Roadmap template using native PowerPoint a:glow XML — and what we learned about cross-renderer compatibility."
+author: "AI Cooperation"
+date: "2026-01-30"
+categories: [skill-module, pptx, design]
+---
+
+## The Challenge
+
+We needed a PPTX template inspired by modern SaaS dashboard aesthetics — dark backgrounds, neon glow effects, and a futuristic feel. The reference was an n8n 2026 roadmap infographic with fluorescent color accents on a deep navy background.
+
+The question: **Can PowerPoint natively render neon glow effects without resorting to raster images?**
+
+## The Answer: `a:glow` XML
+
+PowerPoint's OOXML format supports `a:glow` inside `a:effectLst` on any shape's `spPr`. This creates a soft halo around the shape's border:
+
+```xml
+<a:effectLst>
+  <a:glow rad="75000">
+    <a:srgbClr val="4ECDC4">
+      <a:alpha val="40000"/>
+    </a:srgbClr>
+  </a:glow>
+</a:effectLst>
+```
+
+Using `python-pptx` with `lxml`, we inject this XML into decorative shapes on each slide layout.
+
+## Design Principle: Frames, Not Lines
+
+Our initial approach used solid-fill rectangles (`add_rect`) with `a:glow`. This worked in PowerPoint but had a problem: **LibreOffice doesn't render `a:glow` on solid-fill shapes accurately**. The glow radius changes were nearly invisible in LibreOffice-exported PNGs.
+
+The fix: replace all line/bar decorations with **thin hollow rounded-rect frames** (`add_neon_frame`). A neon frame is:
+
+- No fill (`a:noFill`)
+- Colored border (`a:ln` with `a:solidFill`)
+- Glow on the border (`a:glow` in `a:effectLst`)
+
+LibreOffice renders glow on bordered shapes much more faithfully than on filled shapes.
+
+## The Roadmap Palette
+
+| Element | Color | Hex |
+|---------|-------|-----|
+| Background | Deep navy gradient | `#0D1B2A` → `#1B2838` |
+| Titles | Coral | `#FF6B6B` |
+| Column headers | Gold | `#E8A838` |
+| Accent / Frames | Teal | `#4ECDC4` |
+| Body text | Bright white | `#F0F0F0` |
+
+## Layout Decoration Rules
+
+All 7 Pandoc PPTX layouts use neon frames exclusively:
+
+- **Single-content layouts** (Title Slide, Title and Content, Section Header): Thin elongated frames mimicking decorative lines
+- **Multi-column layouts** (Two Content, Comparison, Content with Caption): Normal-sized panel frames
+
+This keeps the visual language consistent — every glowing element is structurally a frame.
+
+## PNG Export Pipeline
+
+For the website showcase, we convert PPTX slides to PNG images:
+
+1. `build_template_roadmap.py` → `template-roadmap.pptx`
+2. `quarto render` → `demo-roadmap.pptx`
+3. `postprocess_demo.py` → fixes vertical centering
+4. LibreOffice headless → PDF
+5. `pdftoppm` → individual PNG per slide (200 DPI)
+
+This pipeline runs locally. The PNGs are committed to the website repo and displayed in a JavaScript-powered slide gallery with keyboard navigation.
+
+## Key Takeaway
+
+Native OOXML effects (`a:glow`, `a:outerShdw`) are powerful but renderer-dependent. If your output needs to look consistent across PowerPoint, LibreOffice, and Google Slides, **use bordered hollow shapes** rather than solid-fill shapes as glow carriers. The border gives renderers a clear edge to apply the glow effect to.
+
+---
+
+[View the Demo](/skills/demo/) | [Download PPTX](/assets/demos/demo-roadmap.pptx) | [Source Code](https://github.com/ai-cooperation/skill-presentation-pptx)

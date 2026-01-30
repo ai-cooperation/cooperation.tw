@@ -1,0 +1,80 @@
+---
+title: "用 Python 建構霓虹發光 PPTX 模板"
+description: "如何使用 PowerPoint 原生 a:glow XML 製作 Roadmap 模板 — 以及跨渲染器相容性的經驗。"
+author: "AI Cooperation"
+date: "2026-01-30"
+categories: [skill-module, pptx, design]
+---
+
+## 挑戰
+
+我們需要一個受現代 SaaS 儀表板美學啟發的 PPTX 模板 — 深色背景、霓虹發光效果、未來感。參考對象是一張 n8n 2026 Roadmap 資訊圖，在深海軍藍背景上有螢光色彩強調。
+
+問題是：**PowerPoint 能原生渲染霓虹發光效果嗎？不用點陣圖？**
+
+## 答案：`a:glow` XML
+
+PowerPoint 的 OOXML 格式支援在任何形狀的 `spPr` 內的 `a:effectLst` 加入 `a:glow`，產生柔和的光暈效果：
+
+```xml
+<a:effectLst>
+  <a:glow rad="75000">
+    <a:srgbClr val="4ECDC4">
+      <a:alpha val="40000"/>
+    </a:srgbClr>
+  </a:glow>
+</a:effectLst>
+```
+
+透過 `python-pptx` + `lxml`，我們將這段 XML 注入每個投影片版面的裝飾形狀中。
+
+## 設計原則：用框，不用線
+
+最初我們用實色填充矩形（`add_rect`）+ `a:glow`。在 PowerPoint 裡效果正確，但有個問題：**LibreOffice 對實色填充形狀的 `a:glow` 渲染不精確**，匯出的 PNG 幾乎看不出光暈大小差異。
+
+解決方案：把所有直線/條狀裝飾替換為**細長的空心圓角框**（`add_neon_frame`）。霓虹框的結構是：
+
+- 無填充（`a:noFill`）
+- 有色邊框（`a:ln` + `a:solidFill`）
+- 邊框上的光暈（`a:effectLst` 裡的 `a:glow`）
+
+LibreOffice 對有邊框形狀的光暈渲染遠比實色填充形狀精確。
+
+## Roadmap 色彩系統
+
+| 元素 | 顏色 | 色碼 |
+|------|------|------|
+| 背景 | 深海軍藍漸層 | `#0D1B2A` → `#1B2838` |
+| 標題 | 珊瑚粉 | `#FF6B6B` |
+| 欄標題 | 琥珀金 | `#E8A838` |
+| 強調/框 | 青綠 | `#4ECDC4` |
+| 內文 | 亮白 | `#F0F0F0` |
+
+## 版面裝飾規則
+
+全部 7 種 Pandoc PPTX layout 都統一使用霓虹框：
+
+- **單欄 layout**（Title Slide、Title and Content、Section Header）：細長框模擬裝飾線
+- **多欄 layout**（Two Content、Comparison、Content with Caption）：正常大小面板框
+
+這讓視覺語言保持一致 — 每個發光元素在結構上都是框。
+
+## PNG 匯出流程
+
+網站展示用的 PNG 圖片轉換流程：
+
+1. `build_template_roadmap.py` → `template-roadmap.pptx`
+2. `quarto render` → `demo-roadmap.pptx`
+3. `postprocess_demo.py` → 修復垂直置中
+4. LibreOffice headless → PDF
+5. `pdftoppm` → 每張投影片一個 PNG（200 DPI）
+
+PNG 圖片提交到網站 repo，透過 JavaScript 圖片輪播展示，支援鍵盤方向鍵導航。
+
+## 關鍵心得
+
+原生 OOXML 效果（`a:glow`、`a:outerShdw`）很強大但跨渲染器表現不一。如果你的輸出需要在 PowerPoint、LibreOffice、Google Slides 都看起來一致，**用有邊框的空心形狀**而非實色填充形狀作為光暈載體。邊框給渲染器一個明確的邊緣來套用光暈效果。
+
+---
+
+[查看演示](/zh/skills/demo/) | [下載 PPTX](/assets/demos/demo-roadmap.pptx) | [原始碼](https://github.com/ai-cooperation/skill-presentation-pptx)
