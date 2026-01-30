@@ -53,11 +53,3 @@ $selection-bg: #E8A838;
   color: #A8B2C1;
   font-size: 0.6em;
 }
-
-/* Neon frame effect for two-column slides */
-.reveal .slides section .columns .column {
-  border: 1.5px solid rgba(78, 205, 196, 0.5);
-  border-radius: 12px;
-  padding: 1em;
-  box-shadow: 0 0 15px rgba(78, 205, 196, 0.15);
-}
