@@ -85,9 +85,9 @@ The module's reference knowledge base teaches AI agents how to trigger each Powe
 
 ## Demo: Layout Showcase
 
-A single QMD source file produces 8 professionally styled slides, demonstrating 5 distinct PowerPoint layouts — all auto-triggered by document structure.
+A single QMD source file produces 11 professionally styled slides, demonstrating 7 distinct PowerPoint layouts — all auto-triggered by document structure. The **Roadmap** template features neon glow effects using native PowerPoint `a:glow` XML.
 
-[View Live Demo →](demo/index.qmd){.btn .btn-primary} [Download PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
+[View Demo →](demo/index.qmd){.btn .btn-primary} [Download PPTX (Roadmap)](../assets/demos/demo-roadmap.pptx){.btn .btn-outline-primary} [Download PPTX (Pro)](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 
 ## Key Technical Innovations
 

@@ -85,9 +85,9 @@ bash tools/compile_pptx.sh examples/deck-basic.qmd basic outputs deck.pptx
 
 ## 演示：版面展示
 
-一個 QMD 原始檔即可產生 8 張專業風格投影片，展示 5 種不同的 PowerPoint layout — 全部由文件結構自動觸發。
+一個 QMD 原始檔即可產生 11 張專業風格投影片，展示 7 種不同的 PowerPoint layout — 全部由文件結構自動觸發。**Roadmap** 模板使用 PowerPoint 原生 `a:glow` XML 實現霓虹發光效果。
 
-[查看即時演示 →](demo/index.qmd){.btn .btn-primary} [下載 PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
+[查看演示 →](demo/index.qmd){.btn .btn-primary} [下載 PPTX（Roadmap）](../assets/demos/demo-roadmap.pptx){.btn .btn-outline-primary} [下載 PPTX（Pro）](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 
 ## 關鍵技術創新
 
