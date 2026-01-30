@@ -1,0 +1,48 @@
+---
+title: "Core Principles"
+---
+
+## AI Operation Design Principles
+
+These principles guide every decision in the AI Cooperation framework.
+
+### 1. Structure Enables Freedom
+
+AI agents perform best within clear boundaries. Defining inputs, outputs, and constraints doesn't limit creativity — it enables reliable, repeatable results.
+
+### 2. Separate Knowledge from Behavior
+
+- **Skills** define WHAT the agent should do
+- **Reference docs** define HOW to do it
+- **Prompts** define WHO the agent is
+
+This separation allows independent evolution of each component.
+
+### 3. Human-in-the-Loop by Design
+
+AI should augment human capability, not replace human judgment. Every pipeline should have explicit human checkpoints for review, approval, or redirection.
+
+### 4. Modules Over Monoliths
+
+Complex AI workflows should be composed of small, reusable, independently testable modules. Each module follows the [OpenSpec](https://github.com/ai-cooperation/openspec) standard.
+
+### 5. Examples Are Documentation
+
+The best way to understand a module is to run its examples. Every skill must include working, runnable examples.
+
+### 6. Evolve Continuously
+
+AI capabilities change rapidly. The framework is designed for evolution:
+
+- Modules are versioned (semver)
+- Knowledge bases can be updated independently
+- Pipelines can be reconfigured without rewriting skills
+
+### 7. Open and Auditable
+
+All skill modules, reference documents, and pipeline definitions should be:
+
+- Version-controlled
+- Human-readable
+- Machine-parseable
+- Open source where possible

@@ -1,0 +1,120 @@
+---
+title: "AI Cooperation"
+page-layout: full
+toc: false
+---
+
+::: {.hero-banner}
+
+# AI Cooperation
+
+::: {.subtitle}
+Designing how humans work with AI
+:::
+
+::: {.tagline}
+我們不教你用 AI，我們教你如何「與 AI 一起工作」。
+:::
+
+::: {.cta-buttons}
+[Explore the Framework](framework/index.qmd){.cta-primary}
+[View on GitHub](https://github.com/ai-cooperation){.cta-secondary}
+[Skill Modules](skills/index.qmd){.cta-secondary}
+:::
+
+:::
+
+---
+
+## 為什麼大多數 AI 導入都失敗？ {.section-header}
+
+::: {.card-grid}
+
+::: {.card}
+### 工具很多，但不知道怎麼用
+企業買了 AI 工具卻用不上。缺乏將工具轉化為工作流程的方法。
+:::
+
+::: {.card}
+### 員工會問 AI，但無法產出價值
+個別使用 AI 的能力不等於組織層級的生產力。缺乏系統化的操作方法。
+:::
+
+::: {.card}
+### AI 專案難以評估 ROI
+導入成效不明確，無法量化 AI 帶來的實際改善。
+:::
+
+::: {.card}
+### 技術變化太快，導入風險高
+每季都有新模型、新框架。組織不知道從哪裡開始，害怕押錯寶。
+:::
+
+:::
+
+---
+
+## 什麼是 AI Operation？ {.section-header}
+
+> **AI Operation 是一套設計「人 × AI × 流程」如何協作的系統方法。**
+>
+> 它不是指 AI 模型的運行，而是：人類如何設計任務、流程與角色，讓 AI 成為可控、可學、可成長的夥伴。
+
+---
+
+## AI Cooperation 的四個核心層 {.section-header}
+
+| Layer | 中文 | 說明 |
+|-------|------|------|
+| **Methodology** | 方法論 | 人機協作的思想與設計原則 |
+| **Framework** | 架構 | 系統化的 AI 運作設計框架 |
+| **Skills** | 可部署模組 | 遵循 [OpenSpec](https://github.com/ai-cooperation/openspec) 標準的 AI 技能模組 |
+| **Service** | 企業導入 | 陪跑式的導入與持續進化支持 |
+
+---
+
+## 我們不做什麼 {.section-header}
+
+::: {.not-list}
+- **不賣 AI 工具** — 我們不是工具商，不綁定特定產品
+- **不鎖平台** — 適用於任何 AI 模型與框架
+- **不承諾速效** — 建立能力需要時間和方法
+- **不取代人類** — 我們強化人的能力，不是取代人
+:::
+
+我們做的是：
+
+> **建立「能與 AI 共存、共作、共進化」的組織能力。**
+
+---
+
+## Open Source Skills {.section-header}
+
+::: {.card-grid}
+
+::: {.card}
+### Presentation Pipeline
+Quarto → PPTX 全自動簡報產生。12 種模板風格、7 種 layout、3 階段 pipeline。
+
+[View on GitHub →](https://github.com/ai-cooperation/skill-presentation-pptx)
+:::
+
+::: {.card}
+### More Skills Coming
+Research, Writing, Validation, Agent Flow... 每個 skill 都遵循 OpenSpec 標準，可被任何 AI agent 框架使用。
+
+[OpenSpec Standard →](https://github.com/ai-cooperation/openspec)
+:::
+
+:::
+
+---
+
+## Get Started {.section-header}
+
+::: {.cta-buttons}
+[Read the Methodology](methodology/index.qmd){.cta-primary}
+[Explore Skills](skills/index.qmd){.cta-primary}
+[AI Operation Lab](lab/index.qmd){.cta-secondary}
+[Enterprise Service](service/index.qmd){.cta-secondary}
+:::

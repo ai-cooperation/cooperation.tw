@@ -1,0 +1,36 @@
+---
+title: "About AI Cooperation"
+---
+
+## Who We Are
+
+AI Cooperation is a practice system that helps individuals and organizations learn to collaborate, operate, and continuously evolve with AI.
+
+We are **Operator Designers** — not tool vendors, not SaaS platforms, not prompt engineering courses.
+
+## Our Mission
+
+> 讓 AI 成為企業的能力，而不是工具。
+
+We believe the biggest challenge in AI adoption isn't technology — it's **operation design**. Most organizations have access to powerful AI models, but lack the methodology to integrate them into real workflows.
+
+AI Cooperation bridges this gap by providing:
+
+1. **Methodology** — How to think about human-AI collaboration
+2. **Framework** — How to architect AI-augmented processes
+3. **Skill Modules** — Deployable, reusable AI capabilities
+4. **Lab** — Safe environments for learning and experimentation
+5. **Service** — Enterprise adoption support
+
+## Our Principles
+
+- **Not model-locked** — Works with any AI model
+- **Not tool-locked** — No vendor dependency
+- **Capability over automation** — We build human capability, not just automation
+- **Open and auditable** — All skill modules are open source ([OpenSpec](https://github.com/ai-cooperation/openspec))
+- **Sustainable evolution** — Not a one-time deployment, but continuous growth
+
+## Connect
+
+- GitHub: [github.com/ai-cooperation](https://github.com/ai-cooperation)
+- Website: [cooperation.tw](https://cooperation.tw)

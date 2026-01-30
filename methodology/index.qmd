@@ -1,0 +1,55 @@
+---
+title: "AI Operation Methodology"
+---
+
+## What is AI Operation?
+
+AI Operation is not about running AI models. It's about designing how humans and AI collaborate in structured, repeatable, and improvable ways.
+
+> **AI Operation = 人類如何設計任務、流程與角色，讓 AI 成為可控、可學、可成長的夥伴。**
+
+## Core Question
+
+The central question of AI Operation is:
+
+> Given a task, how should we divide work between humans and AI, structure the workflow, define quality criteria, and enable continuous improvement?
+
+## Three Pillars
+
+### 1. Task Design (任務設計)
+
+- **Decomposition** — Break complex work into AI-executable steps
+- **Role Assignment** — Define what humans do vs. what AI does
+- **Quality Boundaries** — Set acceptance criteria for AI outputs
+- **Error Handling** — Design feedback loops for when AI gets it wrong
+
+### 2. Process Architecture (流程架構)
+
+- **Pipeline Design** — Chain multiple AI steps into a coherent workflow
+- **Human Checkpoints** — Where humans review, approve, or redirect
+- **State Management** — Track what's done, what's pending, what failed
+- **Iteration Protocol** — How to improve outputs across cycles
+
+### 3. Capability Evolution (能力進化)
+
+- **Skill Modules** — Encapsulate proven AI workflows as reusable modules
+- **Knowledge Codification** — Turn tribal knowledge into machine-readable reference docs
+- **Maturity Assessment** — Measure how effectively the organization uses AI
+- **Continuous Learning** — Update skills and processes as AI capabilities evolve
+
+## Why This Matters
+
+Without AI Operation methodology:
+
+| Symptom | Root Cause |
+|---------|-----------|
+| "AI doesn't help us" | No task decomposition |
+| "Results are inconsistent" | No quality boundaries |
+| "We can't scale AI use" | No process architecture |
+| "We keep starting over" | No capability evolution |
+
+## Learn More
+
+- [Five-Layer Framework](../framework/five-layers.qmd) — The architectural model
+- [Skill Modules](../skills/index.qmd) — See methodology in practice
+- [Principles](principles.qmd) — Detailed design principles

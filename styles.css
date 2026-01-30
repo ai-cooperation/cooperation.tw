@@ -1,0 +1,170 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+/* AI Cooperation Brand Styles */
+
+:root {
+  --brand-deep-blue: #0B1F33;
+  --brand-electric-blue: #1F6FFF;
+  --brand-light-gray: #F4F6F8;
+  --brand-soft-green: #4CAF50;
+  --brand-neon-blue: #4D8FFF;
+}
+
+/* ── Hero Banner ── */
+.hero-banner {
+  background: linear-gradient(135deg, var(--brand-deep-blue) 0%, #162D50 100%);
+  color: var(--brand-light-gray);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 0;
+  margin: -1rem -1rem 2rem -1rem;
+}
+
+.hero-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.hero-banner .subtitle {
+  font-size: 1.3rem;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+}
+
+.hero-banner .tagline {
+  font-size: 1.1rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* ── CTA Buttons ── */
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-buttons a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-primary {
+  background: var(--brand-electric-blue);
+  color: white !important;
+}
+
+.cta-secondary {
+  background: transparent;
+  color: white !important;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ── Section Styling ── */
+.section-header {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.section-header h2 {
+  color: var(--brand-deep-blue);
+  font-size: 1.8rem;
+}
+
+.section-header .section-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* ── Cards ── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: white;
+  border-left: 4px solid var(--brand-electric-blue);
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: var(--brand-deep-blue);
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* ── Layer Table ── */
+.layer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.layer-table th {
+  background: var(--brand-deep-blue);
+  color: white;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.layer-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.layer-table tr:nth-child(even) {
+  background: var(--brand-light-gray);
+}
+
+/* ── Blockquote Accent ── */
+blockquote {
+  border-left: 4px solid var(--brand-electric-blue);
+  background: var(--brand-light-gray);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ── Not-List (What We Don't Do) ── */
+.not-list {
+  background: #FFF8F0;
+  border-left: 4px solid #E67E22;
+  padding: 1.5rem;
+  border-radius: 0 4px 4px 0;
+  margin: 1.5rem 0;
+}
+
+/* ── Footer Override ── */
+.nav-footer {
+  background-color: var(--brand-deep-blue) !important;
+}

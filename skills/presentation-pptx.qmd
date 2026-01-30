@@ -1,0 +1,120 @@
+---
+title: "Skill: Presentation Pipeline (PPTX)"
+---
+
+## Overview
+
+全自動 Quarto-to-PPTX 簡報產生 pipeline。從結構化規格到專業風格的 PowerPoint，完全由 AI agent 驅動。
+
+| | |
+|---|---|
+| **Module ID** | `skill-presentation-pptx` |
+| **Version** | 2.0.0 |
+| **OpenSpec** | v1.0 |
+| **License** | Apache 2.0 |
+| **GitHub** | [ai-cooperation/skill-presentation-pptx](https://github.com/ai-cooperation/skill-presentation-pptx) |
+
+## Quick Start
+
+```bash
+git clone https://github.com/ai-cooperation/skill-presentation-pptx
+cd skill-presentation-pptx
+
+# Install dependencies
+pip install python-pptx lxml
+# Requires: Quarto CLI
+
+# Compile an example
+bash tools/compile_pptx.sh examples/deck-basic.qmd basic outputs deck.pptx
+```
+
+## Pipeline Architecture
+
+```
+User Request
+    ↓
+[Planner Skill] → deck_spec.json
+    ↓                (template_style + layout_plan)
+[Worker Skill]  → deck.qmd
+    ↓                (correct QMD syntax per layout)
+[compile_pptx.sh]
+    ├─ Phase 1: build_template.py → template-{style}.pptx
+    ├─ Phase 2: quarto render     → raw PPTX
+    └─ Phase 3: postprocess.py    → final PPTX (patched)
+    ↓
+Final Styled PPTX
+```
+
+## 12 Template Styles
+
+### Handcrafted
+
+| Style | Description |
+|-------|-------------|
+| `basic` | Clean corporate — cyan accent, light background, bottom line decoration |
+| `rich` | Editorial premium — gold bars, warm ivory background, gradient headers |
+
+### Color Themes
+
+| ID | Name | Character |
+|----|------|-----------|
+| `01` | Corporate Navy | Professional dark corporate |
+| `02` | Midnight Neon | Bold futuristic tech |
+| `03` | Emerald Dark | Nature, sustainability, ESG |
+| `04` | Clean Corporate | Standard business light |
+| `05` | Warm Neutral | Warm, approachable, human |
+| `06` | Serene Blue | Calm, trustworthy, healthcare |
+| `07` | Sunset Vibrant | Energetic, creative, startup |
+| `08` | Ocean Gradient | Deep, immersive, marine |
+| `09` | Berry Garden | Sophisticated, luxury |
+| `10` | Modern Mono | Minimalist, elegant design |
+
+## 7 Supported Layouts
+
+The module's reference knowledge base teaches AI agents how to trigger each PowerPoint layout through specific QMD syntax:
+
+| Layout | QMD Trigger |
+|--------|-------------|
+| Title Slide | YAML front matter `title`/`subtitle` |
+| Title and Content | `## Heading` + bullets |
+| Two Content | `## Heading` + `:::: {.columns}` (text-only) |
+| Comparison | `## Heading` + `:::: {.columns}` (text + image) |
+| Content with Caption | `## Heading` + text + image (no columns) |
+| Section Header | `# Heading` (level-1) |
+| Background Image | `## {background-image="..."}` + `&nbsp;` |
+
+## Key Technical Innovations
+
+1. **Layout Trigger Rules** — Documented how QMD structure maps to Pandoc layout selection (undocumented by Pandoc)
+2. **Dynamic Template Building** — No manual PowerPoint editing; templates built programmatically with `python-pptx`
+3. **Postprocessing** — Fixes properties Pandoc strips (vertical centering, etc.)
+4. **AI Knowledge Base** — Reference docs designed for AI consumption, not human tutorials
+
+## Module Structure
+
+```
+skill-presentation-pptx/
+├── module.yaml
+├── skills/
+│   ├── presentation_planner.md    # Plan slides + choose template
+│   └── presentation_worker.md     # Generate correct QMD syntax
+├── reference/
+│   ├── layout_trigger_rules.md    # QMD → layout mapping
+│   ├── qmd_patterns.md            # Copy-paste syntax cookbook
+│   ├── template_catalog.md        # Template selection guide
+│   └── pandoc_quirks.md           # Known issues + fixes
+├── tools/
+│   ├── build_template.py          # Unified template builder
+│   ├── postprocess.py             # Fix Pandoc-stripped properties
+│   └── compile_pptx.sh            # 3-phase pipeline
+├── templates/
+│   ├── base-template.pptx
+│   └── themes.json
+├── examples/
+│   ├── deck-basic.qmd
+│   ├── deck-rich.qmd
+│   └── deck_spec_example.json
+└── assets/stock/                  # 12 bundled images
+```
+
+[View on GitHub →](https://github.com/ai-cooperation/skill-presentation-pptx)

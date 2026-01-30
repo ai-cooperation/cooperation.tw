@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "AI Cooperation"
+  description: "Designing how humans work with AI"
+  site-url: https://cooperation.tw
+  repo-url: https://github.com/ai-cooperation/cooperation.tw
+
+  navbar:
+    background: "#0B1F33"
+    foreground: "#F4F6F8"
+    logo: assets/logo.svg
+    left:
+      - text: "Methodology"
+        href: methodology/index.qmd
+      - text: "Framework"
+        href: framework/index.qmd
+      - text: "Skills"
+        href: skills/index.qmd
+      - text: "Lab"
+        href: lab/index.qmd
+      - text: "Service"
+        href: service/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/ai-cooperation
+
+  page-footer:
+    center: "AI Cooperation | cooperation.tw"
+    background: "#0B1F33"
+
+  open-graph:
+    image: assets/og-image.png
+    description: "Designing how humans work with AI"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.css]
+    toc: true
+    lang: zh-TW

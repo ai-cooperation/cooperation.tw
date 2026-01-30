@@ -1,0 +1,90 @@
+---
+title: "Skill Modules"
+---
+
+## AI Operation Skills
+
+每個 Skill 都是一個遵循 [OpenSpec](https://github.com/ai-cooperation/openspec) 標準的獨立模組，可被任何 AI agent 框架發現、驗證、執行。
+
+## Available Skills
+
+::: {.card-grid}
+
+::: {.card}
+### Presentation Pipeline (PPTX)
+
+Quarto-to-PPTX 全自動簡報產生 pipeline。
+
+- 12 種模板風格（2 手工 + 10 主題）
+- 7 種 PowerPoint layout 自動觸發
+- 3 階段 pipeline（建模板 → 渲染 → 後處理）
+- 內建 stock 圖片庫
+
+**Status**: `v2.0.0` — Production Ready
+
+[Details →](presentation-pptx.qmd) | [GitHub →](https://github.com/ai-cooperation/skill-presentation-pptx)
+:::
+
+::: {.card}
+### Research Agent
+
+結構化網路研究與資料整理。
+
+- 多來源搜尋與交叉驗證
+- 自動摘要與結構化輸出
+- 來源追蹤與可信度評估
+
+**Status**: Coming Soon
+:::
+
+::: {.card}
+### Writing Assistant
+
+結構化文件撰寫與編輯。
+
+- 多種文件格式支持
+- 風格一致性檢查
+- 引用管理
+
+**Status**: Coming Soon
+:::
+
+::: {.card}
+### Validation Engine
+
+資料與輸出品質驗證。
+
+- Schema 驗證
+- 一致性檢查
+- 自動化測試生成
+
+**Status**: Coming Soon
+:::
+
+:::
+
+## What is OpenSpec?
+
+OpenSpec 定義了 AI skill module 的標準結構：
+
+```
+skill-{name}/
+├── module.yaml       # Contract: inputs, outputs, pipeline
+├── skills/           # AI agent behavior specs
+├── reference/        # Domain knowledge base
+├── tools/            # Executable scripts
+├── examples/         # Working demonstrations
+└── README.md
+```
+
+任何支持 tool-use 的 AI 框架（LangChain, CrewAI, Claude, OpenAI Assistants）都能整合 OpenSpec 模組。
+
+[OpenSpec Standard →](https://github.com/ai-cooperation/openspec)
+
+## Build Your Own Skill
+
+1. Clone the [OpenSpec template](https://github.com/ai-cooperation/openspec/tree/main/examples/minimal-skill)
+2. Define your `module.yaml`
+3. Write your skills and reference docs
+4. Add examples
+5. Validate with `python3 validate.py your-skill/`

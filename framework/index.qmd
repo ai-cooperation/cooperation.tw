@@ -1,0 +1,65 @@
+---
+title: "AI Operation Framework"
+---
+
+## Overview
+
+The AI Operation Framework provides a structured architecture for building, deploying, and evolving AI-augmented workflows.
+
+```
+AI Cooperation
+│
+├── Methodology     → Principles and thinking models
+├── Framework       → System architecture (this page)
+├── Skills          → Deployable modules
+├── Lab             → Learning environment
+└── Service         → Enterprise adoption
+```
+
+## Key Concepts
+
+### OpenSpec Modules
+
+Every AI capability is packaged as an **OpenSpec module** — a self-contained unit with:
+
+- **Contract** (`module.yaml`) — Inputs, outputs, dependencies, pipeline steps
+- **Skills** — AI agent behavior specifications
+- **Reference Docs** — Domain knowledge base
+- **Tools** — Executable scripts and programs
+- **Examples** — Working demonstrations
+
+[Learn about OpenSpec →](https://github.com/ai-cooperation/openspec)
+
+### Pipeline Architecture
+
+Complex tasks are broken into multi-step pipelines:
+
+```
+User Request
+    ↓
+[Planner Skill] → Structured Plan (JSON)
+    ↓
+[Worker Skill]  → Content Output (QMD, MD, Code...)
+    ↓
+[Tool Pipeline] → Final Artifact (PPTX, PDF, Deploy...)
+    ↓
+[Human Review]  → Approve / Iterate
+```
+
+Each step can be an LLM call (skill) or a tool execution (script).
+
+### Knowledge Architecture
+
+```
+prompts/         → WHO the agent is (short, focused)
+skills/          → WHAT the agent does (behavior spec)
+reference/       → HOW to do it (domain knowledge)
+tools/           → EXECUTE (scripts, CLIs)
+```
+
+**Key principle**: Skills point to reference docs. They don't inline detailed knowledge.
+
+## Deep Dive
+
+- [Five-Layer Architecture](five-layers.qmd) — Detailed layer-by-layer breakdown
+- [Skills Catalog](../skills/index.qmd) — Available skill modules
