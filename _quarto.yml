@@ -44,4 +44,4 @@ format:
     toc: true
     lang: en
     include-after-body:
-      text: '<script src="/cooperation.tw/assets/lang-switcher.js"></script>'
+      text: '<script src="assets/lang-switcher.js"></script>'

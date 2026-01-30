@@ -3,16 +3,14 @@
 
 (function () {
   const STORAGE_KEY = "aico-lang";
-  const ZH_PREFIX = "/zh/";
-  const SITE_BASE = "/cooperation.tw/"; // GitHub Pages base path
+  const SITE_BASE = "/cooperation.tw/";
 
   function getPath() {
     return window.location.pathname;
   }
 
   function isZhPage() {
-    const path = getPath();
-    return path.includes(ZH_PREFIX);
+    return getPath().includes("/zh/");
   }
 
   function getAlternatePath() {
@@ -21,13 +19,12 @@
       // zh → en: remove /zh/ segment
       return path.replace(/\/zh\//, "/");
     } else {
-      // en → zh: insert /zh/ after base path
-      const base = path.indexOf(SITE_BASE);
-      if (base !== -1) {
-        const after = base + SITE_BASE.length;
+      // en → zh: insert /zh/ after site base
+      const idx = path.indexOf(SITE_BASE);
+      if (idx !== -1) {
+        const after = idx + SITE_BASE.length;
         return path.slice(0, after) + "zh/" + path.slice(after);
       }
-      // fallback: just prepend /zh/
       return path.replace(/\/$/, "") + "/zh/";
     }
   }
@@ -40,7 +37,7 @@
   // Auto-redirect on first visit
   function autoRedirect() {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) return; // user already chose
+    if (saved) return;
 
     const browserLang = getBrowserLang();
     const isZh =
@@ -58,24 +55,42 @@
     }
   }
 
-  // Create language toggle button
+  // Create language toggle button in navbar
   function createToggle() {
-    const navbar = document.querySelector(".navbar-nav.navbar-nav-scroll");
-    const navRight =
-      document.querySelector(".navbar-collapse .ms-auto") ||
-      document.querySelector(".navbar-nav:last-child");
+    // Find the right-side navbar list (has ms-auto class)
+    var rightNav = document.querySelector(
+      ".navbar-collapse .navbar-nav.ms-auto"
+    );
 
-    // Find the right side of navbar
-    const container =
-      document.querySelector(".navbar .container-fluid") ||
-      document.querySelector(".navbar .container");
-    if (!container) return;
+    if (!rightNav) {
+      // Fallback: find the container and append directly
+      var container =
+        document.querySelector(".navbar .container-fluid") ||
+        document.querySelector(".navbar .container");
+      if (!container) return;
 
-    const btn = document.createElement("a");
+      var btn = createButton();
+      container.appendChild(btn);
+      return;
+    }
+
+    var li = document.createElement("li");
+    li.className = "nav-item";
+    var btn = createButton();
+    li.appendChild(btn);
+    // Insert as first item in the right nav (before GitHub icon)
+    rightNav.insertBefore(li, rightNav.firstChild);
+  }
+
+  function createButton() {
+    var btn = document.createElement("a");
     btn.className = "nav-link lang-toggle";
     btn.href = getAlternatePath();
     btn.style.cssText =
-      "cursor:pointer; font-weight:600; padding:0.25rem 0.75rem; border:1px solid rgba(255,255,255,0.3); border-radius:4px; margin-left:0.5rem; font-size:0.85rem; color: #F4F6F8; text-decoration: none;";
+      "cursor:pointer; font-weight:600; padding:0.25rem 0.75rem; " +
+      "border:1px solid rgba(255,255,255,0.3); border-radius:4px; " +
+      "margin-left:0.5rem; font-size:0.85rem; color:#F4F6F8; " +
+      "text-decoration:none; white-space:nowrap;";
 
     if (isZhPage()) {
       btn.textContent = "EN";
@@ -91,25 +106,14 @@
       window.location.href = getAlternatePath();
     });
 
-    // Insert into navbar right section
-    const rightNav = document.querySelector(
-      ".navbar-collapse .navbar-nav:not(.navbar-nav-scroll)"
-    );
-    if (rightNav) {
-      const li = document.createElement("li");
-      li.className = "nav-item";
-      li.appendChild(btn);
-      rightNav.insertBefore(li, rightNav.firstChild);
-    } else {
-      container.appendChild(btn);
-    }
+    return btn;
   }
 
-  // Update navbar links for zh pages
+  // Update navbar links for zh pages: rewrite hrefs and translate labels
   function updateNavbarForZh() {
     if (!isZhPage()) return;
 
-    const zhLabels = {
+    var zhLabels = {
       Methodology: "方法論",
       Framework: "架構",
       Skills: "技能",
@@ -119,25 +123,40 @@
     };
 
     document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
-      const text = link.textContent.trim();
+      // Translate menu text
+      var span = link.querySelector(".menu-text");
+      var text = span ? span.textContent.trim() : link.textContent.trim();
       if (zhLabels[text]) {
-        link.textContent = zhLabels[text];
+        if (span) {
+          span.textContent = zhLabels[text];
+        } else {
+          link.textContent = zhLabels[text];
+        }
       }
 
-      // Update hrefs to point to zh/ versions
-      const href = link.getAttribute("href");
-      if (href && !href.includes("/zh/") && !href.startsWith("http")) {
-        // Convert relative paths to zh/ paths
-        const base = getPath().substring(
-          0,
-          getPath().indexOf(SITE_BASE) + SITE_BASE.length
+      // Rewrite hrefs to zh/ versions
+      var href = link.getAttribute("href");
+      if (!href || href.includes("/zh/") || href.startsWith("http")) return;
+
+      // On zh pages, links are ../section/page.html (going up to root)
+      // Rewrite to ./section/page.html (staying within zh/)
+      if (href.startsWith("../")) {
+        link.setAttribute("href", "./" + href.slice(3));
+        return;
+      }
+
+      // Handle relative paths like ./methodology/index.html
+      if (href.startsWith("./")) {
+        link.setAttribute("href", "./zh/" + href.slice(2));
+        return;
+      }
+
+      // Handle absolute paths like /cooperation.tw/methodology/index.html
+      if (href.startsWith(SITE_BASE) && !href.startsWith(SITE_BASE + "zh/")) {
+        link.setAttribute(
+          "href",
+          SITE_BASE + "zh/" + href.slice(SITE_BASE.length)
         );
-        if (href.startsWith(base)) {
-          link.setAttribute(
-            "href",
-            href.replace(SITE_BASE, SITE_BASE + "zh/")
-          );
-        }
       }
     });
   }
