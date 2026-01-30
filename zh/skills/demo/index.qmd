@@ -1,0 +1,55 @@
+---
+title: "PPTX 版面展示"
+toc: false
+page-layout: full
+---
+
+## 簡報 Pipeline — 版面演示
+
+這個互動演示展示 **簡報產生 Pipeline（PPTX）** 技能模組如何從結構化 QMD 標記自動觸發 5 種不同的 PowerPoint 版面。同一份原始檔可同時產生此 HTML 預覽和專業風格的 `.pptx` 檔案。
+
+::: {.column-screen-inset}
+
+```{=html}
+<div style="position:relative; width:100%; max-width:1280px; margin:0 auto;">
+  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #0B1F33; border-radius:8px;" allowfullscreen></iframe>
+</div>
+```
+
+:::
+
+::: {.callout-tip}
+## 操作方式
+使用方向鍵或點擊邊緣來導航。按 `F` 全螢幕。按 `Esc` 查看總覽。
+:::
+
+### 展示的版面
+
+| 投影片 | PowerPoint Layout | QMD 觸發方式 |
+|--------|-------------------|-------------|
+| 1 | Title and Content | `## Heading` + 項目符號 |
+| 2 | Two Content | `## Heading` + `:::: {.columns}`（純文字） |
+| 3 | Comparison | `## Heading` + `:::: {.columns}`（文字 + 圖片） |
+| 4 | Content with Caption | `## Heading` + 文字 + 圖片（無分欄） |
+| 5 | Blank（背景圖） | `## {background-image="..."}` + `&nbsp;` |
+| 6 | 標題 + 背景圖 | `## 標題 {background-image="..."}` + 文字 |
+| 7 | Two Content | 總結 — layout 觸發規則 |
+
+### 模板設計
+
+深色「Pro」模板使用深海軍藍背景（`#1A1A2E`），搭配高對比度的強調色：
+
+- **標題**：青色 `#00D2FF`
+- **內文**：淺灰 `#E0E0E0`
+- **比較標題**：綠色 `#00FF88`
+- **強調色**：紫色 `#7C4DFF`
+
+### 下載
+
+[下載 PPTX](../../assets/demos/demo-layouts.pptx){.btn .btn-primary}
+[查看原始 QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
+[全螢幕投影片](slides.html){.btn .btn-outline-secondary target="_blank"}
+
+---
+
+[← 返回簡報 Pipeline](../presentation-pptx.qmd)

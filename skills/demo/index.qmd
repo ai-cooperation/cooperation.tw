@@ -1,0 +1,55 @@
+---
+title: "PPTX Layout Showcase"
+toc: false
+page-layout: full
+---
+
+## Presentation Pipeline — Layout Demo
+
+This interactive demo shows how the **Presentation Pipeline (PPTX)** skill module automatically triggers 5 distinct PowerPoint layouts from structured QMD markup. The same source file produces both this HTML preview and a professionally styled `.pptx` file.
+
+::: {.column-screen-inset}
+
+```{=html}
+<div style="position:relative; width:100%; max-width:1280px; margin:0 auto;">
+  <iframe src="slides.html" width="100%" height="720" style="border:2px solid #0B1F33; border-radius:8px;" allowfullscreen></iframe>
+</div>
+```
+
+:::
+
+::: {.callout-tip}
+## Navigation
+Use arrow keys or click the edges to navigate. Press `F` for fullscreen. Press `Esc` for overview.
+:::
+
+### Layouts Demonstrated
+
+| Slide | PowerPoint Layout | QMD Trigger |
+|-------|-------------------|-------------|
+| 1 | Title and Content | `## Heading` + bullet list |
+| 2 | Two Content | `## Heading` + `:::: {.columns}` (text-only) |
+| 3 | Comparison | `## Heading` + `:::: {.columns}` (text + image) |
+| 4 | Content with Caption | `## Heading` + text + image (no columns) |
+| 5 | Blank (Background) | `## {background-image="..."}` + `&nbsp;` |
+| 6 | Title + Background | `## Title {background-image="..."}` + text |
+| 7 | Two Content | Summary — layout trigger rules |
+
+### Template Design
+
+The dark "Pro" template uses a deep navy background (`#1A1A2E`) with high-contrast accent colors:
+
+- **Titles**: Cyan `#00D2FF`
+- **Body text**: Light gray `#E0E0E0`
+- **Comparison headers**: Green `#00FF88`
+- **Accent**: Purple `#7C4DFF`
+
+### Downloads
+
+[Download PPTX](../../assets/demos/demo-layouts.pptx){.btn .btn-primary}
+[View Source QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
+[Full Screen Slides](slides.html){.btn .btn-outline-secondary target="_blank"}
+
+---
+
+[← Back to Presentation Pipeline](../presentation-pptx.qmd)

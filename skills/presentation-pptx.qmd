@@ -85,22 +85,9 @@ The module's reference knowledge base teaches AI agents how to trigger each Powe
 
 ## Demo: Layout Showcase
 
-A single QMD source file produces 8 professionally styled slides, demonstrating 5 distinct PowerPoint layouts — all auto-triggered by document structure:
+A single QMD source file produces 8 professionally styled slides, demonstrating 5 distinct PowerPoint layouts — all auto-triggered by document structure.
 
-| Slide | Layout | What It Shows |
-|-------|--------|---------------|
-| 1 | Title Slide | Gradient background, title + subtitle + author + date |
-| 2 | Title and Content | Cyan heading + bullet list on dark navy background |
-| 3 | Two Content | Side-by-side text columns with independent headers |
-| 4 | Comparison | Two columns with images + bold headers |
-| 5 | Content with Caption | Text paragraph + large image, caption layout |
-| 6 | Blank | Full-bleed background image (no text) |
-| 7 | Title and Content | Background image with overlaid text |
-| 8 | Two Content | Summary — layout trigger rules reference |
-
-**Template**: Dark navy (`#1A1A2E`) with cyan (`#00D2FF`) titles, light gray (`#E0E0E0`) body text, and green (`#00FF88`) comparison headers.
-
-[Download Demo PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-primary} [View Source QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
+[View Live Demo →](demo/index.qmd){.btn .btn-primary} [Download PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 
 ## Key Technical Innovations
 

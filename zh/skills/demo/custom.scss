@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+$body-bg: #1A1A2E;
+$body-color: #E0E0E0;
+$link-color: #00D2FF;
+$presentation-heading-color: #00D2FF;
+$presentation-h1-font-size: 1.8em;
+$presentation-h2-font-size: 1.4em;
+$presentation-h3-font-size: 1.1em;
+$code-color: #00FF88;
+$selection-bg: #7C4DFF;
+
+/*-- scss:rules --*/
+.reveal {
+  font-family: 'Calibri', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.reveal .slide-background {
+  background-color: #1A1A2E;
+}
+
+.reveal h1, .reveal h2 {
+  color: #00D2FF;
+  text-shadow: none;
+  font-weight: 700;
+}
+
+.reveal h3 {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.reveal strong {
+  color: #FFFFFF;
+}
+
+.reveal .slides section .column strong {
+  color: #00FF88;
+}
+
+.reveal ul li {
+  margin-bottom: 0.4em;
+}
+
+.reveal .progress span {
+  background: #00D2FF;
+}
+
+.reveal .controls {
+  color: #00D2FF;
+}
+
+.reveal .slide-number {
+  color: #A0A0B0;
+  font-size: 0.6em;
+}

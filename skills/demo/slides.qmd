@@ -1,0 +1,144 @@
+---
+title: "Three-Layer Architecture — Layout Showcase"
+subtitle: "AI Operation Lab — Structured Capability Building"
+author: "AI Cooperation"
+format:
+  revealjs:
+    theme: [dark, custom.scss]
+    width: 1280
+    height: 720
+    transition: slide
+    navigation-mode: linear
+    controls: true
+    progress: true
+    hash: true
+    embed-resources: true
+---
+
+## Layout 1: Title and Content
+
+### AI Operation Lab — Structured Capability Building
+
+- **L1 — Learning Environment**: Dare to use, know how to use, don't fear mistakes → "I don't know how to start"
+- **L2 — Operation Method**: Design AI work methods → "AI can't really help me"
+- **L3 — Evolution Path**: Build continuous evolution capability → "How to not be replaced by AI"
+
+Each layer builds on the previous, forming a sustainable AI capability growth system.
+
+::: {.notes}
+Layout: Title and Content.
+Trigger: Heading + text-only content (no columns, no images).
+:::
+
+## Layout 2: Two Content {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Layers**
+
+- **L1** Learning Environment
+- **L2** Operation Method
+- **L3** Evolution Path
+
+:::
+::: {.column width="50%"}
+
+**Purpose & Pain Points**
+
+- Dare to use → "I don't know how to start"
+- Design AI work → "AI can't help me"
+- Continuous evolution → "How not to be replaced"
+
+:::
+::::
+
+::: {.notes}
+Layout: Two Content.
+Trigger: columns syntax with text-only in both columns.
+:::
+
+## Layout 3: Comparison
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Enterprise Pain Points**
+
+![](circuit.jpg){height="300px"}
+
+:::
+::: {.column width="50%"}
+
+**AI Operation Lab Solution**
+
+![](robot.jpg){height="300px"}
+
+:::
+::::
+
+::: {.notes}
+Layout: Comparison.
+Trigger: columns with at least one column containing text + image.
+:::
+
+## Layout 4: Content with Caption
+
+The three-layer architecture is the core design philosophy of AI Operation Lab. From individual "dare to use" to organizational "continuous evolution", each layer solves specific enterprise AI adoption pain points. L1 builds safe environments, L2 builds methodology, L3 builds evolution paths.
+
+![](teamwork.jpg){height="320px"}
+
+::: {.notes}
+Layout: Content with Caption.
+Trigger: text paragraph followed by image (no columns).
+:::
+
+## {background-image="ai-brain.jpg" background-size="cover"}
+
+::: {.notes}
+Layout: Blank + background-image.
+Trigger: Slide with only non-breaking space content and background-image attribute.
+Full-bleed background for visual impact pages or section transitions.
+:::
+
+## Background Image + Title {background-image="collaboration.jpg" background-size="cover" background-opacity="0.6"}
+
+**Three-Layer Architecture — L1 · L2 · L3**
+
+From "dare to use" → "know how to use" → "continuous evolution"
+
+::: {.notes}
+Layout: Title and Content + background-image.
+Background image fills the slide in stretch mode, text overlaid on top.
+:::
+
+## Layout Summary {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+
+**Pandoc Auto-Selected Layouts**
+
+- **Title and Content** — Text-only bullets
+- **Two Content** — Two-column text
+- **Comparison** — Two-column with images
+- **Content with Caption** — Text + image
+- **Blank** — Background image (no title)
+
+:::
+::: {.column width="50%"}
+
+**Trigger Conditions**
+
+- Text only → Title and Content
+- columns + text → Two Content
+- columns + text + image → Comparison
+- Text then image → Content with Caption
+- background-image → Blank or with title
+
+:::
+::::
+
+::: {.notes}
+This slide itself uses Two Content layout — both columns are text-only lists.
+:::

@@ -85,22 +85,9 @@ bash tools/compile_pptx.sh examples/deck-basic.qmd basic outputs deck.pptx
 
 ## 演示：版面展示
 
-一個 QMD 原始檔即可產生 8 張專業風格投影片，展示 5 種不同的 PowerPoint layout — 全部由文件結構自動觸發：
+一個 QMD 原始檔即可產生 8 張專業風格投影片，展示 5 種不同的 PowerPoint layout — 全部由文件結構自動觸發。
 
-| 投影片 | Layout | 展示內容 |
-|--------|--------|----------|
-| 1 | 標題投影片 | 漸層背景、標題 + 副標 + 作者 + 日期 |
-| 2 | 標題與內容 | 青色標題 + 項目符號，深色海軍藍背景 |
-| 3 | 雙欄內容 | 左右兩欄文字，各有獨立標題 |
-| 4 | 比較 | 雙欄含圖片 + 粗體標題 |
-| 5 | 內容附標題 | 文字段落 + 大圖，標題排版 |
-| 6 | 空白 | 全版背景圖（無文字） |
-| 7 | 標題與內容 | 背景圖上疊加文字 |
-| 8 | 雙欄內容 | 總結 — layout 觸發規則參考 |
-
-**模板**：深色海軍藍（`#1A1A2E`），青色（`#00D2FF`）標題，淺灰（`#E0E0E0`）內文，綠色（`#00FF88`）比較標題。
-
-[下載演示 PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-primary} [查看原始 QMD](https://github.com/ai-cooperation/skill-presentation-pptx/blob/main/examples/demo-layouts.qmd){.btn .btn-outline-primary}
+[查看即時演示 →](demo/index.qmd){.btn .btn-primary} [下載 PPTX](../assets/demos/demo-layouts.pptx){.btn .btn-outline-primary}
 
 ## 關鍵技術創新
 
