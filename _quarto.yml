@@ -45,5 +45,15 @@ format:
       light: [cosmo, styles.css]
     toc: true
     lang: en
+    include-in-header:
+      text: |
+        <!-- Google tag (gtag.js) — cooperation.tw total -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-975S6707DM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-975S6707DM');
+        </script>
     include-after-body:
       text: '<script src="assets/lang-switcher.js"></script>'
