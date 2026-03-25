@@ -28,11 +28,13 @@ website:
       - text: "Blog"
         href: blog/index.qmd
     right:
+      - icon: envelope
+        href: mailto:ai@cooperation.tw
       - icon: github
         href: https://github.com/ai-cooperation
 
   page-footer:
-    center: "AI Cooperation | cooperation.tw"
+    center: "AI Cooperation | cooperation.tw | [Contact Us / Feedback](mailto:ai@cooperation.tw)"
     background: "#0B1F33"
 
   open-graph:

@@ -75,5 +75,6 @@ title: "Enterprise Service"
 
 Interested in learning more? We'd love to discuss your organization's needs.
 
+- Email: [ai@cooperation.tw](mailto:ai@cooperation.tw)
 - GitHub: [github.com/ai-cooperation](https://github.com/ai-cooperation)
 - Website: [cooperation.tw](https://cooperation.tw)
