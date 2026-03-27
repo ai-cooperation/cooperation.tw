@@ -100,10 +100,12 @@ Quarto → PPTX fully automated presentation generation. 12 template styles, 7 l
 :::
 
 ::: {.card}
-### More Skills Coming
-Research, Writing, Validation, Agent Flow... Every skill follows a standard structure and can be used by any AI agent framework.
+### 🦞 ClassClaw — Classroom Interaction System
+A new paradigm for interactive teaching. AI Agent assistant always online, real-time message wall, polls, and Q&A. Your phone is the remote — zero install, browser only.
 
-[View All Skills →](skills/index.qmd)
+🟡 Open source coming soon
+
+[Enter System →](https://ai100.cooperation.tw/classroom/host)
 :::
 
 :::
