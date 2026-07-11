@@ -326,7 +326,7 @@ projects:
   tagline: 從錄音到結構化會議紀錄的自動化流程，建置中
   audience: ''
   url: ''
-  image: proj-coming1.png
+  image: proj-coming.jpg
   cta: 敬請期待
 - id: taipower-data
   name: 電力資料應用
@@ -336,7 +336,7 @@ projects:
   tagline: 台電公開資料的分析與應用，建置中
   audience: ''
   url: ''
-  image: proj-coming2.png
+  image: proj-coming.jpg
   cta: 敬請期待
 - id: living-world-model
   name: Living World Model
@@ -346,5 +346,5 @@ projects:
   tagline: 研究型專案，建置中
   audience: ''
   url: ''
-  image: proj-coming1.png
+  image: proj-coming.jpg
   cta: 敬請期待

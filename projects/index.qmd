@@ -39,7 +39,7 @@ toc: false
 ```{=html}
 <div class="pgrid">
 <a class="pcard reveal-fx" href="/projects/paperlab.html"><img src="/assets/images/proj-paperlab.png" alt="PaperLab 寫論文找方法" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>PaperLab 寫論文找方法</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p><span class="pcard-cta">進入 PaperLab</span></div></a>
-<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming1.png" alt="Living World Model" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Living World Model</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">研究型專案，建置中</p></div></div>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming.jpg" alt="Living World Model" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Living World Model</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">研究型專案，建置中</p></div></div>
 </div>
 ```
 
@@ -51,7 +51,7 @@ toc: false
 <div class="pgrid">
 <a class="pcard reveal-fx" href="/projects/fluxgate.html"><img src="/assets/images/proj-fluxgate.jpg" alt="FluxGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>FluxGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件</p><span class="pcard-cta">查看服務</span></div></a>
 <a class="pcard reveal-fx" href="/projects/classclaw.html"><img src="/assets/images/proj-classclaw.jpg" alt="ClassClaw" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>ClassClaw</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">一支 QR code 就能開始的課堂即時互動系統，即將開源</p><span class="pcard-cta">查看系統</span></div></a>
-<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming1.png" alt="會議紀錄工作室" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>會議紀錄工作室</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">從錄音到結構化會議紀錄的自動化流程，建置中</p></div></div>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming.jpg" alt="會議紀錄工作室" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>會議紀錄工作室</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">從錄音到結構化會議紀錄的自動化流程，建置中</p></div></div>
 </div>
 ```
 
@@ -63,6 +63,6 @@ toc: false
 <div class="pgrid">
 <a class="pcard reveal-fx" href="/projects/foreclosure-map.html"><img src="/assets/images/proj-foreclosure.png" alt="法拍物件地圖" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>法拍物件地圖</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具</p><span class="pcard-cta">開啟地圖</span></div></a>
 <a class="pcard reveal-fx" href="/projects/sustainability-platform.html"><img src="/assets/images/proj-sustainability.png" alt="永續決策平台" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>永續決策平台</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">把永續數據整理成可以支撐決策的視覺化平台</p><span class="pcard-cta">進入平台</span></div></a>
-<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming2.png" alt="電力資料應用" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>電力資料應用</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">台電公開資料的分析與應用，建置中</p></div></div>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming.jpg" alt="電力資料應用" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>電力資料應用</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">台電公開資料的分析與應用，建置中</p></div></div>
 </div>
 ```
