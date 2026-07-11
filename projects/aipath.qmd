@@ -1,0 +1,25 @@
+---
+title: "AI 學習路徑"
+description: "從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
+```
+
+![AI 學習路徑](/assets/images/proj-aipath.png){.detail-hero}
+
+## 這是什麼
+
+從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾。
+
+## 給誰用
+
+想從使用 AI 進到與 AI 協作開發的學習者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
+```

@@ -1,0 +1,25 @@
+---
+title: "FluxGate"
+description: "建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
+```
+
+![FluxGate](/assets/images/proj-gemgate.png){.detail-hero}
+
+## 這是什麼
+
+建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件。
+
+## 給誰用
+
+需要輕量生圖 API 的開發者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://fluxgate.cooperation.tw/">查看服務</a>
+```

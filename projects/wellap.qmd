@@ -1,0 +1,25 @@
+---
+title: "WELL AP 學習站"
+description: "考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
+```
+
+![WELL AP 學習站](/assets/images/proj-coming2.png){.detail-hero}
+
+## 這是什麼
+
+考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統。
+
+## 給誰用
+
+WELL AP 認證考生。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="#">進入學習站</a>
+```

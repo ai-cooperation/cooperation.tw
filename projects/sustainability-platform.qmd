@@ -1,0 +1,25 @@
+---
+title: "永續決策平台"
+description: "把永續數據整理成可以支撐決策的視覺化平台"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">資料應用</span>
+```
+
+![永續決策平台](/assets/images/proj-sustainability.png){.detail-hero}
+
+## 這是什麼
+
+把永續數據整理成可以支撐決策的視覺化平台。
+
+## 給誰用
+
+永續決策者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://ai-cooperation.github.io/ai-sustainability-platform/">進入平台</a>
+```

@@ -1,0 +1,25 @@
+---
+title: "IFRS S2 永續合規知識庫"
+description: "188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
+```
+
+![IFRS S2 永續合規知識庫](/assets/images/proj-coming1.png){.detail-hero}
+
+## 這是什麼
+
+188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol。
+
+## 給誰用
+
+永續報告書編製者、合規顧問。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="#">了解系統</a>
+```

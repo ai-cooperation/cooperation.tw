@@ -1,0 +1,25 @@
+---
+title: "ClassClaw"
+description: "一支 QR code 就能開始的課堂即時互動系統，即將開源"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
+```
+
+![ClassClaw](/assets/images/proj-gemgate.png){.detail-hero}
+
+## 這是什麼
+
+一支 QR code 就能開始的課堂即時互動系統，即將開源。
+
+## 給誰用
+
+需要課堂互動工具的講師。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://ai100.cooperation.tw/classroom/host">查看系統</a>
+```

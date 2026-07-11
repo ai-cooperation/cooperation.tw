@@ -1,0 +1,25 @@
+---
+title: "GemGate"
+description: "統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
+```
+
+![GemGate](/assets/images/proj-gemgate.png){.detail-hero}
+
+## 這是什麼
+
+統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通。
+
+## 給誰用
+
+需要多模態 AI 能力的開發者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="http://43.159.131.124:8760/">查看服務</a>
+```

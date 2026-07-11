@@ -1,0 +1,43 @@
+---
+title: "課程"
+toc: false
+---
+
+不需要程式背景，但需要理解每一步的機制邏輯。每一門課教的方法，都來自站上真實運轉的系統。
+
+```{=html}
+<div class="course-card">
+<h3>AI 100 講</h3>
+<div class="course-meta"><span>10 模組 × 10 講</span><span>入門</span><span>線上自學</span><span>iPAS AI 應用規劃師導向</span></div>
+<p>把 AI 應用規劃師的知識體系拆成一百講，每講附中文 Podcast——通勤時聽完一講，回家對照教材動手。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
+</div>
+
+<div class="course-card">
+<h3>永續 100 講</h3>
+<div class="course-meta"><span>10 大主題</span><span>入門</span><span>線上自學</span><span>iPAS 淨零碳規劃師導向</span></div>
+<p>淨零碳排、ESG、碳交易的系統性知識。課程內容由 AI 驅動的生產流程製作——這條流程本身就是人機協作的示範。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
+</div>
+
+<div class="course-card">
+<h3>AI 學習路徑（Vibe Coding）</h3>
+<div class="course-meta"><span>三階段</span><span>入門到進階</span><span>實體工作坊</span></div>
+<p>從會用 AI 到能與 AI 協作開發。每一階段以做出真實作品收尾——作品上線，才算學會。</p>
+<a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
+</div>
+
+<div class="course-card">
+<h3>YOLO 視覺辨識</h3>
+<div class="course-meta"><span>實作課</span><span>進階</span></div>
+<p>用真實場景資料訓練自己的物件辨識模型，從標註、訓練到部署完整走一遍。</p>
+<a class="btn-primary" href="/projects/yolo-vision.html">課程介紹</a>
+</div>
+
+<div class="course-card">
+<h3>企業內訓</h3>
+<div class="course-meta"><span>客製</span><span>半日到多日</span></div>
+<p>把貴公司的工作流程轉譯成 AI 可以參與的形式。課程設計從實際業務場景出發，不教通用工具操作。</p>
+<a class="btn-primary" href="mailto:ai@cooperation.tw">課程洽詢</a>
+</div>
+```

@@ -1,0 +1,25 @@
+---
+title: "永續 100 講"
+description: "涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
+```
+
+![永續 100 講](/assets/images/proj-s100.png){.detail-hero}
+
+## 這是什麼
+
+涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範。
+
+## 給誰用
+
+永續從業者、iPAS 淨零碳規劃師考生。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
+```

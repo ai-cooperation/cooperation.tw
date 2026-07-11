@@ -1,0 +1,25 @@
+---
+title: "知識學習系統"
+description: "給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
+```
+
+![知識學習系統](/assets/images/proj-kb.png){.detail-hero}
+
+## 這是什麼
+
+給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積。
+
+## 給誰用
+
+專業從業者、證照考生。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://kb.cooperation.tw">進入系統</a>
+```

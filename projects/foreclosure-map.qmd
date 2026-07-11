@@ -1,0 +1,25 @@
+---
+title: "法拍物件地圖"
+description: "整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">資料應用</span>
+```
+
+![法拍物件地圖](/assets/images/proj-foreclosure.png){.detail-hero}
+
+## 這是什麼
+
+整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具。
+
+## 給誰用
+
+不動產從業者、投資研究者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://ai-cooperation.github.io/foreclosure-map/">開啟地圖</a>
+```

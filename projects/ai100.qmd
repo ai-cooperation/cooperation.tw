@@ -1,0 +1,25 @@
+---
+title: "AI 100 講"
+description: "十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
+```
+
+![AI 100 講](/assets/images/proj-ai100.png){.detail-hero}
+
+## 這是什麼
+
+十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast。
+
+## 給誰用
+
+準備 iPAS 認證的考生、想系統性補齊 AI 知識的在職者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
+```

@@ -1,0 +1,25 @@
+---
+title: "YOLO 視覺辨識課"
+description: "用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
+```
+
+![YOLO 視覺辨識課](/assets/images/proj-coming2.png){.detail-hero}
+
+## 這是什麼
+
+用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍。
+
+## 給誰用
+
+想進入電腦視覺應用的學習者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="#">課程介紹</a>
+```

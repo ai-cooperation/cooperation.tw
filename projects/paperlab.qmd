@@ -1,0 +1,25 @@
+---
+title: "PaperLab 寫論文找方法"
+description: "從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">研究工具</span>
+```
+
+![PaperLab 寫論文找方法](/assets/images/proj-paperlab.png){.detail-hero}
+
+## 這是什麼
+
+從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統。
+
+## 給誰用
+
+研究生、需要發表的專業者。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://paperlab.cooperation.tw">進入 PaperLab</a>
+```

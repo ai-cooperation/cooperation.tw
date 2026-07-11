@@ -1,0 +1,25 @@
+---
+title: "Agent KB 教學知識庫"
+description: "課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統"
+toc: false
+---
+
+```{=html}
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
+```
+
+![Agent KB 教學知識庫](/assets/images/proj-agent-kb.png){.detail-hero}
+
+## 這是什麼
+
+課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統。
+
+## 給誰用
+
+Vibe Coding 課程學員。
+
+## 入口
+
+```{=html}
+<a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
+```
