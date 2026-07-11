@@ -1,4 +1,10 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy to ai-cooperation.github.io
+
+# 部署架構（2026-07-11 改版定案）：
+# 本 repo = 唯一編輯處（Quarto source）
+# ai-cooperation.github.io repo = 純部署目標（main branch 內容由本 workflow 全量覆蓋）
+# 根網域 cooperation.tw 留在 github.io repo，其他 repo 的 /<repo>/ 子路徑網址不受影響
+# 憑證：deploy key（只能寫 github.io 一個 repo），secret ACTIONS_DEPLOY_KEY
 
 on:
   push:
@@ -7,15 +13,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: "deploy"
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,21 +28,26 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Setup Python for project generator
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate project pages from data/projects.yml
+        run: |
+          pip install pyyaml
+          python3 _scripts/gen_projects.py
+
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
+      - name: Add .nojekyll
+        run: touch _site/.nojekyll
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to ai-cooperation.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: ai-cooperation/ai-cooperation.github.io
+          publish_branch: main
+          publish_dir: ./_site

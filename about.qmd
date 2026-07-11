@@ -1,36 +1,22 @@
 ---
-title: "About AI Cooperation"
+title: "關於"
+pagetitle: "關於 — AI Cooperation"
+toc: false
 ---
 
-## Who We Are
+AI Cooperation 打造人機協作的基礎架構。
 
-AI Cooperation is a practice system that helps individuals and organizations learn to collaborate, operate, and continuously evolve with AI.
+我們相信：當 AI 變得人人可用，能力的差距不在智慧，在協作的架構——知識怎麼累積、流程怎麼串接、產出怎麼把關。這個站陳列的每個專案、每門課，都是每天在真實運轉的工作系統；課堂上教的方法，就是這些系統的建造方法。
 
-We are **Operator Designers** — not tool vendors, not SaaS platforms, not prompt engineering courses.
+## 這個站有什麼
 
-## Our Mission
+- [運行中的專案](/projects/)——教育課程、知識庫系統、研究工具、AI 基礎設施、資料應用五類，持續擴增
+- [課程](/courses/)——不需要程式背景，但需要理解每一步的機制邏輯
+- [Blog](/blog/)——工作方法與系統建造的紀錄
 
-> Make AI an organizational capability, not just a tool.
+## 聯絡我們
 
-We believe the biggest challenge in AI adoption isn't technology — it's **operation design**. Most organizations have access to powerful AI models, but lack the methodology to integrate them into real workflows.
+- Email：[ai@cooperation.tw](mailto:ai@cooperation.tw)
+- GitHub：[github.com/ai-cooperation](https://github.com/ai-cooperation)
 
-AI Cooperation bridges this gap by providing:
-
-1. **Methodology** — How to think about human-AI collaboration
-2. **Framework** — How to architect AI-augmented processes
-3. **Skill Modules** — Deployable, reusable AI capabilities
-4. **Lab** — Safe environments for learning and experimentation
-5. **Service** — Enterprise adoption support
-
-## Our Principles
-
-- **Not model-locked** — Works with any AI model
-- **Not tool-locked** — No vendor dependency
-- **Capability over automation** — We build human capability, not just automation
-- **Open and auditable** — All skill modules are open source
-- **Sustainable evolution** — Not a one-time deployment, but continuous growth
-
-## Connect
-
-- GitHub: [github.com/ai-cooperation](https://github.com/ai-cooperation)
-- Website: [cooperation.tw](https://cooperation.tw)
+課程洽詢、企業內訓、專案合作，來信皆可。

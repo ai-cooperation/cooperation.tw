@@ -5,7 +5,13 @@ project:
     - assets/demos/slides/**
     - assets/images/**
     - assets/videos/**
+    - assets/icon-*.png
+    - assets/apple-touch-icon.png
+    - assets/favicon.png
     - llms.txt
+    - robots.txt
+    - manifest.json
+    - CNAME
 
 website:
   title: "AI Cooperation"
@@ -48,6 +54,10 @@ format:
     include-in-header:
       text: |
         <script>document.documentElement.classList.add('js');</script>
+        <link rel="icon" type="image/png" href="/assets/favicon.png">
+        <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="theme-color" content="#0c0f14">
         <!-- Google tag (gtag.js) — cooperation.tw total -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-975S6707DM"></script>
         <script>
