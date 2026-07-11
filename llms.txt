@@ -13,7 +13,8 @@
 - [WELL AP 學習站](https://wellap.cooperation.tw/index.html): 考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統
 
 ### 知識庫系統
-- [知識學習系統](https://kb.cooperation.tw): 給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積
+- [保險業知識庫](https://insurance-kb.cooperation.tw): 覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識
+- [醫學知識庫](https://hematology-kb.pages.dev): 從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫
 - [IFRS S2 永續合規知識庫](https://ifrs-kb.cooperation.tw/): 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
 - [Agent KB 教學知識庫](https://agent-kb.cooperation.tw): 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
 
@@ -21,7 +22,6 @@
 - [PaperLab 寫論文找方法](https://paperlab.cooperation.tw): 從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統
 
 ### AI 基礎設施
-- [GemGate](http://43.159.131.124:8760/): 統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通
 - [FluxGate](https://fluxgate.cooperation.tw/): 建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件
 - [ClassClaw](https://ai100.cooperation.tw/classroom/host): 一支 QR code 就能開始的課堂即時互動系統，即將開源
 

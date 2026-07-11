@@ -24,8 +24,12 @@ toc: false
 <p>講師開一個房間，學員掃 QR code 即入，投票、搶答、意見牆即時同步。不用安裝、不用註冊，用完即散。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>學員進場只要掃碼，三秒開始互動</li><li>講師端即時看到全場回應分布</li><li>即將開源——可以自己部署、自己改</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>架在 Cloudflare 上的網頁應用，學員端零安裝、掃碼即入</li><li>房間制 session 模型，即時同步全場回應</li><li>規劃開源釋出——可自行部署、自行修改</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>學員進場只要掃碼，三秒開始互動，課堂節奏不被工具打斷</li><li>講師端即時看到全場回應分布</li><li>開源後可自己部署，不被平台方案綁住</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

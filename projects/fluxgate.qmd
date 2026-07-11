@@ -21,11 +21,15 @@ toc: false
 </section>
 <section class="detail-block reveal-fx">
 <h2>這個系統怎麼解</h2>
-<p>架在 Cloudflare Workers 上的輕量生圖閘道：提交需求立刻拿到 job id，幾十秒後輪詢取件。無伺服器架構，沒有維運負擔。</p>
+<p>輕量生圖閘道：提交需求立刻拿到 job id，幾十秒後輪詢取件。無伺服器架構，沒有維運負擔，站上多個專案的配圖由它供應。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>兩個 API 就能用：提交、取件</li><li>無伺服器，不用管擴容與待機成本</li><li>適合教學與原型——課堂上示範的就是這一套</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>整體架構跑在 Cloudflare Workers，無伺服器、零待機成本</li><li>生圖模型用 Workers AI 上的 FLUX.1-schnell</li><li>非同步 job 機制：提交回 job id，輪詢取件，狀態存 Cloudflare 儲存服務</li><li>提供 MCP 工具介面，AI 助手可直接呼叫生圖</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>兩個 API 就能用：提交、取件，不綁 SDK</li><li>不用管 GPU、擴容與待機成本</li><li>你的 AI 助手可以直接生圖——MCP 介面接上就能用</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

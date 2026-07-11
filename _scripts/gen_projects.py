@@ -75,7 +75,7 @@ def gen_detail(p, cat):
     entry_btn = ""
     if p.get("url") and p["url"] != "#":
         entry_btn = f'<a class="btn-primary" href="{p["url"]}">{p["cta"]}</a>'
-    gains_html = "".join(f"<li>{g}</li>" for g in p.get("gains", []))
+    gains_html = "".join(f"<li>{g}</li>" for g in p.get("solves", []))
     audience_html = ""
     if p.get("audience"):
         audience_html = f'<p class="detail-audience">適合：{p["audience"]}</p>'
@@ -114,10 +114,18 @@ def gen_detail(p, cat):
             f"<p>{p['how']}</p>",
             "</section>",
         ]
+    tech_html = "".join(f"<li>{t}</li>" for t in p.get("tech", []))
+    if tech_html:
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>技術架構</h2>",
+            f'<ul class="detail-gains">{tech_html}</ul>',
+            "</section>",
+        ]
     if gains_html:
         lines += [
             '<section class="detail-block reveal-fx">',
-            "<h2>你會得到什麼</h2>",
+            "<h2>用了之後，解決什麼</h2>",
             f'<ul class="detail-gains">{gains_html}</ul>',
             "</section>",
         ]

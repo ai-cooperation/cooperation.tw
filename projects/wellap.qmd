@@ -24,8 +24,12 @@ toc: false
 <p>把考古題逐題解析、按概念分類成題庫，配合整理過的中文講義。先讀講義建立概念，再用題庫驗證，錯題回頭對應講義段落。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>中文解析的考古題庫，逐題附考點說明</li><li>講義與題目互相對應，弱點看得見</li><li>線上系統隨時可練，進度保留</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>學習站部署在 Cloudflare Pages，附登入驗證閘管理存取</li><li>題庫由考古題經 LLM 解析起草、逐題人工校對後入庫</li><li>題目與講義段落建立雙向對應索引</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>中文備考資源從零到有——講義與題庫都是中文解析</li><li>考點分布看得見，讀書時間花在對的章節</li><li>錯題直接連回觀念，不用自己翻手冊找</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

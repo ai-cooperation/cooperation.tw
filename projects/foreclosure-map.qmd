@@ -24,8 +24,12 @@ toc: false
 <p>自動化爬蟲定期收集各法院公告，統一格式後上地圖。按區域、價格帶、拍次直接篩，點物件看完整公告內容。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>全台法拍物件一張地圖看完，不用逐一翻法院網站</li><li>地理位置與周邊環境一目瞭然</li><li>資料定期自動更新</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>排程爬蟲收集 22 間法院公告，統一資料格式</li><li>地址經地理編碼轉成座標上圖（含跨縣市同名路段的錯置防護）</li><li>前端地圖介面部署在 GitHub Pages，純靜態、免費運行</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>全台法拍物件一張地圖看完，不用逐一翻法院網站</li><li>區域、價格帶、拍次直接篩，研究效率是人工翻找的量級差</li><li>資料定期自動更新，看到的就是最新公告</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

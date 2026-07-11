@@ -24,8 +24,12 @@ toc: false
 <p>三個階段的實體工作坊：從對話出作品、到建立自己的工具箱、到能獨立完成一個上線系統。每一階段的驗收標準只有一個——真實作品上線。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>不需要程式背景，從第一堂課就在做真實的東西</li><li>作品上線才算過關，學完手上就有可以展示的成果</li><li>課堂用的工具鏈就是站上這些系統實際使用的同一套</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>路徑站部署在 Cloudflare Pages</li><li>課堂工具鏈：Claude Code 等 AI CLI、GitHub 版本控制、Cloudflare Pages 一鍵部署</li><li>配套 Agent KB 教學知識庫，課堂案例與工作流可隨時回查</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>斷層被拆成三個可跨越的台階，每階有明確驗收</li><li>學完手上有上線作品，不是一疊筆記</li><li>課堂用的工具鏈就是業界實際在用的那一套</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

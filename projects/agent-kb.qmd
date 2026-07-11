@@ -24,8 +24,12 @@ toc: false
 <p>把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>課堂案例含完整踩坑脈絡，不是只有結論</li><li>概念查詢即開即用，複習成本降到最低</li><li>私人筆記與公開教材分開，累積自己的知識庫</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>前後端部署在 Cloudflare（Pages + Workers）</li><li>MCP server 介面：學員的 AI 助手可直連知識庫查案例、查概念</li><li>私人筆記與公開教材權限分離，個人資料只有本人可見</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>課堂案例含完整踩坑脈絡，回家還原得出來</li><li>概念查詢即開即用，複習成本降到最低</li><li>你的 AI 助手也查得到——上課學的工作流直接在自己環境重現</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

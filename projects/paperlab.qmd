@@ -24,8 +24,12 @@ toc: false
 <p>引導式對話把模糊想法收斂成結構化的研究契約——題目、研究問題、資料來源、方法逐項確認且資料源當場驗證可得，再交給自動化 pipeline 執行文獻回顧、真實實驗與初稿撰寫。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>題目發想有框架，不再空想——每一步都有選項與建議</li><li>資料來源先驗證再開工，避免做到一半發現資料拿不到</li><li>產出的初稿附完整實驗紀錄，數字可追溯</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>對話端走 MCP server：AI 助手引導題目收斂，資料源當場 probe 驗證可得性</li><li>文獻引用經 CrossRef、OpenAlex、Semantic Scholar 三方 API 驗證，杜絕假引用</li><li>後端 pipeline 分階段執行：文獻回顧、實驗、統計檢定、稿件撰寫，全程留檔可追溯</li><li>稿件以 Quarto 渲染成期刊格式 PDF</li><li>機械稽核閘檢查數字溯源與引用覆蓋，不合格擋下重跑</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>題目發想有框架，不再空想——每一步都有選項與建議</li><li>資料來源先驗證再開工，不會做到一半發現資料拿不到</li><li>初稿的每個數字可追溯到實際跑出的實驗輸出，引用全數驗證過</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

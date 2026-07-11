@@ -1,0 +1,41 @@
+---
+pagetitle: "醫學知識庫 — AI Cooperation"
+description: "從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
+<h1>醫學知識庫</h1>
+<p class="detail-tagline">從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫</p>
+<p class="detail-audience">適合：醫學專科從業者、醫事人員</p>
+<a class="btn-primary" href="https://hematology-kb.pages.dev">進入知識庫</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-coming1.png" alt="醫學知識庫">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>專科文獻更新速度遠超過人力閱讀速度——臨床工作者沒有時間逐篇追蹤，但落後的知識直接影響判斷品質。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>自動化管線定期從醫學文獻庫收集專科論文，蒸餾成結構化條目與主題整理，所有內容附原始文獻出處，供從業者快速查閱與回溯。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>文獻收集管線對接 PubMed 等公開文獻庫</li><li>LLM 蒸餾與結構化，條目附 DOI 與原文連結</li><li>前端部署在 Cloudflare Pages</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>追文獻的時間成本大幅下降——管線先讀，你看蒸餾後的結構</li><li>每條內容可回溯原始論文，臨床引用有據</li><li>知識持續累積成庫，不是一次性的閱讀筆記</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>進入知識庫，從你的專科主題開始瀏覽。</p>
+<a class="btn-primary" href="https://hematology-kb.pages.dev">進入知識庫</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
+```

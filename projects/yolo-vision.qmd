@@ -21,11 +21,15 @@ toc: false
 </section>
 <section class="detail-block reveal-fx">
 <h2>這個系統怎麼解</h2>
-<p>用你自己場景的照片當資料，從標註、訓練、驗證到部署，完整走一遍 YOLO 的實作流程。每一步都講清楚為什麼這樣做，不是照著按。</p>
+<p>用你自己場景的照片當資料，從標註、訓練、驗證到部署，完整走一遍物件辨識的實作流程。每一步都講清楚為什麼這樣做，不是照著按。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>課程結束時你有一個用自己資料訓練出來的可用模型</li><li>理解資料品質、標註策略對辨識效果的實際影響</li><li>部署環節直接對接真實使用場景</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>以 Ultralytics YOLO 系列模型為主軸</li><li>涵蓋資料標註工具、GPU 訓練環境設定、模型匯出與部署</li><li>課程教材開放在課程站，範例資料集可直接下載</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>課程結束時你有一個用自己資料訓練出來的可用模型</li><li>看得懂資料品質與標註策略對辨識效果的實際影響</li><li>部署環節直接對接真實使用場景，不是停在 notebook</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

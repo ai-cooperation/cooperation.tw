@@ -44,10 +44,10 @@ toc: false
 <div class="pcard-body"><div class="pcard-head"><h3>AI 100 講</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">十個模組、一百講的 AI 應用課程，每講附中文 Podcast</p></div>
 </a>
-<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/kb.html">
-<img src="/assets/images/proj-kb.png" alt="知識學習系統" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>知識學習系統</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">給專業從業者與證照考生的領域知識庫，每天自動累積</p></div>
+<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/insurance-kb.html">
+<img src="/assets/images/proj-kb.png" alt="保險業知識庫" loading="lazy">
+<div class="pcard-body"><div class="pcard-head"><h3>保險業知識庫</h3><span class="badge badge-live">運行中</span></div>
+<p class="pcard-tagline">覆蓋台日韓港與東南亞的保險市場情報，每天自動累積</p></div>
 </a>
 <a class="pcard reveal-fx" style="--rd:.16s" href="/projects/ifrs-s2.html">
 <img src="/assets/images/proj-coming1.png" alt="IFRS S2 知識庫" loading="lazy">

@@ -24,8 +24,12 @@ toc: false
 <p>把整個知識體系拆成 10 個模組、每模組 10 講。每一講一個主題、附中文 Podcast——通勤時聽完一講，回家對照教材複習，一百天走完一輪完整體系。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>完整對應 iPAS AI 應用規劃師的考科範圍，不用自己拼湊教材</li><li>每講附中文 Podcast，通勤、運動時間就是學習時間</li><li>全部內容免費開放，進度自己掌握</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理</li><li>講次內容由 LLM 協作管線起草、人工審校後上線</li><li>每講 Podcast 音訊由 TTS 模型批次合成</li><li>Google Analytics 與 Microsoft Clarity 追蹤學習行為</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>不用自己拼湊教材——考科範圍已拆成一百個可完成的單位</li><li>沒有整塊時間也能推進——通勤聽 Podcast 就是進度</li><li>零費用開始，不用先賭一筆學費</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

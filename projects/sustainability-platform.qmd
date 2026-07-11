@@ -24,8 +24,12 @@ toc: false
 <p>把公開的永續數據源整合成視覺化儀表板，決策相關的指標放在同一個畫面上對照。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>關鍵永續指標一站瀏覽</li><li>視覺化呈現，會議上直接可用</li><li>資料來源公開可查</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>公開數據源整理成結構化資料集</li><li>視覺化前端部署在 GitHub Pages</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>關鍵永續指標一站瀏覽，開會直接投影可用</li><li>資料來源公開可查，數字有出處</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>

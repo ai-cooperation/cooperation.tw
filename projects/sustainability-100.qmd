@@ -24,8 +24,12 @@ toc: false
 <p>十大主題、一百講，從氣候科學基礎到碳交易實務逐層展開。內容由 AI 驅動的生產流程製作、人工把關——這條流程本身，就是人機協作的實際示範。</p>
 </section>
 <section class="detail-block reveal-fx">
-<h2>你會得到什麼</h2>
-<ul class="detail-gains"><li>一套從基礎到實務的完整知識地圖，對應 iPAS 淨零碳規劃師考科</li><li>每講聚焦一個概念，可以按需查閱，也可以按順序修完</li><li>內容持續更新，跟上制度變動</li></ul>
+<h2>技術架構</h2>
+<ul class="detail-gains"><li>靜態課程站部署在 GitHub Pages</li><li>內容生產走 LLM 管線：資料蒐集、起草、名詞一致性掃描、人工終審</li><li>引用的制度與數據標注來源，定期對照官方文件更新</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>用了之後，解決什麼</h2>
+<ul class="detail-gains"><li>名詞不再各說各話——一百講建立同一套概念地圖</li><li>考 iPAS 淨零碳規劃師有對應教材可循</li><li>制度變動有人追——內容隨官方文件更新</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>
