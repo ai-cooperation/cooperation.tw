@@ -3,6 +3,8 @@ project:
   output-dir: _site
   resources:
     - assets/demos/slides/**
+    - assets/images/**
+    - assets/videos/**
     - llms.txt
 
 website:
@@ -14,16 +16,13 @@ website:
   navbar:
     background: "#0c0f14"
     foreground: "#f4f6f8"
+    title: false
     logo: assets/logo.svg
     left:
       - text: "專案"
         href: projects/index.qmd
       - text: "課程"
         href: courses/index.qmd
-      - text: "方法論"
-        href: methodology/index.qmd
-      - text: "Blog"
-        href: blog/index.qmd
       - text: "關於"
         href: about.qmd
     right:
@@ -33,7 +32,7 @@ website:
         href: https://github.com/ai-cooperation
 
   page-footer:
-    center: "AI Cooperation | cooperation.tw | [聯絡我們](mailto:ai@cooperation.tw)"
+    center: "AI Cooperation | cooperation.tw | [Blog](/blog/) | [聯絡我們](mailto:ai@cooperation.tw)"
     background: "#0c0f14"
 
   open-graph:
@@ -48,6 +47,7 @@ format:
     lang: zh-TW
     include-in-header:
       text: |
+        <script>document.documentElement.classList.add('js');</script>
         <!-- Google tag (gtag.js) — cooperation.tw total -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-975S6707DM"></script>
         <script>
@@ -63,4 +63,12 @@ format:
           t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "w905wid7rj");
+        </script>
+    include-after-body:
+      text: |
+        <script>
+        (function(){var els=document.querySelectorAll('.reveal-fx');if(!els.length)return;
+          if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+          var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+          els.forEach(function(e){io.observe(e);});})();
         </script>

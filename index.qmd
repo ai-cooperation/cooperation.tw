@@ -7,27 +7,29 @@ toc: false
 ```{=html}
 <section class="hero">
 <div class="hero-inner">
-<h1>打造人機協作<br>的基礎架構</h1>
-<p class="hero-sub">智慧人人可用，差距在協作的架構<br>這裡的每個專案、每門課，都在真實運轉</p>
-<div class="hero-cta">
+<h1 class="reveal-fx">打造人機協作<br>的基礎架構</h1>
+<p class="hero-sub reveal-fx" style="--rd:.15s">智慧人人可用，差距在協作的架構<br>這裡的每個專案、每門課，都在真實運轉</p>
+<div class="hero-cta reveal-fx" style="--rd:.3s">
 <a class="btn-primary" href="/projects/">看運行中的專案</a>
 <a class="btn-ghost" href="/courses/">從課程開始</a>
 </div>
 </div>
 </section>
 
+<div class="pulse-rail" aria-hidden="true"></div>
+
 <section class="home-section">
-<h2>最新動態</h2>
+<h2 class="reveal-fx">最新動態</h2>
 <div class="news-list">
-<a class="news-item" href="/projects/ifrs-s2.html">
+<a class="news-item reveal-fx" href="/projects/ifrs-s2.html">
 <span class="news-tag">新專案</span>
 <span class="news-title">IFRS S2 永續合規知識庫上線——188 份文件、逐條可勾稽的差距分析</span>
 </a>
-<a class="news-item" href="/projects/classclaw.html">
+<a class="news-item reveal-fx" style="--rd:.1s" href="/projects/classclaw.html">
 <span class="news-tag">開源預告</span>
 <span class="news-title">ClassClaw 課堂即時互動系統，即將開源</span>
 </a>
-<a class="news-item" href="/blog/">
+<a class="news-item reveal-fx" style="--rd:.2s" href="/blog/">
 <span class="news-tag">文章</span>
 <span class="news-title">什麼是 AI Operation——從工具使用到協作架構</span>
 </a>
@@ -35,34 +37,34 @@ toc: false
 </section>
 
 <section class="home-section">
-<h2>精選專案</h2>
+<h2 class="reveal-fx">精選專案</h2>
 <div class="pgrid">
-<a class="pcard" href="/projects/ai100.html">
+<a class="pcard reveal-fx" href="/projects/ai100.html">
 <img src="/assets/images/proj-ai100.png" alt="AI 100 講" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>AI 100 講</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">十個模組、一百講的 AI 應用課程，每講附中文 Podcast</p></div>
 </a>
-<a class="pcard" href="/projects/kb.html">
+<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/kb.html">
 <img src="/assets/images/proj-kb.png" alt="知識學習系統" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>知識學習系統</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">給專業從業者與證照考生的領域知識庫，每天自動累積</p></div>
 </a>
-<a class="pcard" href="/projects/ifrs-s2.html">
+<a class="pcard reveal-fx" style="--rd:.16s" href="/projects/ifrs-s2.html">
 <img src="/assets/images/proj-coming1.png" alt="IFRS S2 知識庫" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>IFRS S2 合規知識庫</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">永續揭露差距分析，188 份文件逐條可勾稽</p></div>
 </a>
-<a class="pcard" href="/projects/paperlab.html">
+<a class="pcard reveal-fx" href="/projects/paperlab.html">
 <img src="/assets/images/proj-paperlab.png" alt="PaperLab" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>PaperLab</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">從模糊想法到研究計畫與論文初稿的生產系統</p></div>
 </a>
-<a class="pcard" href="/projects/sustainability-100.html">
+<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/sustainability-100.html">
 <img src="/assets/images/proj-s100.png" alt="永續 100 講" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>永續 100 講</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">淨零碳排、ESG、碳交易十大主題的永續知識系列</p></div>
 </a>
-<a class="pcard pcard-more" href="/projects/">
+<a class="pcard pcard-more reveal-fx" style="--rd:.16s" href="/projects/">
 <div class="pcard-body pcard-more-body">
 <h3>全部專案</h3>
 <p class="pcard-tagline">五個分類，持續擴增</p>
@@ -73,9 +75,18 @@ toc: false
 </section>
 
 <section class="home-section">
-<h2>課程</h2>
-<p class="section-lead">不需要程式背景，但需要理解每一步的機制邏輯。</p>
-<div class="course-row">
+<h2 class="reveal-fx">為什麼合作比智慧更重要</h2>
+<div class="video-wrap reveal-fx">
+<video controls preload="none" poster="/assets/images/video-brand.png">
+<source src="/assets/videos/brand-film.mp4" type="video/mp4">
+</video>
+</div>
+</section>
+
+<section class="home-section">
+<h2 class="reveal-fx">課程</h2>
+<p class="section-lead reveal-fx">不需要程式背景，但需要理解每一步的機制邏輯。</p>
+<div class="course-row reveal-fx" style="--rd:.1s">
 <a class="course-chip" href="/courses/">AI 100 講</a>
 <a class="course-chip" href="/courses/">永續 100 講</a>
 <a class="course-chip" href="/courses/">AI 學習路徑</a>
@@ -84,14 +95,9 @@ toc: false
 </div>
 </section>
 
-<section class="home-section methodology-strip">
-<h2>方法論</h2>
-<p class="section-lead">已完成，代表已驗證可用。站上每個系統的建造方法、驗證原則與失敗案例，都公開在方法論頁。</p>
-<a class="btn-ghost" href="/methodology/">閱讀方法論</a>
-</section>
-
 <section class="vision">
-<p class="vision-text">
+<div class="vision-scrim"></div>
+<p class="vision-text reveal-fx">
 當 AI 變得人人可用<br>
 能力的差距將不只在智慧<br>
 你只管勇往直前<br>

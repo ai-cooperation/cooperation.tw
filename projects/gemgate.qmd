@@ -1,25 +1,37 @@
 ---
-title: "GemGate"
+pagetitle: "GemGate — AI Cooperation"
 description: "統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
-```
-
-![GemGate](/assets/images/proj-gemgate.png){.detail-hero}
-
-## 這是什麼
-
-統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通。
-
-## 給誰用
-
-需要多模態 AI 能力的開發者。
-
-## 入口
-
-```{=html}
+<h1>GemGate</h1>
+<p class="detail-tagline">統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通</p>
+<p class="detail-audience">適合：需要多模態 AI 能力的開發者</p>
 <a class="btn-primary" href="http://43.159.131.124:8760/">查看服務</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-gemgate.png" alt="GemGate">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>生圖、影片、語音各家服務的 API 格式、認證、額度規則都不同，每接一個服務就是一次重工，維護成本隨服務數量疊加。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>一個閘道統一所有多模態能力：同一組 API 格式呼叫生圖、影片、Podcast、語音合成與網頁擷取，閘道內部處理路由、額度與重試。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>接一次，拿到全部多模態能力</li><li>非同步任務統一用 job 機制輪詢，不用管各家差異</li><li>站上多個專案的配圖與音訊都由它供應——它本身就在生產環境跑</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>查看服務頁的 API 文件，用一個生圖請求試手。</p>
+<a class="btn-primary" href="http://43.159.131.124:8760/">查看服務</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

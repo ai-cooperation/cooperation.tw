@@ -1,25 +1,37 @@
 ---
-title: "法拍物件地圖"
+pagetitle: "法拍物件地圖 — AI Cooperation"
 description: "整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">資料應用</span>
-```
-
-![法拍物件地圖](/assets/images/proj-foreclosure.png){.detail-hero}
-
-## 這是什麼
-
-整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具。
-
-## 給誰用
-
-不動產從業者、投資研究者。
-
-## 入口
-
-```{=html}
+<h1>法拍物件地圖</h1>
+<p class="detail-tagline">整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具</p>
+<p class="detail-audience">適合：不動產從業者、投資研究者</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/foreclosure-map/">開啟地圖</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-foreclosure.png" alt="法拍物件地圖">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>法拍公告分散在全台 22 間法院各自的系統，格式不一、沒有地圖、不能篩選——研究一個區域的法拍物件要人工翻遍各法院網站。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>自動化爬蟲定期收集各法院公告，統一格式後上地圖。按區域、價格帶、拍次直接篩，點物件看完整公告內容。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>全台法拍物件一張地圖看完，不用逐一翻法院網站</li><li>地理位置與周邊環境一目瞭然</li><li>資料定期自動更新</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>開啟地圖，縮放到你關注的區域。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/foreclosure-map/">開啟地圖</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

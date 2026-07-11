@@ -1,25 +1,37 @@
 ---
-title: "AI 學習路徑"
+pagetitle: "AI 學習路徑 — AI Cooperation"
 description: "從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
-```
-
-![AI 學習路徑](/assets/images/proj-aipath.png){.detail-hero}
-
-## 這是什麼
-
-從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾。
-
-## 給誰用
-
-想從使用 AI 進到與 AI 協作開發的學習者。
-
-## 入口
-
-```{=html}
+<h1>AI 學習路徑</h1>
+<p class="detail-tagline">從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾</p>
+<p class="detail-audience">適合：想從使用 AI 進到與 AI 協作開發的學習者</p>
 <a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-aipath.png" alt="AI 學習路徑">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>會用 ChatGPT 和「能與 AI 一起把系統做出來」之間有一條斷層。多數教學停在提示詞技巧，學完還是做不出可以上線的東西。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>三個階段的實體工作坊：從對話出作品、到建立自己的工具箱、到能獨立完成一個上線系統。每一階段的驗收標準只有一個——真實作品上線。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>不需要程式背景，從第一堂課就在做真實的東西</li><li>作品上線才算過關，學完手上就有可以展示的成果</li><li>課堂用的工具鏈就是站上這些系統實際使用的同一套</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>到路徑頁看三階段的說明與最近開課時間，從 Stage 1 開始。</p>
+<a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

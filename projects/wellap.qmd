@@ -1,25 +1,37 @@
 ---
-title: "WELL AP 學習站"
+pagetitle: "WELL AP 學習站 — AI Cooperation"
 description: "考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
-```
-
-![WELL AP 學習站](/assets/images/proj-coming2.png){.detail-hero}
-
-## 這是什麼
-
-考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統。
-
-## 給誰用
-
-WELL AP 認證考生。
-
-## 入口
-
-```{=html}
-<a class="btn-primary" href="#">進入學習站</a>
+<h1>WELL AP 學習站</h1>
+<p class="detail-tagline">考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p>
+<p class="detail-audience">適合：WELL AP 認證考生</p>
+<a class="btn-primary" href="https://wellap.cooperation.tw/index.html">進入學習站</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-coming2.png" alt="WELL AP 學習站">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>WELL AP 是健康建築領域的國際認證，但中文備考資源極少——考生面對英文題庫和厚重概念手冊，不知道從哪裡下手、考點在哪裡。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>把考古題逐題解析、按概念分類成題庫，配合整理過的中文講義。先讀講義建立概念，再用題庫驗證，錯題回頭對應講義段落。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>中文解析的考古題庫，逐題附考點說明</li><li>講義與題目互相對應，弱點看得見</li><li>線上系統隨時可練，進度保留</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>登入學習站，先做一輪診斷測驗看自己的起點。</p>
+<a class="btn-primary" href="https://wellap.cooperation.tw/index.html">進入學習站</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

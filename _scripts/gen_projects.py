@@ -38,8 +38,8 @@ def card_html(p):
         f'<p class="pcard-tagline">{p["tagline"]}</p>{cta}</div>'
     )
     if coming:
-        return f'<div class="pcard pcard-coming">{inner}\n</div>'
-    return f'<a class="pcard" href="/projects/{p["id"]}.html">{inner}\n</a>'
+        return f'<div class="pcard pcard-coming reveal-fx">{inner}</div>'
+    return f'<a class="pcard reveal-fx" href="/projects/{p["id"]}.html">{inner}</a>'
 
 
 def gen_listing(data):
@@ -72,36 +72,69 @@ def gen_listing(data):
 
 def gen_detail(p, cat):
     status = STATUS_LABEL.get(p["status"], p["status"])
+    entry_btn = ""
+    if p.get("url") and p["url"] != "#":
+        entry_btn = f'<a class="btn-primary" href="{p["url"]}">{p["cta"]}</a>'
+    gains_html = "".join(f"<li>{g}</li>" for g in p.get("gains", []))
+    audience_html = ""
+    if p.get("audience"):
+        audience_html = f'<p class="detail-audience">適合：{p["audience"]}</p>'
     lines = [
         "---",
-        f'title: "{p["name"]}"',
+        f'pagetitle: "{p["name"]} — AI Cooperation"',
         f'description: "{p["tagline"]}"',
+        "page-layout: custom",
         "toc: false",
         "---",
         "",
         "```{=html}",
+        '<article class="detail">',
+        '<header class="detail-head reveal-fx">',
         f'<span class="badge badge-{p["status"]}">{status}</span>'
         f' <span class="badge badge-cat">{cat["name"]}</span>',
+        f'<h1>{p["name"]}</h1>',
+        f'<p class="detail-tagline">{p["tagline"]}</p>',
+        audience_html,
+        f'{entry_btn}',
+        "</header>",
+        f'<img class="detail-hero reveal-fx" src="/assets/images/{p["image"]}"'
+        f' alt="{p["name"]}">',
+    ]
+    if p.get("problem"):
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>你可能正卡在這裡</h2>",
+            f"<p>{p['problem']}</p>",
+            "</section>",
+        ]
+    if p.get("how"):
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>這個系統怎麼解</h2>",
+            f"<p>{p['how']}</p>",
+            "</section>",
+        ]
+    if gains_html:
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>你會得到什麼</h2>",
+            f'<ul class="detail-gains">{gains_html}</ul>',
+            "</section>",
+        ]
+    if p.get("start"):
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>怎麼開始</h2>",
+            f"<p>{p['start']}</p>",
+            f'{entry_btn}',
+            "</section>",
+        ]
+    lines += [
+        '<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>',
+        "</article>",
         "```",
         "",
-        f"![{p['name']}](/assets/images/{p['image']}){{.detail-hero}}",
-        "",
-        "## 這是什麼",
-        "",
-        p["tagline"] + "。",
-        "",
     ]
-    if p.get("audience"):
-        lines += ["## 給誰用", "", p["audience"] + "。", ""]
-    if p.get("url"):
-        lines += [
-            "## 入口",
-            "",
-            "```{=html}",
-            f'<a class="btn-primary" href="{p["url"]}">{p["cta"]}</a>',
-            "```",
-            "",
-        ]
     (OUT_DIR / f'{p["id"]}.qmd').write_text("\n".join(lines), encoding="utf-8")
 
 

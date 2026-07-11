@@ -1,25 +1,37 @@
 ---
-title: "永續 100 講"
+pagetitle: "永續 100 講 — AI Cooperation"
 description: "涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
-```
-
-![永續 100 講](/assets/images/proj-s100.png){.detail-hero}
-
-## 這是什麼
-
-涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範。
-
-## 給誰用
-
-永續從業者、iPAS 淨零碳規劃師考生。
-
-## 入口
-
-```{=html}
+<h1>永續 100 講</h1>
+<p class="detail-tagline">涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範</p>
+<p class="detail-audience">適合：永續從業者、iPAS 淨零碳規劃師考生</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-s100.png" alt="永續 100 講">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>永續領域名詞爆炸——淨零、碳中和、ESG、CBAM、SBTi，每個詞背後是一套制度。從業者被要求「懂永續」，卻沒有一套從零到能對話的系統性教材。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>十大主題、一百講，從氣候科學基礎到碳交易實務逐層展開。內容由 AI 驅動的生產流程製作、人工把關——這條流程本身，就是人機協作的實際示範。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>一套從基礎到實務的完整知識地圖，對應 iPAS 淨零碳規劃師考科</li><li>每講聚焦一個概念，可以按需查閱，也可以按順序修完</li><li>內容持續更新，跟上制度變動</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>從第一講的氣候科學基礎開始，或用主題目錄直接跳到你工作上正在碰的題目。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

@@ -1,25 +1,37 @@
 ---
-title: "IFRS S2 永續合規知識庫"
+pagetitle: "IFRS S2 永續合規知識庫 — AI Cooperation"
 description: "188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
-```
-
-![IFRS S2 永續合規知識庫](/assets/images/proj-coming1.png){.detail-hero}
-
-## 這是什麼
-
-188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol。
-
-## 給誰用
-
-永續報告書編製者、合規顧問。
-
-## 入口
-
-```{=html}
-<a class="btn-primary" href="#">了解系統</a>
+<h1>IFRS S2 永續合規知識庫</h1>
+<p class="detail-tagline">188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p>
+<p class="detail-audience">適合：永續報告書編製者、合規顧問</p>
+<a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-coming1.png" alt="IFRS S2 永續合規知識庫">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>永續報告書要同時符合 IFRS S2、TWSE 附表、GHG Protocol 多套框架，人工逐條比對一份報告書要花數天，還容易漏——漏一條就是合規風險。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>188 份法規與指引文件建成可檢索的知識庫，上傳報告書後系統逐條勾稽：每一條要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，輸出差距分析與補強優先序。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>數天的人工比對縮短成一次系統性掃描</li><li>每條判定都有出處，稽核等級的可追溯性</li><li>缺漏清單直接變成報告書改版工作清單</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>進入系統，用一份現成的永續報告書跑一次差距分析。</p>
+<a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

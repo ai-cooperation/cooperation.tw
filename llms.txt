@@ -9,12 +9,12 @@
 - [AI 100 講](https://ai-cooperation.github.io/ai100/): 十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast
 - [永續 100 講](https://ai-cooperation.github.io/sustainability-100/): 涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範
 - [AI 學習路徑](https://aipath.cooperation.tw): 從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾
-- [YOLO 視覺辨識課](https://cooperation.tw/projects/yolo-vision.html): 用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍
-- [WELL AP 學習站](https://cooperation.tw/projects/wellap.html): 考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統
+- [YOLO 視覺辨識課](https://cooperation.tw/yolo-vision-course/index.html): 用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍
+- [WELL AP 學習站](https://wellap.cooperation.tw/index.html): 考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統
 
 ### 知識庫系統
 - [知識學習系統](https://kb.cooperation.tw): 給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積
-- [IFRS S2 永續合規知識庫](https://cooperation.tw/projects/ifrs-s2.html): 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
+- [IFRS S2 永續合規知識庫](https://ifrs-kb.cooperation.tw/): 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
 - [Agent KB 教學知識庫](https://agent-kb.cooperation.tw): 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
 
 ### 研究工具

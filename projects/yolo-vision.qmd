@@ -1,25 +1,37 @@
 ---
-title: "YOLO 視覺辨識課"
+pagetitle: "YOLO 視覺辨識課 — AI Cooperation"
 description: "用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
-```
-
-![YOLO 視覺辨識課](/assets/images/proj-coming2.png){.detail-hero}
-
-## 這是什麼
-
-用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍。
-
-## 給誰用
-
-想進入電腦視覺應用的學習者。
-
-## 入口
-
-```{=html}
-<a class="btn-primary" href="#">課程介紹</a>
+<h1>YOLO 視覺辨識課</h1>
+<p class="detail-tagline">用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍</p>
+<p class="detail-audience">適合：想進入電腦視覺應用的學習者</p>
+<a class="btn-primary" href="https://cooperation.tw/yolo-vision-course/index.html">進入課程</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-coming2.png" alt="YOLO 視覺辨識課">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>影像辨識看起來門檻很高——論文、框架、GPU，每一關都能勸退人。但多數實際應用要的不是研究能力，是把一個可用模型訓練出來、部署起來的完整流程。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>用你自己場景的照片當資料，從標註、訓練、驗證到部署，完整走一遍 YOLO 的實作流程。每一步都講清楚為什麼這樣做，不是照著按。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>課程結束時你有一個用自己資料訓練出來的可用模型</li><li>理解資料品質、標註策略對辨識效果的實際影響</li><li>部署環節直接對接真實使用場景</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>進入課程頁看章節安排，準備一批你想辨識的場景照片。</p>
+<a class="btn-primary" href="https://cooperation.tw/yolo-vision-course/index.html">進入課程</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

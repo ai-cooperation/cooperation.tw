@@ -1,25 +1,37 @@
 ---
-title: "永續決策平台"
+pagetitle: "永續決策平台 — AI Cooperation"
 description: "把永續數據整理成可以支撐決策的視覺化平台"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">資料應用</span>
-```
-
-![永續決策平台](/assets/images/proj-sustainability.png){.detail-hero}
-
-## 這是什麼
-
-把永續數據整理成可以支撐決策的視覺化平台。
-
-## 給誰用
-
-永續決策者。
-
-## 入口
-
-```{=html}
+<h1>永續決策平台</h1>
+<p class="detail-tagline">把永續數據整理成可以支撐決策的視覺化平台</p>
+<p class="detail-audience">適合：永續決策者</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/ai-sustainability-platform/">進入平台</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-sustainability.png" alt="永續決策平台">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>永續決策需要數據支撐，但數據散在各部會與國際組織的報告裡，等人工整理完，決策時點已經過了。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>把公開的永續數據源整合成視覺化儀表板，決策相關的指標放在同一個畫面上對照。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>關鍵永續指標一站瀏覽</li><li>視覺化呈現，會議上直接可用</li><li>資料來源公開可查</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>進入平台，從你關注的指標主題開始。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/ai-sustainability-platform/">進入平台</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

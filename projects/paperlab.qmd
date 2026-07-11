@@ -1,25 +1,37 @@
 ---
-title: "PaperLab 寫論文找方法"
+pagetitle: "PaperLab 寫論文找方法 — AI Cooperation"
 description: "從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">研究工具</span>
-```
-
-![PaperLab 寫論文找方法](/assets/images/proj-paperlab.png){.detail-hero}
-
-## 這是什麼
-
-從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統。
-
-## 給誰用
-
-研究生、需要發表的專業者。
-
-## 入口
-
-```{=html}
+<h1>PaperLab 寫論文找方法</h1>
+<p class="detail-tagline">從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p>
+<p class="detail-audience">適合：研究生、需要發表的專業者</p>
 <a class="btn-primary" href="https://paperlab.cooperation.tw">進入 PaperLab</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-paperlab.png" alt="PaperLab 寫論文找方法">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>研究生最常卡在兩個地方：題目收斂不了（想法很多但不知道哪個可做），和流程太長（文獻、實驗、寫作每一段都可能斷掉）。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>引導式對話把模糊想法收斂成結構化的研究契約——題目、研究問題、資料來源、方法逐項確認且資料源當場驗證可得，再交給自動化 pipeline 執行文獻回顧、真實實驗與初稿撰寫。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>題目發想有框架，不再空想——每一步都有選項與建議</li><li>資料來源先驗證再開工，避免做到一半發現資料拿不到</li><li>產出的初稿附完整實驗紀錄，數字可追溯</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>進入 PaperLab，從「我想研究」開始一段引導對話。</p>
+<a class="btn-primary" href="https://paperlab.cooperation.tw">進入 PaperLab</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

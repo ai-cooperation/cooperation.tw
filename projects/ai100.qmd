@@ -1,25 +1,37 @@
 ---
-title: "AI 100 講"
+pagetitle: "AI 100 講 — AI Cooperation"
 description: "十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">教育課程</span>
-```
-
-![AI 100 講](/assets/images/proj-ai100.png){.detail-hero}
-
-## 這是什麼
-
-十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast。
-
-## 給誰用
-
-準備 iPAS 認證的考生、想系統性補齊 AI 知識的在職者。
-
-## 入口
-
-```{=html}
+<h1>AI 100 講</h1>
+<p class="detail-tagline">十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p>
+<p class="detail-audience">適合：準備 iPAS 認證的考生、想系統性補齊 AI 知識的在職者</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-ai100.png" alt="AI 100 講">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>想考 iPAS AI 應用規劃師，知識點散落在講義、新聞、名詞解釋之間，沒有一條可以每天推進的路徑。市面上的課程不是太淺就是要你先會寫程式。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>把整個知識體系拆成 10 個模組、每模組 10 講。每一講一個主題、附中文 Podcast——通勤時聽完一講，回家對照教材複習，一百天走完一輪完整體系。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>完整對應 iPAS AI 應用規劃師的考科範圍，不用自己拼湊教材</li><li>每講附中文 Podcast，通勤、運動時間就是學習時間</li><li>全部內容免費開放，進度自己掌握</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>打開課程網站，從模組一第一講開始，或直接挑你最弱的模組切入。</p>
+<a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

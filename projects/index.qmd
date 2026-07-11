@@ -11,16 +11,11 @@ toc: false
 
 ```{=html}
 <div class="pgrid">
-<a class="pcard" href="/projects/ai100.html"><img src="/assets/images/proj-ai100.png" alt="AI 100 講" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>AI 100 講</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p><span class="pcard-cta">進入課程</span></div>
-</a>
-<a class="pcard" href="/projects/sustainability-100.html"><img src="/assets/images/proj-s100.png" alt="永續 100 講" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>永續 100 講</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範</p><span class="pcard-cta">進入課程</span></div>
-</a>
-<a class="pcard" href="/projects/aipath.html"><img src="/assets/images/proj-aipath.png" alt="AI 學習路徑" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>AI 學習路徑</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾</p><span class="pcard-cta">查看路徑</span></div>
-</a>
-<a class="pcard" href="/projects/yolo-vision.html"><img src="/assets/images/proj-coming2.png" alt="YOLO 視覺辨識課" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>YOLO 視覺辨識課</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍</p><span class="pcard-cta">課程介紹</span></div>
-</a>
-<a class="pcard" href="/projects/wellap.html"><img src="/assets/images/proj-coming2.png" alt="WELL AP 學習站" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>WELL AP 學習站</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p><span class="pcard-cta">進入學習站</span></div>
-</a>
+<a class="pcard reveal-fx" href="/projects/ai100.html"><img src="/assets/images/proj-ai100.png" alt="AI 100 講" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>AI 100 講</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p><span class="pcard-cta">進入課程</span></div></a>
+<a class="pcard reveal-fx" href="/projects/sustainability-100.html"><img src="/assets/images/proj-s100.png" alt="永續 100 講" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>永續 100 講</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範</p><span class="pcard-cta">進入課程</span></div></a>
+<a class="pcard reveal-fx" href="/projects/aipath.html"><img src="/assets/images/proj-aipath.png" alt="AI 學習路徑" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>AI 學習路徑</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾</p><span class="pcard-cta">查看路徑</span></div></a>
+<a class="pcard reveal-fx" href="/projects/yolo-vision.html"><img src="/assets/images/proj-coming2.png" alt="YOLO 視覺辨識課" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>YOLO 視覺辨識課</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍</p><span class="pcard-cta">進入課程</span></div></a>
+<a class="pcard reveal-fx" href="/projects/wellap.html"><img src="/assets/images/proj-coming2.png" alt="WELL AP 學習站" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>WELL AP 學習站</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p><span class="pcard-cta">進入學習站</span></div></a>
 </div>
 ```
 
@@ -30,12 +25,9 @@ toc: false
 
 ```{=html}
 <div class="pgrid">
-<a class="pcard" href="/projects/kb.html"><img src="/assets/images/proj-kb.png" alt="知識學習系統" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>知識學習系統</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積</p><span class="pcard-cta">進入系統</span></div>
-</a>
-<a class="pcard" href="/projects/ifrs-s2.html"><img src="/assets/images/proj-coming1.png" alt="IFRS S2 永續合規知識庫" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>IFRS S2 永續合規知識庫</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p><span class="pcard-cta">了解系統</span></div>
-</a>
-<a class="pcard" href="/projects/agent-kb.html"><img src="/assets/images/proj-agent-kb.png" alt="Agent KB 教學知識庫" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Agent KB 教學知識庫</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">進入知識庫</span></div>
-</a>
+<a class="pcard reveal-fx" href="/projects/kb.html"><img src="/assets/images/proj-kb.png" alt="知識學習系統" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>知識學習系統</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">給專業從業者與證照考生的領域知識庫入口，保險業、醫學等領域每天自動累積</p><span class="pcard-cta">進入系統</span></div></a>
+<a class="pcard reveal-fx" href="/projects/ifrs-s2.html"><img src="/assets/images/proj-coming1.png" alt="IFRS S2 永續合規知識庫" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>IFRS S2 永續合規知識庫</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p><span class="pcard-cta">進入系統</span></div></a>
+<a class="pcard reveal-fx" href="/projects/agent-kb.html"><img src="/assets/images/proj-agent-kb.png" alt="Agent KB 教學知識庫" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Agent KB 教學知識庫</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">進入知識庫</span></div></a>
 </div>
 ```
 
@@ -45,10 +37,8 @@ toc: false
 
 ```{=html}
 <div class="pgrid">
-<a class="pcard" href="/projects/paperlab.html"><img src="/assets/images/proj-paperlab.png" alt="PaperLab 寫論文找方法" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>PaperLab 寫論文找方法</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p><span class="pcard-cta">進入 PaperLab</span></div>
-</a>
-<div class="pcard pcard-coming"><img src="/assets/images/proj-coming1.png" alt="Living World Model" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Living World Model</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">研究型專案，建置中</p></div>
-</div>
+<a class="pcard reveal-fx" href="/projects/paperlab.html"><img src="/assets/images/proj-paperlab.png" alt="PaperLab 寫論文找方法" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>PaperLab 寫論文找方法</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p><span class="pcard-cta">進入 PaperLab</span></div></a>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming1.png" alt="Living World Model" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>Living World Model</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">研究型專案，建置中</p></div></div>
 </div>
 ```
 
@@ -58,14 +48,10 @@ toc: false
 
 ```{=html}
 <div class="pgrid">
-<a class="pcard" href="/projects/gemgate.html"><img src="/assets/images/proj-gemgate.png" alt="GemGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>GemGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通</p><span class="pcard-cta">查看服務</span></div>
-</a>
-<a class="pcard" href="/projects/fluxgate.html"><img src="/assets/images/proj-gemgate.png" alt="FluxGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>FluxGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件</p><span class="pcard-cta">查看服務</span></div>
-</a>
-<a class="pcard" href="/projects/classclaw.html"><img src="/assets/images/proj-gemgate.png" alt="ClassClaw" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>ClassClaw</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">一支 QR code 就能開始的課堂即時互動系統，即將開源</p><span class="pcard-cta">查看系統</span></div>
-</a>
-<div class="pcard pcard-coming"><img src="/assets/images/proj-coming1.png" alt="會議紀錄工作室" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>會議紀錄工作室</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">從錄音到結構化會議紀錄的自動化流程，建置中</p></div>
-</div>
+<a class="pcard reveal-fx" href="/projects/gemgate.html"><img src="/assets/images/proj-gemgate.png" alt="GemGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>GemGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">統一入口的多模態 AI 閘道——生圖、影片、語音、網頁擷取，一組 API 全部接通</p><span class="pcard-cta">查看服務</span></div></a>
+<a class="pcard reveal-fx" href="/projects/fluxgate.html"><img src="/assets/images/proj-gemgate.png" alt="FluxGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>FluxGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件</p><span class="pcard-cta">查看服務</span></div></a>
+<a class="pcard reveal-fx" href="/projects/classclaw.html"><img src="/assets/images/proj-gemgate.png" alt="ClassClaw" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>ClassClaw</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">一支 QR code 就能開始的課堂即時互動系統，即將開源</p><span class="pcard-cta">查看系統</span></div></a>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming1.png" alt="會議紀錄工作室" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>會議紀錄工作室</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">從錄音到結構化會議紀錄的自動化流程，建置中</p></div></div>
 </div>
 ```
 
@@ -75,11 +61,8 @@ toc: false
 
 ```{=html}
 <div class="pgrid">
-<a class="pcard" href="/projects/foreclosure-map.html"><img src="/assets/images/proj-foreclosure.png" alt="法拍物件地圖" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>法拍物件地圖</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具</p><span class="pcard-cta">開啟地圖</span></div>
-</a>
-<a class="pcard" href="/projects/sustainability-platform.html"><img src="/assets/images/proj-sustainability.png" alt="永續決策平台" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>永續決策平台</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">把永續數據整理成可以支撐決策的視覺化平台</p><span class="pcard-cta">進入平台</span></div>
-</a>
-<div class="pcard pcard-coming"><img src="/assets/images/proj-coming2.png" alt="電力資料應用" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>電力資料應用</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">台電公開資料的分析與應用，建置中</p></div>
-</div>
+<a class="pcard reveal-fx" href="/projects/foreclosure-map.html"><img src="/assets/images/proj-foreclosure.png" alt="法拍物件地圖" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>法拍物件地圖</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具</p><span class="pcard-cta">開啟地圖</span></div></a>
+<a class="pcard reveal-fx" href="/projects/sustainability-platform.html"><img src="/assets/images/proj-sustainability.png" alt="永續決策平台" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>永續決策平台</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">把永續數據整理成可以支撐決策的視覺化平台</p><span class="pcard-cta">進入平台</span></div></a>
+<div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming2.png" alt="電力資料應用" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>電力資料應用</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">台電公開資料的分析與應用，建置中</p></div></div>
 </div>
 ```

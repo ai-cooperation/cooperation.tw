@@ -1,25 +1,37 @@
 ---
-title: "ClassClaw"
+pagetitle: "ClassClaw — AI Cooperation"
 description: "一支 QR code 就能開始的課堂即時互動系統，即將開源"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
-```
-
-![ClassClaw](/assets/images/proj-gemgate.png){.detail-hero}
-
-## 這是什麼
-
-一支 QR code 就能開始的課堂即時互動系統，即將開源。
-
-## 給誰用
-
-需要課堂互動工具的講師。
-
-## 入口
-
-```{=html}
+<h1>ClassClaw</h1>
+<p class="detail-tagline">一支 QR code 就能開始的課堂即時互動系統，即將開源</p>
+<p class="detail-audience">適合：需要課堂互動工具的講師</p>
 <a class="btn-primary" href="https://ai100.cooperation.tw/classroom/host">查看系統</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-gemgate.png" alt="ClassClaw">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>課堂互動工具不是要學員裝 App、註冊帳號，就是免費版處處受限——互動的門檻比互動本身還高。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>講師開一個房間，學員掃 QR code 即入，投票、搶答、意見牆即時同步。不用安裝、不用註冊，用完即散。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>學員進場只要掃碼，三秒開始互動</li><li>講師端即時看到全場回應分布</li><li>即將開源——可以自己部署、自己改</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>打開主持端建一個房間，用手機掃碼體驗學員視角。</p>
+<a class="btn-primary" href="https://ai100.cooperation.tw/classroom/host">查看系統</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```

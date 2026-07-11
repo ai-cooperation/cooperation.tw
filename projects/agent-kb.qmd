@@ -1,25 +1,37 @@
 ---
-title: "Agent KB 教學知識庫"
+pagetitle: "Agent KB 教學知識庫 — AI Cooperation"
 description: "課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統"
+page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
-```
-
-![Agent KB 教學知識庫](/assets/images/proj-agent-kb.png){.detail-hero}
-
-## 這是什麼
-
-課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統。
-
-## 給誰用
-
-Vibe Coding 課程學員。
-
-## 入口
-
-```{=html}
+<h1>Agent KB 教學知識庫</h1>
+<p class="detail-tagline">課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p>
+<p class="detail-audience">適合：Vibe Coding 課程學員</p>
 <a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/proj-agent-kb.png" alt="Agent KB 教學知識庫">
+<section class="detail-block reveal-fx">
+<h2>你可能正卡在這裡</h2>
+<p>上完課回家，講過的案例、名詞、工作流散在筆記和記憶裡，要用的時候找不回來——課程的價值隨時間流失。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這個系統怎麼解</h2>
+<p>把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會得到什麼</h2>
+<ul class="detail-gains"><li>課堂案例含完整踩坑脈絡，不是只有結論</li><li>概念查詢即開即用，複習成本降到最低</li><li>私人筆記與公開教材分開，累積自己的知識庫</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>怎麼開始</h2>
+<p>用課程發的帳號登入，從案例庫開始逛。</p>
+<a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
+</section>
+<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
+</article>
 ```
