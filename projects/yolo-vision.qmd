@@ -14,7 +14,7 @@ toc: false
 <p class="detail-audience">適合：想進入電腦視覺應用的學習者</p>
 <a class="btn-primary" href="https://cooperation.tw/yolo-vision-course/index.html">進入課程</a>
 </header>
-<img class="detail-hero reveal-fx" src="/assets/images/proj-coming2.png" alt="YOLO 視覺辨識課">
+<img class="detail-hero reveal-fx" src="/assets/images/proj-yolo.jpg" alt="YOLO 視覺辨識課">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
 <p>影像辨識看起來門檻很高——論文、框架、GPU，每一關都能勸退人。但多數實際應用要的不是研究能力，是把一個可用模型訓練出來、部署起來的完整流程。</p>
@@ -25,7 +25,7 @@ toc: false
 </section>
 <section class="detail-block reveal-fx">
 <h2>技術架構</h2>
-<ul class="detail-gains"><li>以 Ultralytics YOLO 系列模型為主軸</li><li>涵蓋資料標註工具、GPU 訓練環境設定、模型匯出與部署</li><li>課程教材開放在課程站，範例資料集可直接下載</li></ul>
+<ul class="detail-gains"><li>以 Ultralytics YOLO 系列模型為主軸</li><li>訓練全程使用免費 GPU 資源（Google Colab 等），不需要自備顯卡</li><li>範例採用公開免費資料集，零成本就能完整走一遍</li><li>涵蓋資料標註工具、訓練環境設定、模型匯出與部署</li><li>課程教材開放在課程站，範例資料集可直接下載</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>用了之後，解決什麼</h2>

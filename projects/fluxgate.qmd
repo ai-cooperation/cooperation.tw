@@ -14,7 +14,7 @@ toc: false
 <p class="detail-audience">適合：需要輕量生圖 API 的開發者</p>
 <a class="btn-primary" href="https://fluxgate.cooperation.tw/">查看服務</a>
 </header>
-<img class="detail-hero reveal-fx" src="/assets/images/proj-gemgate.png" alt="FluxGate">
+<img class="detail-hero reveal-fx" src="/assets/images/proj-fluxgate.jpg" alt="FluxGate">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
 <p>很多應用只需要「一個能生圖的 API」，但自建要管模型、GPU 與排隊，用大平台又綁一整套 SDK 與帳務。</p>

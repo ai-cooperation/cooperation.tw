@@ -14,7 +14,7 @@ toc: false
 <p class="detail-audience">適合：醫學專科從業者、醫事人員</p>
 <a class="btn-primary" href="https://hematology-kb.pages.dev">進入知識庫</a>
 </header>
-<img class="detail-hero reveal-fx" src="/assets/images/proj-coming1.png" alt="醫學知識庫">
+<img class="detail-hero reveal-fx" src="/assets/images/proj-medical.jpg" alt="醫學知識庫">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
 <p>專科文獻更新速度遠超過人力閱讀速度——臨床工作者沒有時間逐篇追蹤，但落後的知識直接影響判斷品質。</p>

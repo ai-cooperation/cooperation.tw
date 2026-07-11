@@ -14,7 +14,7 @@ toc: false
 <p class="detail-audience">適合：WELL AP 認證考生</p>
 <a class="btn-primary" href="https://wellap.cooperation.tw/index.html">進入學習站</a>
 </header>
-<img class="detail-hero reveal-fx" src="/assets/images/proj-coming2.png" alt="WELL AP 學習站">
+<img class="detail-hero reveal-fx" src="/assets/images/proj-wellap.jpg" alt="WELL AP 學習站">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
 <p>WELL AP 是健康建築領域的國際認證，但中文備考資源極少——考生面對英文題庫和厚重概念手冊，不知道從哪裡下手、考點在哪裡。</p>

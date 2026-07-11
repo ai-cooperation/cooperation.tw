@@ -1,15 +1,3 @@
-# cooperation.tw 專案總表 — 唯一資料源
-# 上新專案：加一筆，跑 python3 _scripts/gen_projects.py，不動版面
-# status: live（運行中）/ beta（測試中）/ coming（建置中，佔位不揭露細節）
-# featured: true 進首頁精選
-# category 固定五類：education / knowledge-base / research / infrastructure / data
-# 內頁敘事欄位：
-#   problem: 你可能正卡在這裡（痛點）
-#   how:     這個系統怎麼解（功能面）
-#   tech:    技術架構（列點，揭露到模組/服務層級，不揭露完整細節）
-#   solves:  用了之後解決什麼（列點，逐項呼應 problem）
-#   start:   怎麼開始
-
 categories:
   education:
     name: 教育課程
@@ -26,352 +14,337 @@ categories:
   data:
     name: 資料應用
     mission: 把公開資料變成可以直接使用的工具。
-
 projects:
-  - id: ai100
-    name: AI 100 講
-    category: education
-    status: live
-    featured: true
-    tagline: 十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast
-    audience: 準備 iPAS 認證的考生、想系統性補齊 AI 知識的在職者
-    url: https://ai-cooperation.github.io/ai100/
-    image: proj-ai100.png
-    cta: 進入課程
-    problem: 想考 iPAS AI 應用規劃師，知識點散落在講義、新聞、名詞解釋之間，沒有一條可以每天推進的路徑。市面上的課程不是太淺就是要你先會寫程式。
-    how: 把整個知識體系拆成 10 個模組、每模組 10 講。每一講一個主題、附中文 Podcast——通勤時聽完一講，回家對照教材複習，一百天走完一輪完整體系。
-    tech:
-      - 靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理
-      - 講次內容由 LLM 協作管線起草、人工審校後上線
-      - 每講 Podcast 音訊由 TTS 模型批次合成
-      - Google Analytics 與 Microsoft Clarity 追蹤學習行為
-    solves:
-      - 不用自己拼湊教材——考科範圍已拆成一百個可完成的單位
-      - 沒有整塊時間也能推進——通勤聽 Podcast 就是進度
-      - 零費用開始，不用先賭一筆學費
-    start: 打開課程網站，從模組一第一講開始，或直接挑你最弱的模組切入。
-
-  - id: sustainability-100
-    name: 永續 100 講
-    category: education
-    status: live
-    featured: true
-    tagline: 涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範
-    audience: 永續從業者、iPAS 淨零碳規劃師考生
-    url: https://ai-cooperation.github.io/sustainability-100/
-    image: proj-s100.png
-    cta: 進入課程
-    problem: 永續領域名詞爆炸——淨零、碳中和、ESG、CBAM、SBTi，每個詞背後是一套制度。從業者被要求「懂永續」，卻沒有一套從零到能對話的系統性教材。
-    how: 十大主題、一百講，從氣候科學基礎到碳交易實務逐層展開。內容由 AI 驅動的生產流程製作、人工把關——這條流程本身，就是人機協作的實際示範。
-    tech:
-      - 靜態課程站部署在 GitHub Pages
-      - 內容生產走 LLM 管線：資料蒐集、起草、名詞一致性掃描、人工終審
-      - 引用的制度與數據標注來源，定期對照官方文件更新
-    solves:
-      - 名詞不再各說各話——一百講建立同一套概念地圖
-      - 考 iPAS 淨零碳規劃師有對應教材可循
-      - 制度變動有人追——內容隨官方文件更新
-    start: 從第一講的氣候科學基礎開始，或用主題目錄直接跳到你工作上正在碰的題目。
-
-  - id: aipath
-    name: AI 學習路徑
-    category: education
-    status: live
-    featured: false
-    tagline: 從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾
-    audience: 想從使用 AI 進到與 AI 協作開發的學習者
-    url: https://aipath.cooperation.tw
-    image: proj-aipath.png
-    cta: 查看路徑
-    problem: 會用 ChatGPT 和「能與 AI 一起把系統做出來」之間有一條斷層。多數教學停在提示詞技巧，學完還是做不出可以上線的東西。
-    how: 三個階段的實體工作坊：從對話出作品、到建立自己的工具箱、到能獨立完成一個上線系統。每一階段的驗收標準只有一個——真實作品上線。
-    tech:
-      - 路徑站部署在 Cloudflare Pages
-      - 課堂工具鏈：Claude Code 等 AI CLI、GitHub 版本控制、Cloudflare Pages 一鍵部署
-      - 配套 Agent KB 教學知識庫，課堂案例與工作流可隨時回查
-    solves:
-      - 斷層被拆成三個可跨越的台階，每階有明確驗收
-      - 學完手上有上線作品，不是一疊筆記
-      - 課堂用的工具鏈就是業界實際在用的那一套
-    start: 到路徑頁看三階段的說明與最近開課時間，從 Stage 1 開始。
-
-  - id: yolo-vision
-    name: YOLO 視覺辨識課
-    category: education
-    status: live
-    featured: false
-    tagline: 用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍
-    audience: 想進入電腦視覺應用的學習者
-    url: https://cooperation.tw/yolo-vision-course/index.html
-    image: proj-coming2.png
-    cta: 進入課程
-    problem: 影像辨識看起來門檻很高——論文、框架、GPU，每一關都能勸退人。但多數實際應用要的不是研究能力，是把一個可用模型訓練出來、部署起來的完整流程。
-    how: 用你自己場景的照片當資料，從標註、訓練、驗證到部署，完整走一遍物件辨識的實作流程。每一步都講清楚為什麼這樣做，不是照著按。
-    tech:
-      - 以 Ultralytics YOLO 系列模型為主軸
-      - 涵蓋資料標註工具、GPU 訓練環境設定、模型匯出與部署
-      - 課程教材開放在課程站，範例資料集可直接下載
-    solves:
-      - 課程結束時你有一個用自己資料訓練出來的可用模型
-      - 看得懂資料品質與標註策略對辨識效果的實際影響
-      - 部署環節直接對接真實使用場景，不是停在 notebook
-    start: 進入課程頁看章節安排，準備一批你想辨識的場景照片。
-
-  - id: wellap
-    name: WELL AP 學習站
-    category: education
-    status: live
-    featured: false
-    tagline: 考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統
-    audience: WELL AP 認證考生
-    url: https://wellap.cooperation.tw/index.html
-    image: proj-coming2.png
-    cta: 進入學習站
-    problem: WELL AP 是健康建築領域的國際認證，但中文備考資源極少——考生面對英文題庫和厚重概念手冊，不知道從哪裡下手、考點在哪裡。
-    how: 把考古題逐題解析、按概念分類成題庫，配合整理過的中文講義。先讀講義建立概念，再用題庫驗證，錯題回頭對應講義段落。
-    tech:
-      - 學習站部署在 Cloudflare Pages，附登入驗證閘管理存取
-      - 題庫由考古題經 LLM 解析起草、逐題人工校對後入庫
-      - 題目與講義段落建立雙向對應索引
-    solves:
-      - 中文備考資源從零到有——講義與題庫都是中文解析
-      - 考點分布看得見，讀書時間花在對的章節
-      - 錯題直接連回觀念，不用自己翻手冊找
-    start: 登入學習站，先做一輪診斷測驗看自己的起點。
-
-  - id: insurance-kb
-    name: 保險業知識庫
-    category: knowledge-base
-    status: live
-    featured: true
-    tagline: 覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識
-    audience: 保險業從業者、市場研究者
-    url: https://insurance-kb.cooperation.tw
-    image: proj-kb.png
-    cta: 進入知識庫
-    problem: 保險業的市場動態散在各國新聞、公告與報告裡，語言不通、來源分散——等你人工整理完，情報已經過期，而且沒有累積，明年還是從零開始。
-    how: 每天自動收集多國保險業新聞源，翻譯、去重、正規化後入庫；每月蒸餾成主題 Wiki；VIP 可透過 AI 助手直接對知識庫下研究任務，產出結構化報告。
-    tech:
-      - 排程爬蟲每日兩次收集台、日、韓、港、東南亞新聞源
-      - LLM 管線做翻譯與結構化，公司譯名走 canonical 一致性把關（避免同一家公司多種譯名搜不到）
-      - 月度 Wiki 由 LLM 蒸餾、附原文出處連結
-      - MCP server 介面：Claude 等 AI 助手可直連查詢、產出雙週報與研究報告
-      - 前端部署在 Cloudflare Pages
-    solves:
-      - 跨五個市場的動態一站看完，不用逐一追各國媒體
-      - 情報有累積——月度 Wiki 和報告庫越用越厚
-      - 要寫報告時，AI 助手直接引用庫內文章與出處，不是憑空生成
-    start: 進入知識庫瀏覽最新市場動態，或從月度 Wiki 看整體趨勢。
-
-  - id: medical-kb
-    name: 醫學知識庫
-    category: knowledge-base
-    status: live
-    featured: false
-    tagline: 從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫
-    audience: 醫學專科從業者、醫事人員
-    url: https://hematology-kb.pages.dev
-    image: proj-coming1.png
-    cta: 進入知識庫
-    problem: 專科文獻更新速度遠超過人力閱讀速度——臨床工作者沒有時間逐篇追蹤，但落後的知識直接影響判斷品質。
-    how: 自動化管線定期從醫學文獻庫收集專科論文，蒸餾成結構化條目與主題整理，所有內容附原始文獻出處，供從業者快速查閱與回溯。
-    tech:
-      - 文獻收集管線對接 PubMed 等公開文獻庫
-      - LLM 蒸餾與結構化，條目附 DOI 與原文連結
-      - 前端部署在 Cloudflare Pages
-    solves:
-      - 追文獻的時間成本大幅下降——管線先讀，你看蒸餾後的結構
-      - 每條內容可回溯原始論文，臨床引用有據
-      - 知識持續累積成庫，不是一次性的閱讀筆記
-    start: 進入知識庫，從你的專科主題開始瀏覽。
-
-  - id: ifrs-s2
-    name: IFRS S2 永續合規知識庫
-    category: knowledge-base
-    status: live
-    featured: true
-    tagline: 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
-    audience: 永續報告書編製者、合規顧問
-    url: https://ifrs-kb.cooperation.tw/
-    image: proj-coming1.png
-    cta: 進入系統
-    problem: 永續報告書要同時符合 IFRS S2、TWSE 附表、GHG Protocol 多套框架，人工逐條比對一份報告書要花數天，還容易漏——漏一條就是合規風險。
-    how: 188 份法規與指引文件建成可檢索的知識庫，上傳報告書後系統逐條勾稽：每一條要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，輸出差距分析與補強優先序。
-    tech:
-      - 188 份法規與指引文件切成 9,239 個可檢索片段，建向量索引做語意檢索
-      - 報告書 PDF 走多引擎 OCR 管線全頁打底，圖表頁另做視覺解析
-      - 差距判定對照結構化的揭露要求清單（IFRS S2、TWSE 附表、GHG Protocol 各自獨立計分）
-      - 機械驗證閘交叉比對計分與逐條判定，擋掉 AI 湊數字
-      - MCP server 介面：AI 助手可直連做差距分析與條文查詢
-    solves:
-      - 數天的人工比對縮短成一次系統性掃描
-      - 每條判定附報告書頁碼與條號，稽核時拿得出依據
-      - 缺漏清單附優先序，直接變成報告書改版工作清單
-    start: 進入系統，用一份現成的永續報告書跑一次差距分析。
-
-  - id: agent-kb
-    name: Agent KB 教學知識庫
-    category: knowledge-base
-    status: live
-    featured: false
-    tagline: 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
-    audience: Vibe Coding 課程學員
-    url: https://agent-kb.cooperation.tw
-    image: proj-agent-kb.png
-    cta: 進入知識庫
-    problem: 上完課回家，講過的案例、名詞、工作流散在筆記和記憶裡，要用的時候找不回來——課程的價值隨時間流失。
-    how: 把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。
-    tech:
-      - 前後端部署在 Cloudflare（Pages + Workers）
-      - MCP server 介面：學員的 AI 助手可直連知識庫查案例、查概念
-      - 私人筆記與公開教材權限分離，個人資料只有本人可見
-    solves:
-      - 課堂案例含完整踩坑脈絡，回家還原得出來
-      - 概念查詢即開即用，複習成本降到最低
-      - 你的 AI 助手也查得到——上課學的工作流直接在自己環境重現
-    start: 用課程發的帳號登入，從案例庫開始逛。
-
-  - id: paperlab
-    name: PaperLab 寫論文找方法
-    category: research
-    status: live
-    featured: true
-    tagline: 從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統
-    audience: 研究生、需要發表的專業者
-    url: https://paperlab.cooperation.tw
-    image: proj-paperlab.png
-    cta: 進入 PaperLab
-    problem: 研究生最常卡在兩個地方：題目收斂不了（想法很多但不知道哪個可做），和流程太長（文獻、實驗、寫作每一段都可能斷掉）。
-    how: 引導式對話把模糊想法收斂成結構化的研究契約——題目、研究問題、資料來源、方法逐項確認且資料源當場驗證可得，再交給自動化 pipeline 執行文獻回顧、真實實驗與初稿撰寫。
-    tech:
-      - 對話端走 MCP server：AI 助手引導題目收斂，資料源當場 probe 驗證可得性
-      - 文獻引用經 CrossRef、OpenAlex、Semantic Scholar 三方 API 驗證，杜絕假引用
-      - 後端 pipeline 分階段執行：文獻回顧、實驗、統計檢定、稿件撰寫，全程留檔可追溯
-      - 稿件以 Quarto 渲染成期刊格式 PDF
-      - 機械稽核閘檢查數字溯源與引用覆蓋，不合格擋下重跑
-    solves:
-      - 題目發想有框架，不再空想——每一步都有選項與建議
-      - 資料來源先驗證再開工，不會做到一半發現資料拿不到
-      - 初稿的每個數字可追溯到實際跑出的實驗輸出，引用全數驗證過
-    start: 進入 PaperLab，從「我想研究」開始一段引導對話。
-
-  - id: fluxgate
-    name: FluxGate
-    category: infrastructure
-    status: live
-    featured: false
-    tagline: 建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件
-    audience: 需要輕量生圖 API 的開發者
-    url: https://fluxgate.cooperation.tw/
-    image: proj-gemgate.png
-    cta: 查看服務
-    problem: 很多應用只需要「一個能生圖的 API」，但自建要管模型、GPU 與排隊，用大平台又綁一整套 SDK 與帳務。
-    how: 輕量生圖閘道：提交需求立刻拿到 job id，幾十秒後輪詢取件。無伺服器架構，沒有維運負擔，站上多個專案的配圖由它供應。
-    tech:
-      - 整體架構跑在 Cloudflare Workers，無伺服器、零待機成本
-      - 生圖模型用 Workers AI 上的 FLUX.1-schnell
-      - 非同步 job 機制：提交回 job id，輪詢取件，狀態存 Cloudflare 儲存服務
-      - 提供 MCP 工具介面，AI 助手可直接呼叫生圖
-    solves:
-      - 兩個 API 就能用：提交、取件，不綁 SDK
-      - 不用管 GPU、擴容與待機成本
-      - 你的 AI 助手可以直接生圖——MCP 介面接上就能用
-    start: 打開服務頁，照文件送出第一個生圖請求。
-
-  - id: classclaw
-    name: ClassClaw
-    category: infrastructure
-    status: live
-    featured: false
-    tagline: 一支 QR code 就能開始的課堂即時互動系統，即將開源
-    audience: 需要課堂互動工具的講師
-    url: https://ai100.cooperation.tw/classroom/host
-    image: proj-gemgate.png
-    cta: 查看系統
-    problem: 課堂互動工具不是要學員裝 App、註冊帳號，就是免費版處處受限——互動的門檻比互動本身還高。
-    how: 講師開一個房間，學員掃 QR code 即入，投票、搶答、意見牆即時同步。不用安裝、不用註冊，用完即散。
-    tech:
-      - 架在 Cloudflare 上的網頁應用，學員端零安裝、掃碼即入
-      - 房間制 session 模型，即時同步全場回應
-      - 規劃開源釋出——可自行部署、自行修改
-    solves:
-      - 學員進場只要掃碼，三秒開始互動，課堂節奏不被工具打斷
-      - 講師端即時看到全場回應分布
-      - 開源後可自己部署，不被平台方案綁住
-    start: 打開主持端建一個房間，用手機掃碼體驗學員視角。
-
-  - id: foreclosure-map
-    name: 法拍物件地圖
-    category: data
-    status: live
-    featured: false
-    tagline: 整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具
-    audience: 不動產從業者、投資研究者
-    url: https://ai-cooperation.github.io/foreclosure-map/
-    image: proj-foreclosure.png
-    cta: 開啟地圖
-    problem: 法拍公告分散在全台 22 間法院各自的系統，格式不一、沒有地圖、不能篩選——研究一個區域的法拍物件要人工翻遍各法院網站。
-    how: 自動化爬蟲定期收集各法院公告，統一格式後上地圖。按區域、價格帶、拍次直接篩，點物件看完整公告內容。
-    tech:
-      - 排程爬蟲收集 22 間法院公告，統一資料格式
-      - 地址經地理編碼轉成座標上圖（含跨縣市同名路段的錯置防護）
-      - 前端地圖介面部署在 GitHub Pages，純靜態、免費運行
-    solves:
-      - 全台法拍物件一張地圖看完，不用逐一翻法院網站
-      - 區域、價格帶、拍次直接篩，研究效率是人工翻找的量級差
-      - 資料定期自動更新，看到的就是最新公告
-    start: 開啟地圖，縮放到你關注的區域。
-
-  - id: sustainability-platform
-    name: 永續決策平台
-    category: data
-    status: live
-    featured: false
-    tagline: 把永續數據整理成可以支撐決策的視覺化平台
-    audience: 永續決策者
-    url: https://ai-cooperation.github.io/ai-sustainability-platform/
-    image: proj-sustainability.png
-    cta: 進入平台
-    problem: 永續決策需要數據支撐，但數據散在各部會與國際組織的報告裡，等人工整理完，決策時點已經過了。
-    how: 把公開的永續數據源整合成視覺化儀表板，決策相關的指標放在同一個畫面上對照。
-    tech:
-      - 公開數據源整理成結構化資料集
-      - 視覺化前端部署在 GitHub Pages
-    solves:
-      - 關鍵永續指標一站瀏覽，開會直接投影可用
-      - 資料來源公開可查，數字有出處
-    start: 進入平台，從你關注的指標主題開始。
-
-  # ── 佔位專案（細節完善後再揭露）──
-  - id: meeting-capture
-    name: 會議紀錄工作室
-    category: infrastructure
-    status: coming
-    featured: false
-    tagline: 從錄音到結構化會議紀錄的自動化流程，建置中
-    audience: ""
-    url: ""
-    image: proj-coming1.png
-    cta: 敬請期待
-
-  - id: taipower-data
-    name: 電力資料應用
-    category: data
-    status: coming
-    featured: false
-    tagline: 台電公開資料的分析與應用，建置中
-    audience: ""
-    url: ""
-    image: proj-coming2.png
-    cta: 敬請期待
-
-  - id: living-world-model
-    name: Living World Model
-    category: research
-    status: coming
-    featured: false
-    tagline: 研究型專案，建置中
-    audience: ""
-    url: ""
-    image: proj-coming1.png
-    cta: 敬請期待
+- id: ai100
+  name: AI 100 講
+  category: education
+  status: live
+  featured: true
+  tagline: 十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast
+  audience: 準備 iPAS 認證的考生、想系統性補齊 AI 知識的在職者
+  url: https://ai-cooperation.github.io/ai100/
+  image: proj-ai100.png
+  cta: 進入課程
+  problem: 想考 iPAS AI 應用規劃師，知識點散落在講義、新聞、名詞解釋之間，沒有一條可以每天推進的路徑。市面上的課程不是太淺就是要你先會寫程式。
+  how: 把整個知識體系拆成 10 個模組、每模組 10 講。每一講一個主題、附中文 Podcast——通勤時聽完一講，回家對照教材複習，一百天走完一輪完整體系。
+  tech:
+  - 靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理
+  - 講次內容由 LLM 協作管線起草、人工審校後上線
+  - 每講 Podcast 音訊由 TTS 模型批次合成
+  solves:
+  - 不用自己拼湊教材——考科範圍已拆成一百個可完成的單位
+  - 沒有整塊時間也能推進——通勤聽 Podcast 就是進度
+  - 零費用開始，不用先賭一筆學費
+  start: 打開課程網站，從模組一第一講開始，或直接挑你最弱的模組切入。
+- id: sustainability-100
+  name: 永續 100 講
+  category: education
+  status: live
+  featured: true
+  tagline: 涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範
+  audience: 永續從業者、iPAS 淨零碳規劃師考生
+  url: https://ai-cooperation.github.io/sustainability-100/
+  image: proj-s100.png
+  cta: 進入課程
+  problem: 永續領域名詞爆炸——淨零、碳中和、ESG、CBAM、SBTi，每個詞背後是一套制度。從業者被要求「懂永續」，卻沒有一套從零到能對話的系統性教材。
+  how: 十大主題、一百講，從氣候科學基礎到碳交易實務逐層展開。內容由 AI 驅動的生產流程製作、人工把關——這條流程本身，就是人機協作的實際示範。
+  tech:
+  - Jekyll 靜態站部署在 GitHub Pages，內容版本全程 Git 管理
+  - 內容生產走 LLM 管線：資料蒐集、起草、名詞一致性掃描、人工終審
+  - 「永續動態」新聞板塊：每則動態標注來源與日期、LLM 摘要，並連結回對應講次，新知直接掛上知識體系
+  - 講次 Podcast 由 TTS 批次管線合成
+  - 引用的制度與數據標注來源，定期對照官方文件更新
+  solves:
+  - 名詞不再各說各話——一百講建立同一套概念地圖
+  - 考 iPAS 淨零碳規劃師有對應教材可循
+  - 制度變動有人追——內容隨官方文件更新
+  start: 從第一講的氣候科學基礎開始，或用主題目錄直接跳到你工作上正在碰的題目。
+- id: aipath
+  name: AI 學習路徑
+  category: education
+  status: live
+  featured: false
+  tagline: 從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾
+  audience: 想從使用 AI 進到與 AI 協作開發的學習者
+  url: https://aipath.cooperation.tw
+  image: proj-aipath.png
+  cta: 查看路徑
+  problem: 會用 ChatGPT 和「能與 AI 一起把系統做出來」之間有一條斷層。多數教學停在提示詞技巧，學完還是做不出可以上線的東西。
+  how: 三個階段的實體工作坊：從對話出作品、到建立自己的工具箱、到能獨立完成一個上線系統。每一階段的驗收標準只有一個——真實作品上線。
+  tech:
+  - 路徑站部署在 Cloudflare Pages
+  - 課堂工具鏈：Claude Code 等 AI CLI、GitHub 版本控制、Cloudflare Pages 一鍵部署
+  - 配套 Agent KB 教學知識庫，課堂案例與工作流可隨時回查
+  solves:
+  - 斷層被拆成三個可跨越的台階，每階有明確驗收
+  - 學完手上有上線作品，不是一疊筆記
+  - 課堂用的工具鏈就是業界實際在用的那一套
+  start: 到路徑頁看三階段的說明與最近開課時間，從 Stage 1 開始。
+- id: yolo-vision
+  name: YOLO 視覺辨識課
+  category: education
+  status: live
+  featured: false
+  tagline: 用真實場景資料訓練自己的物件辨識模型，從標註到部署完整走一遍
+  audience: 想進入電腦視覺應用的學習者
+  url: https://cooperation.tw/yolo-vision-course/index.html
+  image: proj-yolo.jpg
+  cta: 進入課程
+  problem: 影像辨識看起來門檻很高——論文、框架、GPU，每一關都能勸退人。但多數實際應用要的不是研究能力，是把一個可用模型訓練出來、部署起來的完整流程。
+  how: 用你自己場景的照片當資料，從標註、訓練、驗證到部署，完整走一遍物件辨識的實作流程。每一步都講清楚為什麼這樣做，不是照著按。
+  tech:
+  - 以 Ultralytics YOLO 系列模型為主軸
+  - 訓練全程使用免費 GPU 資源（Google Colab 等），不需要自備顯卡
+  - 範例採用公開免費資料集，零成本就能完整走一遍
+  - 涵蓋資料標註工具、訓練環境設定、模型匯出與部署
+  - 課程教材開放在課程站，範例資料集可直接下載
+  solves:
+  - 課程結束時你有一個用自己資料訓練出來的可用模型
+  - 看得懂資料品質與標註策略對辨識效果的實際影響
+  - 部署環節直接對接真實使用場景，不是停在 notebook
+  start: 進入課程頁看章節安排，準備一批你想辨識的場景照片。
+- id: wellap
+  name: WELL AP 學習站
+  category: education
+  status: live
+  featured: false
+  tagline: 考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統
+  audience: WELL AP 認證考生
+  url: https://wellap.cooperation.tw/index.html
+  image: proj-wellap.jpg
+  cta: 進入學習站
+  problem: WELL AP 是健康建築領域的國際認證，但中文備考資源極少——考生面對英文題庫和厚重概念手冊，不知道從哪裡下手、考點在哪裡。
+  how: 把考古題逐題解析、按概念分類成題庫，配合整理過的中文講義。先讀講義建立概念，再用題庫驗證，錯題回頭對應講義段落。
+  tech:
+  - 學習站部署在 Cloudflare Pages，附登入驗證閘管理存取
+  - 題庫由考古題經 LLM 解析起草、逐題人工校對後入庫
+  - 題目與講義段落建立雙向對應索引
+  solves:
+  - 中文備考資源從零到有——講義與題庫都是中文解析
+  - 考點分布看得見，讀書時間花在對的章節
+  - 錯題直接連回觀念，不用自己翻手冊找
+  start: 登入學習站，先做一輪診斷測驗看自己的起點。
+- id: insurance-kb
+  name: 保險業知識庫
+  category: knowledge-base
+  status: live
+  featured: true
+  tagline: 覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識
+  audience: 保險業從業者、市場研究者
+  url: https://insurance-kb.cooperation.tw
+  image: proj-kb.png
+  cta: 進入知識庫
+  problem: 保險業的市場動態散在各國新聞、公告與報告裡，語言不通、來源分散——等你人工整理完，情報已經過期，而且沒有累積，明年還是從零開始。
+  how: 每天自動收集多國保險業新聞源，翻譯、去重、正規化後入庫；每月蒸餾成主題 Wiki；VIP 可透過 AI 助手直接對知識庫下研究任務，產出結構化報告。
+  tech:
+  - 排程爬蟲每日兩次收集台、日、韓、港、東南亞新聞源
+  - LLM 管線做翻譯與結構化，公司譯名走 canonical 一致性把關（避免同一家公司多種譯名搜不到）
+  - 月度 Wiki 由 LLM 蒸餾、附原文出處連結
+  - MCP server 介面：Claude 等 AI 助手可直連查詢、產出雙週報與研究報告
+  - 前端部署在 Cloudflare Pages
+  solves:
+  - 跨五個市場的動態一站看完，不用逐一追各國媒體
+  - 情報有累積——月度 Wiki 和報告庫越用越厚
+  - 要寫報告時，AI 助手直接引用庫內文章與出處，不是憑空生成
+  start: 進入知識庫瀏覽最新市場動態，或從月度 Wiki 看整體趨勢。
+- id: medical-kb
+  name: 醫學知識庫
+  category: knowledge-base
+  status: live
+  featured: false
+  tagline: 從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫
+  audience: 醫學專科從業者、醫事人員
+  url: https://hematology-kb.pages.dev
+  image: proj-medical.jpg
+  cta: 進入知識庫
+  problem: 專科文獻更新速度遠超過人力閱讀速度——臨床工作者沒有時間逐篇追蹤，但落後的知識直接影響判斷品質。
+  how: 自動化管線定期從醫學文獻庫收集專科論文，蒸餾成結構化條目與主題整理，所有內容附原始文獻出處，供從業者快速查閱與回溯。
+  tech:
+  - 文獻收集管線對接 PubMed 等公開文獻庫
+  - LLM 蒸餾與結構化，條目附 DOI 與原文連結
+  - 前端部署在 Cloudflare Pages
+  solves:
+  - 追文獻的時間成本大幅下降——管線先讀，你看蒸餾後的結構
+  - 每條內容可回溯原始論文，臨床引用有據
+  - 知識持續累積成庫，不是一次性的閱讀筆記
+  start: 進入知識庫，從你的專科主題開始瀏覽。
+- id: ifrs-s2
+  name: IFRS S2 永續合規知識庫
+  category: knowledge-base
+  status: live
+  featured: true
+  tagline: 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
+  audience: 永續報告書編製者、合規顧問
+  url: https://ifrs-kb.cooperation.tw/
+  image: proj-ifrs.jpg
+  cta: 進入系統
+  problem: 永續報告書要同時符合 IFRS S2、TWSE 附表、GHG Protocol 多套框架，人工逐條比對一份報告書要花數天，還容易漏——漏一條就是合規風險。
+  how: 188 份法規與指引文件建成可檢索的知識庫，上傳報告書後系統逐條勾稽：每一條要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，輸出差距分析與補強優先序。
+  tech:
+  - 188 份法規與指引文件切成 9,239 個可檢索片段，建向量索引做語意檢索
+  - 報告書 PDF 走多引擎 OCR 管線全頁打底，圖表頁另做視覺解析
+  - 差距判定對照結構化的揭露要求清單（IFRS S2、TWSE 附表、GHG Protocol 各自獨立計分）
+  - 機械驗證閘交叉比對計分與逐條判定，擋掉 AI 湊數字
+  - MCP server 介面：AI 助手可直連做差距分析與條文查詢
+  solves:
+  - 數天的人工比對縮短成一次系統性掃描
+  - 每條判定附報告書頁碼與條號，稽核時拿得出依據
+  - 缺漏清單附優先序，直接變成報告書改版工作清單
+  start: 進入系統，用一份現成的永續報告書跑一次差距分析。
+- id: agent-kb
+  name: Agent KB 教學知識庫
+  category: knowledge-base
+  status: live
+  featured: false
+  tagline: 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
+  audience: Vibe Coding 課程學員
+  url: https://agent-kb.cooperation.tw
+  image: proj-agent-kb.png
+  cta: 進入知識庫
+  problem: 上完課回家，講過的案例、名詞、工作流散在筆記和記憶裡，要用的時候找不回來——課程的價值隨時間流失。
+  how: 把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。
+  tech:
+  - 前後端部署在 Cloudflare（Pages + Workers）
+  - MCP server 介面：學員的 AI 助手可直連知識庫查案例、查概念
+  - 私人筆記與公開教材權限分離，個人資料只有本人可見
+  solves:
+  - 課堂案例含完整踩坑脈絡，回家還原得出來
+  - 概念查詢即開即用，複習成本降到最低
+  - 你的 AI 助手也查得到——上課學的工作流直接在自己環境重現
+  start: 用課程發的帳號登入，從案例庫開始逛。
+- id: paperlab
+  name: PaperLab 寫論文找方法
+  category: research
+  status: live
+  featured: true
+  tagline: 從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統
+  audience: 研究生、需要發表的專業者
+  url: https://paperlab.cooperation.tw
+  image: proj-paperlab.png
+  cta: 進入 PaperLab
+  problem: 研究生最常卡在兩個地方：題目收斂不了（想法很多但不知道哪個可做），和流程太長（文獻、實驗、寫作每一段都可能斷掉）。
+  how: 引導式對話把模糊想法收斂成結構化的研究契約——題目、研究問題、資料來源、方法逐項確認且資料源當場驗證可得，再交給自動化 pipeline 執行文獻回顧、真實實驗與初稿撰寫。
+  tech:
+  - 對話端走 MCP server：AI 助手引導題目收斂，資料源當場 probe 驗證可得性
+  - 文獻引用經 CrossRef、OpenAlex、Semantic Scholar 三方 API 驗證，杜絕假引用
+  - 後端 pipeline 分階段執行：文獻回顧、實驗、統計檢定、稿件撰寫，全程留檔可追溯
+  - 稿件以 Quarto 渲染成期刊格式 PDF
+  - 機械稽核閘檢查數字溯源與引用覆蓋，不合格擋下重跑
+  solves:
+  - 題目發想有框架，不再空想——每一步都有選項與建議
+  - 資料來源先驗證再開工，不會做到一半發現資料拿不到
+  - 初稿的每個數字可追溯到實際跑出的實驗輸出，引用全數驗證過
+  start: 進入 PaperLab，從「我想研究」開始一段引導對話。
+- id: fluxgate
+  name: FluxGate
+  category: infrastructure
+  status: live
+  featured: false
+  tagline: 建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件
+  audience: 需要輕量生圖 API 的開發者
+  url: https://fluxgate.cooperation.tw/
+  image: proj-fluxgate.jpg
+  cta: 查看服務
+  problem: 很多應用只需要「一個能生圖的 API」，但自建要管模型、GPU 與排隊，用大平台又綁一整套 SDK 與帳務。
+  how: 輕量生圖閘道：提交需求立刻拿到 job id，幾十秒後輪詢取件。無伺服器架構，沒有維運負擔，站上多個專案的配圖由它供應。
+  tech:
+  - 整體架構跑在 Cloudflare Workers，無伺服器、零待機成本
+  - 生圖模型用 Workers AI 上的 FLUX.1-schnell
+  - 非同步 job 機制：提交回 job id，輪詢取件，狀態存 Cloudflare 儲存服務
+  - 提供 MCP 工具介面，AI 助手可直接呼叫生圖
+  solves:
+  - 兩個 API 就能用：提交、取件，不綁 SDK
+  - 不用管 GPU、擴容與待機成本
+  - 你的 AI 助手可以直接生圖——MCP 介面接上就能用
+  start: 打開服務頁，照文件送出第一個生圖請求。
+- id: classclaw
+  name: ClassClaw
+  category: infrastructure
+  status: live
+  featured: false
+  tagline: 一支 QR code 就能開始的課堂即時互動系統，即將開源
+  audience: 需要課堂互動工具的講師
+  url: https://ai100.cooperation.tw/classroom/host
+  image: proj-classclaw.jpg
+  cta: 查看系統
+  problem: 課堂互動工具不是要學員裝 App、註冊帳號，就是免費版處處受限——互動的門檻比互動本身還高。
+  how: 講師開一個房間，學員掃 QR code 即入，投票、搶答、意見牆即時同步。不用安裝、不用註冊，用完即散。
+  tech:
+  - 架在 Cloudflare 上的網頁應用，學員端零安裝、掃碼即入
+  - 房間制 session 模型，即時同步全場回應
+  - 規劃開源釋出——可自行部署、自行修改
+  solves:
+  - 學員進場只要掃碼，三秒開始互動，課堂節奏不被工具打斷
+  - 講師端即時看到全場回應分布
+  - 開源後可自己部署，不被平台方案綁住
+  start: 打開主持端建一個房間，用手機掃碼體驗學員視角。
+- id: foreclosure-map
+  name: 法拍物件地圖
+  category: data
+  status: live
+  featured: false
+  tagline: 整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具
+  audience: 不動產從業者、投資研究者
+  url: https://ai-cooperation.github.io/foreclosure-map/
+  image: proj-foreclosure.png
+  cta: 開啟地圖
+  problem: 法拍公告分散在全台 22 間法院各自的系統，格式不一、沒有地圖、不能篩選——研究一個區域的法拍物件要人工翻遍各法院網站。
+  how: 自動化爬蟲定期收集各法院公告，統一格式後上地圖。按區域、價格帶、拍次直接篩，點物件看完整公告內容。
+  tech:
+  - 排程爬蟲收集 22 間法院公告，統一資料格式
+  - 地址經地理編碼轉成座標上圖（含跨縣市同名路段的錯置防護）
+  - 前端地圖介面部署在 GitHub Pages，純靜態、免費運行
+  solves:
+  - 全台法拍物件一張地圖看完，不用逐一翻法院網站
+  - 區域、價格帶、拍次直接篩，研究效率是人工翻找的量級差
+  - 資料定期自動更新，看到的就是最新公告
+  start: 開啟地圖，縮放到你關注的區域。
+- id: sustainability-platform
+  name: 永續決策平台
+  category: data
+  status: live
+  featured: false
+  tagline: 把永續數據整理成可以支撐決策的視覺化平台
+  audience: 永續決策者
+  url: https://ai-cooperation.github.io/ai-sustainability-platform/
+  image: proj-sustainability.png
+  cta: 進入平台
+  problem: 永續決策需要數據支撐，但數據散在各部會與國際組織的報告裡，等人工整理完，決策時點已經過了。
+  how: 把公開的永續數據源整合成視覺化儀表板，決策相關的指標放在同一個畫面上對照。
+  tech:
+  - 公開數據源整理成結構化資料集
+  - 視覺化前端部署在 GitHub Pages
+  solves:
+  - 關鍵永續指標一站瀏覽，開會直接投影可用
+  - 資料來源公開可查，數字有出處
+  start: 進入平台，從你關注的指標主題開始。
+- id: meeting-capture
+  name: 會議紀錄工作室
+  category: infrastructure
+  status: coming
+  featured: false
+  tagline: 從錄音到結構化會議紀錄的自動化流程，建置中
+  audience: ''
+  url: ''
+  image: proj-coming1.png
+  cta: 敬請期待
+- id: taipower-data
+  name: 電力資料應用
+  category: data
+  status: coming
+  featured: false
+  tagline: 台電公開資料的分析與應用，建置中
+  audience: ''
+  url: ''
+  image: proj-coming2.png
+  cta: 敬請期待
+- id: living-world-model
+  name: Living World Model
+  category: research
+  status: coming
+  featured: false
+  tagline: 研究型專案，建置中
+  audience: ''
+  url: ''
+  image: proj-coming1.png
+  cta: 敬請期待

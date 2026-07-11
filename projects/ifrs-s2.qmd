@@ -14,7 +14,7 @@ toc: false
 <p class="detail-audience">適合：永續報告書編製者、合規顧問</p>
 <a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
 </header>
-<img class="detail-hero reveal-fx" src="/assets/images/proj-coming1.png" alt="IFRS S2 永續合規知識庫">
+<img class="detail-hero reveal-fx" src="/assets/images/proj-ifrs.jpg" alt="IFRS S2 永續合規知識庫">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
 <p>永續報告書要同時符合 IFRS S2、TWSE 附表、GHG Protocol 多套框架，人工逐條比對一份報告書要花數天，還容易漏——漏一條就是合規風險。</p>

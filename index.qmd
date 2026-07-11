@@ -50,7 +50,7 @@ toc: false
 <p class="pcard-tagline">覆蓋台日韓港與東南亞的保險市場情報，每天自動累積</p></div>
 </a>
 <a class="pcard reveal-fx" style="--rd:.16s" href="/projects/ifrs-s2.html">
-<img src="/assets/images/proj-coming1.png" alt="IFRS S2 知識庫" loading="lazy">
+<img src="/assets/images/proj-ifrs.jpg" alt="IFRS S2 知識庫" loading="lazy">
 <div class="pcard-body"><div class="pcard-head"><h3>IFRS S2 合規知識庫</h3><span class="badge badge-live">運行中</span></div>
 <p class="pcard-tagline">永續揭露差距分析，188 份文件逐條可勾稽</p></div>
 </a>

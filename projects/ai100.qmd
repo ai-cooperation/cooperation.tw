@@ -25,7 +25,7 @@ toc: false
 </section>
 <section class="detail-block reveal-fx">
 <h2>技術架構</h2>
-<ul class="detail-gains"><li>靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理</li><li>講次內容由 LLM 協作管線起草、人工審校後上線</li><li>每講 Podcast 音訊由 TTS 模型批次合成</li><li>Google Analytics 與 Microsoft Clarity 追蹤學習行為</li></ul>
+<ul class="detail-gains"><li>靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理</li><li>講次內容由 LLM 協作管線起草、人工審校後上線</li><li>每講 Podcast 音訊由 TTS 模型批次合成</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>用了之後，解決什麼</h2>
