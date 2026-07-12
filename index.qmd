@@ -1,10 +1,16 @@
 ---
-pagetitle: "AI Cooperation — 打造人機協作的基礎架構"
+pagetitle: "打造人機協作的基礎架構"
 page-layout: custom
 toc: false
 ---
 
 ```{=html}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","name":"AI Cooperation","alternateName":"cooperation.tw","url":"https://cooperation.tw","logo":"https://cooperation.tw/assets/icon-512.png","email":"ai@cooperation.tw","sameAs":["https://github.com/ai-cooperation"]},
+{"@type":"WebSite","name":"AI Cooperation","url":"https://cooperation.tw","description":"打造人機協作的基礎架構——運行中的 AI 專案入口與課程","inLanguage":"zh-TW"}]}
+</script>
+
 <section class="hero">
 <div class="hero-inner">
 <h1 class="reveal-fx">打造人機協作<br>的基礎架構</h1>

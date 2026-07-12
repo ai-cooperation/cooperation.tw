@@ -1,6 +1,6 @@
 ---
-pagetitle: "永續 100 講 — AI Cooperation"
-description: "涵蓋淨零碳排、ESG、碳交易十大主題的永續知識系列，AI 驅動的內容生產流程本身就是示範"
+pagetitle: "iPAS 淨零碳規劃師入門到實務｜永續 100 講"
+description: "淨零碳排、ESG、碳交易十大主題一百講，對應 iPAS 淨零碳規劃師考科，附永續動態新聞板塊。"
 page-layout: custom
 toc: false
 ---
@@ -36,6 +36,11 @@ toc: false
 <p>從第一講的氣候科學基礎開始，或用主題目錄直接跳到你工作上正在碰的題目。</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
 </section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>iPAS 淨零碳規劃師要讀哪些主題？</h3><p>永續 100 講涵蓋氣候科學、碳盤查、ESG 揭露、碳交易等十大主題，從基礎到實務對應考科範圍。</p></div><div class="faq-item"><h3>永續新聞跟不上怎麼辦？</h3><p>站內的永續動態板塊每則新聞標注來源與日期，並連結回對應講次，新知直接掛上知識體系。</p></div></div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "永續 100 講", "description": "淨零碳排、ESG、碳交易十大主題一百講，對應 iPAS 淨零碳規劃師考科，附永續動態新聞板塊。", "url": "https://ai-cooperation.github.io/sustainability-100/", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "永續 100 講", "item": "https://cooperation.tw/projects/sustainability-100.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "iPAS 淨零碳規劃師要讀哪些主題？", "acceptedAnswer": {"@type": "Answer", "text": "永續 100 講涵蓋氣候科學、碳盤查、ESG 揭露、碳交易等十大主題，從基礎到實務對應考科範圍。"}}, {"@type": "Question", "name": "永續新聞跟不上怎麼辦？", "acceptedAnswer": {"@type": "Answer", "text": "站內的永續動態板塊每則新聞標注來源與日期，並連結回對應講次，新知直接掛上知識體系。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

@@ -5,6 +5,7 @@
 產出：projects/index.qmd + projects/<id>.qmd + llms.txt
 唯一資料源是 data/projects.yml，不要手改產出檔。
 """
+import json
 import sys
 from pathlib import Path
 
@@ -13,6 +14,47 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "projects.yml"
 OUT_DIR = ROOT / "projects"
+
+
+
+SITE = "https://cooperation.tw"
+
+
+def jsonld(p, cat):
+    """每頁一段 @graph：主體 schema + BreadcrumbList + FAQPage。"""
+    page_url = f"{SITE}/projects/{p['id']}.html"
+    if p["category"] == "education":
+        main = {"@type": "Course", "name": p["name"],
+                "description": p.get("seo_description", p["tagline"]),
+                "url": p.get("url") or page_url,
+                "provider": {"@type": "Organization", "name": "AI Cooperation",
+                             "url": SITE},
+                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"},
+                "hasCourseInstance": {"@type": "CourseInstance",
+                                      "courseMode": "online"}}
+    else:
+        main = {"@type": "SoftwareApplication", "name": p["name"],
+                "description": p.get("seo_description", p["tagline"]),
+                "url": p.get("url") or page_url,
+                "applicationCategory": cat["name"],
+                "operatingSystem": "Web",
+                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}
+    graph = [main,
+             {"@type": "BreadcrumbList", "itemListElement": [
+                 {"@type": "ListItem", "position": 1, "name": "首頁",
+                  "item": f"{SITE}/"},
+                 {"@type": "ListItem", "position": 2, "name": "專案",
+                  "item": f"{SITE}/projects/"},
+                 {"@type": "ListItem", "position": 3, "name": p["name"],
+                  "item": page_url}]}]
+    if p.get("faq"):
+        graph.append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": x["q"],
+             "acceptedAnswer": {"@type": "Answer", "text": x["a"]}}
+            for x in p["faq"]]})
+    payload = {"@context": "https://schema.org", "@graph": graph}
+    return json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
+
 
 STATUS_LABEL = {"live": "運行中", "beta": "測試中", "coming": "建置中"}
 
@@ -81,8 +123,8 @@ def gen_detail(p, cat):
         audience_html = f'<p class="detail-audience">適合：{p["audience"]}</p>'
     lines = [
         "---",
-        f'pagetitle: "{p["name"]} — AI Cooperation"',
-        f'description: "{p["tagline"]}"',
+        f'pagetitle: "{p.get("seo_title", p["name"])}"',
+        f'description: "{p.get("seo_description", p["tagline"])}"',
         "page-layout: custom",
         "toc: false",
         "---",
@@ -137,7 +179,19 @@ def gen_detail(p, cat):
             f'{entry_btn}',
             "</section>",
         ]
+    faq = p.get("faq", [])
+    if faq:
+        faq_html = "".join(
+            f'<div class="faq-item"><h3>{x["q"]}</h3><p>{x["a"]}</p></div>'
+            for x in faq)
+        lines += [
+            '<section class="detail-block reveal-fx">',
+            "<h2>常見問題</h2>",
+            f'<div class="faq-list">{faq_html}</div>',
+            "</section>",
+        ]
     lines += [
+        f'<script type="application/ld+json">{jsonld(p, cat)}</script>',
         '<p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>',
         "</article>",
         "```",

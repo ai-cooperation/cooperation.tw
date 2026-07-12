@@ -3,7 +3,6 @@ project:
   output-dir: _site
   post-render: python3 _scripts/inject_canonical.py
   resources:
-    - assets/demos/slides/**
     - assets/images/**
     - assets/videos/**
     - assets/icon-*.png

@@ -1,6 +1,6 @@
 ---
-pagetitle: "AI 100 講 — AI Cooperation"
-description: "十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast"
+pagetitle: "iPAS AI 應用規劃師免費課程與中文 Podcast｜AI 100 講"
+description: "十模組一百講的免費 AI 應用課程，對應 iPAS AI 應用規劃師考科，每講附中文 Podcast，通勤即可學習。"
 page-layout: custom
 toc: false
 ---
@@ -36,6 +36,11 @@ toc: false
 <p>打開課程網站，從模組一第一講開始，或直接挑你最弱的模組切入。</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
 </section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>iPAS AI 應用規劃師有免費的中文課程嗎？</h3><p>有。AI 100 講把 iPAS AI 應用規劃師的知識體系拆成 10 個模組、100 講，全部免費開放，每講附中文 Podcast。</p></div><div class="faq-item"><h3>沒有程式背景可以準備 iPAS AI 應用規劃師嗎？</h3><p>可以。課程從機制與概念切入，不要求寫程式，重點是理解每個技術的原理與應用場景。</p></div><div class="faq-item"><h3>AI 100 講要怎麼開始？</h3><p>打開課程網站從模組一第一講開始，或先聽 Podcast 挑你最弱的模組切入。</p></div></div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "AI 100 講", "description": "十模組一百講的免費 AI 應用課程，對應 iPAS AI 應用規劃師考科，每講附中文 Podcast，通勤即可學習。", "url": "https://ai-cooperation.github.io/ai100/", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "AI 100 講", "item": "https://cooperation.tw/projects/ai100.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "iPAS AI 應用規劃師有免費的中文課程嗎？", "acceptedAnswer": {"@type": "Answer", "text": "有。AI 100 講把 iPAS AI 應用規劃師的知識體系拆成 10 個模組、100 講，全部免費開放，每講附中文 Podcast。"}}, {"@type": "Question", "name": "沒有程式背景可以準備 iPAS AI 應用規劃師嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。課程從機制與概念切入，不要求寫程式，重點是理解每個技術的原理與應用場景。"}}, {"@type": "Question", "name": "AI 100 講要怎麼開始？", "acceptedAnswer": {"@type": "Answer", "text": "打開課程網站從模組一第一講開始，或先聽 Podcast 挑你最弱的模組切入。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

@@ -1,6 +1,6 @@
 ---
-pagetitle: "保險業知識庫 — AI Cooperation"
-description: "覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識"
+pagetitle: "保險業市場情報知識庫——台日韓港東南亞每日更新"
+description: "每天自動收集五個市場的保險業新聞，翻譯、結構化、月度蒸餾成 Wiki，AI 助手可直連產出研究報告。"
 page-layout: custom
 toc: false
 ---
@@ -36,6 +36,11 @@ toc: false
 <p>進入知識庫瀏覽最新市場動態，或從月度 Wiki 看整體趨勢。</p>
 <a class="btn-primary" href="https://insurance-kb.cooperation.tw">進入知識庫</a>
 </section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>要追蹤亞洲保險市場動態有什麼工具？</h3><p>保險業知識庫每天自動收集台、日、韓、港、東南亞新聞源，翻譯結構化後入庫，每月蒸餾成主題 Wiki。</p></div><div class="faq-item"><h3>知識庫的內容可信嗎？</h3><p>每條內容附原文出處連結，可回溯查證；公司譯名經一致性把關，同一家公司不會因翻譯不同而搜不到。</p></div></div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "保險業知識庫", "description": "每天自動收集五個市場的保險業新聞，翻譯、結構化、月度蒸餾成 Wiki，AI 助手可直連產出研究報告。", "url": "https://insurance-kb.cooperation.tw", "applicationCategory": "知識庫系統", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "保險業知識庫", "item": "https://cooperation.tw/projects/insurance-kb.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "要追蹤亞洲保險市場動態有什麼工具？", "acceptedAnswer": {"@type": "Answer", "text": "保險業知識庫每天自動收集台、日、韓、港、東南亞新聞源，翻譯結構化後入庫，每月蒸餾成主題 Wiki。"}}, {"@type": "Question", "name": "知識庫的內容可信嗎？", "acceptedAnswer": {"@type": "Answer", "text": "每條內容附原文出處連結，可回溯查證；公司譯名經一致性把關，同一家公司不會因翻譯不同而搜不到。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

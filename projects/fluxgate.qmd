@@ -1,6 +1,6 @@
 ---
-pagetitle: "FluxGate — AI Cooperation"
-description: "建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件"
+pagetitle: "FLUX 開源模型生圖 API——無伺服器輕量服務｜FluxGate"
+description: "架在 Cloudflare Workers 的非同步生圖服務，使用 FLUX.1-schnell 開源模型，提交即回、輪詢取件。"
 page-layout: custom
 toc: false
 ---
@@ -36,6 +36,11 @@ toc: false
 <p>打開服務頁，照文件送出第一個生圖請求。</p>
 <a class="btn-primary" href="https://fluxgate.cooperation.tw/">查看服務</a>
 </section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>有沒有輕量的生圖 API 可以直接用？</h3><p>FluxGate 只有兩個 API：提交拿 job id、輪詢取件，架在 Cloudflare Workers 上無伺服器，不綁 SDK。</p></div><div class="faq-item"><h3>FluxGate 用什麼模型？</h3><p>FLUX.1-schnell——目前最強的開源生圖模型之一，跑在 Cloudflare Workers AI 上。</p></div></div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "FluxGate", "description": "架在 Cloudflare Workers 的非同步生圖服務，使用 FLUX.1-schnell 開源模型，提交即回、輪詢取件。", "url": "https://fluxgate.cooperation.tw/", "applicationCategory": "AI 基礎設施", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "FluxGate", "item": "https://cooperation.tw/projects/fluxgate.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "有沒有輕量的生圖 API 可以直接用？", "acceptedAnswer": {"@type": "Answer", "text": "FluxGate 只有兩個 API：提交拿 job id、輪詢取件，架在 Cloudflare Workers 上無伺服器，不綁 SDK。"}}, {"@type": "Question", "name": "FluxGate 用什麼模型？", "acceptedAnswer": {"@type": "Answer", "text": "FLUX.1-schnell——目前最強的開源生圖模型之一，跑在 Cloudflare Workers AI 上。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

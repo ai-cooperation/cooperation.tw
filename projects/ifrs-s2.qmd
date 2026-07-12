@@ -1,6 +1,6 @@
 ---
-pagetitle: "IFRS S2 永續合規知識庫 — AI Cooperation"
-description: "188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol"
+pagetitle: "永續報告書 IFRS S2 差距分析工具——逐條可勾稽"
+description: "188 份法規文件建成的合規知識庫，上傳永續報告書即逐條勾稽 IFRS S2、TWSE 附表與 GHG Protocol，輸出差距分析與補強優先序。"
 page-layout: custom
 toc: false
 ---
@@ -36,6 +36,11 @@ toc: false
 <p>進入系統，用一份現成的永續報告書跑一次差距分析。</p>
 <a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
 </section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>永續報告書的 IFRS S2 差距分析要怎麼做？</h3><p>把報告書交給系統逐條勾稽：每一條揭露要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，數天的人工比對縮短成一次掃描。</p></div><div class="faq-item"><h3>差距分析的結果可以拿來稽核嗎？</h3><p>可以。每條判定都附報告書頁碼與條號出處，缺漏清單附補強優先序，直接變成報告書改版工作清單。</p></div><div class="faq-item"><h3>系統涵蓋哪些框架？</h3><p>IFRS S1/S2、TWSE 氣候揭露附表、GHG Protocol，各框架獨立計分，不會混在一起算。</p></div></div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "IFRS S2 永續合規知識庫", "description": "188 份法規文件建成的合規知識庫，上傳永續報告書即逐條勾稽 IFRS S2、TWSE 附表與 GHG Protocol，輸出差距分析與補強優先序。", "url": "https://ifrs-kb.cooperation.tw/", "applicationCategory": "知識庫系統", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "IFRS S2 永續合規知識庫", "item": "https://cooperation.tw/projects/ifrs-s2.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "永續報告書的 IFRS S2 差距分析要怎麼做？", "acceptedAnswer": {"@type": "Answer", "text": "把報告書交給系統逐條勾稽：每一條揭露要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，數天的人工比對縮短成一次掃描。"}}, {"@type": "Question", "name": "差距分析的結果可以拿來稽核嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。每條判定都附報告書頁碼與條號出處，缺漏清單附補強優先序，直接變成報告書改版工作清單。"}}, {"@type": "Question", "name": "系統涵蓋哪些框架？", "acceptedAnswer": {"@type": "Answer", "text": "IFRS S1/S2、TWSE 氣候揭露附表、GHG Protocol，各框架獨立計分，不會混在一起算。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

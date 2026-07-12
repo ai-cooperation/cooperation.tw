@@ -265,3 +265,13 @@ html.js .reveal-fx.in { opacity: 1; transform: none; }
 .detail-back { margin-top: 3rem; }
 .detail-back a { color: var(--text-dim); text-decoration: none; }
 .detail-back a:hover { color: var(--blue); }
+
+
+/* ── FAQ（GEO：FAQPage 對應的可見內容）── */
+.faq-list { display: flex; flex-direction: column; gap: 1rem; }
+.faq-item {
+  background: var(--bg2); border: 1px solid var(--line);
+  border-radius: 12px; padding: 1rem 1.3rem;
+}
+.faq-item h3 { font-size: 1rem; margin: 0 0 .5rem; color: var(--blue); line-height: 1.6; }
+.faq-item p { margin: 0; font-size: .92rem; color: var(--text); line-height: 1.8; }
