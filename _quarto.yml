@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  post-render: python3 _scripts/inject_canonical.py
   resources:
     - assets/demos/slides/**
     - assets/images/**
@@ -8,6 +9,7 @@ project:
     - assets/icon-*.png
     - assets/apple-touch-icon.png
     - assets/favicon.png
+    - assets/og-image.png
     - llms.txt
     - robots.txt
     - manifest.json
