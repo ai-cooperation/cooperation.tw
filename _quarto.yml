@@ -6,6 +6,7 @@ project:
     - assets/images/**
     - assets/videos/**
     - assets/icon-*.png
+    - assets/icon.svg
     - assets/apple-touch-icon.png
     - assets/favicon.png
     - assets/og-image.png
@@ -55,6 +56,7 @@ format:
     include-in-header:
       text: |
         <script>document.documentElement.classList.add('js');</script>
+        <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
         <link rel="icon" type="image/png" href="/assets/favicon.png">
         <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
         <link rel="manifest" href="/manifest.json">
