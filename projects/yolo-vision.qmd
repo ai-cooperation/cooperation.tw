@@ -36,6 +36,7 @@ toc: false
 <p>進入課程頁看章節安排，準備一批你想辨識的場景照片。</p>
 <a class="btn-primary" href="https://cooperation.tw/yolo-vision-course/index.html">進入課程</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>學 YOLO 需要自己買顯卡嗎？</h3><p>不用。課程全程使用 Google Colab 等免費 GPU 資源，範例採公開免費資料集，零成本完整走一遍。</p></div><div class="faq-item"><h3>YOLO 課程學完能做什麼？</h3><p>你會有一個用自己場景資料訓練出來的可用辨識模型，並且完成部署，不是停在 notebook。</p></div></div>

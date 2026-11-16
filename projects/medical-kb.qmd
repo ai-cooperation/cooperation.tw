@@ -36,6 +36,7 @@ toc: false
 <p>進入知識庫，從你的專科主題開始瀏覽。</p>
 <a class="btn-primary" href="https://hematology-kb.pages.dev">進入知識庫</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>臨床工作太忙跟不上文獻怎麼辦？</h3><p>醫學知識庫的管線先讀文獻，你看蒸餾後的結構化條目，每條附 DOI 與原文連結，引用有據。</p></div></div>

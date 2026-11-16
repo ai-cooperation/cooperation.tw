@@ -36,6 +36,7 @@ toc: false
 <p>打開主持端建一個房間，用手機掃碼體驗學員視角。</p>
 <a class="btn-primary" href="https://ai100.cooperation.tw/classroom/host">查看系統</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>有不用裝 App 的課堂互動工具嗎？</h3><p>ClassClaw 學員端零安裝：掃 QR code 即入，投票、搶答、意見牆即時同步，用完即散。</p></div><div class="faq-item"><h3>ClassClaw 可以自己部署嗎？</h3><p>規劃開源釋出，屆時可自行部署、自行修改，不被平台方案綁住。</p></div></div>

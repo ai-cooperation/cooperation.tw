@@ -78,7 +78,15 @@ def course_links_html(project_id):
     """專案頁的「這套系統也是課堂教材」卡片；無對應課程回空字串。"""
     courses = COURSES_BY_PROJECT.get(project_id, [])
     if not courses:
-        return ""
+        # 沒有對應課程的專案頁也要有回課程的出口，避免漏斗死路
+        return (
+            '<section class="detail-block reveal-fx">'
+            "<h2>想學會做這類系統</h2>"
+            "<p>站上的系統同時是課堂教材。從你的情境出發，"
+            "做一件自己驗收過的作品。</p>"
+            '<a class="btn-ghost" href="/courses/">幫我找適合的課 →</a>'
+            "</section>"
+        )
     cards = []
     for c in courses:
         # 僅開放試上課程掛「預約試上」徽章；未開課課程不掛標籤。

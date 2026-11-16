@@ -36,6 +36,7 @@ toc: false
 <p>進入平台，從你關注的指標主題開始。</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/ai-sustainability-platform/">進入平台</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>永續決策需要的數據散在各處怎麼辦？</h3><p>永續決策平台把公開數據源整合成視覺化儀表板，關鍵指標放在同一畫面對照，會議直接可用。</p></div></div>

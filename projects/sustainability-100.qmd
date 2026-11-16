@@ -36,6 +36,7 @@ toc: false
 <p>從第一講的氣候科學基礎開始，或用主題目錄直接跳到你工作上正在碰的題目。</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>iPAS 淨零碳規劃師要讀哪些主題？</h3><p>永續 100 講涵蓋氣候科學、碳盤查、ESG 揭露、碳交易等十大主題，從基礎到實務對應考科範圍。</p></div><div class="faq-item"><h3>永續新聞跟不上怎麼辦？</h3><p>站內的永續動態板塊每則新聞標注來源與日期，並連結回對應講次，新知直接掛上知識體系。</p></div></div>

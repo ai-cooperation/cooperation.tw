@@ -51,7 +51,7 @@ toc: false
 <div class="news-list">
 <a class="news-item reveal-fx" href="/courses/">
 <span class="news-tag">新上線</span>
-<span class="news-title">情境實作課開放興趣登記——從智慧門鈴、遠距照護到產業情報雷達</span>
+<span class="news-title">情境實作課開放預約試上——從智慧門鈴、遠距照護到產業情報雷達</span>
 </a>
 <a class="news-item reveal-fx" style="--rd:.1s" href="/projects/ifrs-s2.html">
 <span class="news-tag">新專案</span>
@@ -104,5 +104,6 @@ toc: false
 你只管勇往直前<br>
 與 AI 協作的架構我們來建
 </p>
+<p class="vision-cta reveal-fx"><a class="btn-primary" href="/courses/">幫我找適合的課</a></p>
 </section>
 ```

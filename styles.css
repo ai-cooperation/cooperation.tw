@@ -436,6 +436,7 @@ p { color: var(--text); }
   position: absolute; inset: 0;
   background: linear-gradient(180deg, var(--bg) 0%, rgba(20, 26, 33, .42) 30%, rgba(20, 26, 33, .5) 70%, var(--bg) 100%);
 }
+.vision-cta { position: relative; margin-top: 2rem; }
 .vision-text {
   position: relative;
   font-size: clamp(1.15rem, 3vw, 1.5rem);
