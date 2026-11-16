@@ -509,11 +509,14 @@ def gen_apply(data: dict[str, Any]) -> None:
         '<label>想試上的課程',
         f'<select name="course" required>{options}</select></label>',
         '<label>稱呼 <span class="req">必填</span>',
-        '<input type="text" name="name_field" required autocomplete="name"></label>',
+        '<input type="text" name="name_field" required autocomplete="name" '
+        'placeholder="怎麼稱呼你，暱稱就可以"></label>',
         '<label>Email <span class="req">必填</span>',
-        '<input type="email" name="email" required autocomplete="email"></label>',
+        '<input type="email" name="email" required autocomplete="email" '
+        'placeholder="場次通知會寄到這"></label>',
         '<label>電話',
-        '<input type="tel" name="phone" autocomplete="tel"></label>',
+        '<input type="tel" name="phone" autocomplete="tel" '
+        'placeholder="可不填，開課前提醒用"></label>',
         '<label>你的情境：想解決什麼問題',
         '<textarea name="situation" rows="4" placeholder="例如：每天手動整理訂單表、家人獨居想多一層安心……"></textarea></label>',
         '<label>怎麼知道這門課',
@@ -577,13 +580,17 @@ def gen_apply_enterprise() -> None:
         "</div>",
         '<form id="apply-form" class="apply-form reveal-fx">',
         '<label>公司與部門 <span class="req">必填</span>',
-        '<input type="text" name="company" required autocomplete="organization"></label>',
+        '<input type="text" name="company" required autocomplete="organization" '
+        'placeholder="例如：某某科技 製造部"></label>',
         '<label>稱呼 <span class="req">必填</span>',
-        '<input type="text" name="name_field" required autocomplete="name"></label>',
+        '<input type="text" name="name_field" required autocomplete="name" '
+        'placeholder="怎麼稱呼你"></label>',
         '<label>Email <span class="req">必填</span>',
-        '<input type="email" name="email" required autocomplete="email"></label>',
+        '<input type="email" name="email" required autocomplete="email" '
+        'placeholder="課程規劃與報價會寄到這"></label>',
         '<label>電話',
-        '<input type="tel" name="phone" autocomplete="tel"></label>',
+        '<input type="tel" name="phone" autocomplete="tel" '
+        'placeholder="可不填，方便電話訪談再留"></label>',
         '<label>想改善的工作流程 <span class="req">必填</span>',
         '<textarea name="workflow" rows="4" required placeholder="例如：客服信件分類回覆、每月報表彙整、現場巡檢紀錄……"></textarea></label>',
         '<label>預計人數',
