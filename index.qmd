@@ -18,7 +18,7 @@ toc: false
 <h1 class="reveal-fx">不必先懂程式<br>做出幫得上忙的 AI 系統</h1>
 <p class="hero-sub reveal-fx" style="--rd:.1s">從生活與工作的真實問題出發<br>每門課帶走一件親手驗收的作品<br>站上每套系統都在真實運轉 也是課堂教材</p>
 <div class="hero-cta reveal-fx" style="--rd:.2s">
-<a class="btn-primary" href="/courses/">找到能解決你問題的課</a>
+<a class="btn-primary" href="/courses/">幫我找適合的課</a>
 </div>
 </div>
 <img class="hero-photo reveal-fx" style="--rd:.15s" src="/assets/images/hero-home.png" alt="AI Cooperation 工作室實景">
