@@ -36,6 +36,7 @@ toc: false
 <p>打開服務頁，照文件送出第一個生圖請求。</p>
 <a class="btn-primary" href="https://fluxgate.cooperation.tw/">查看服務</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/home-preview.html"><h3>我的家，裝修前先看見</h3><p>想改造客廳，看了很多照片，卻不知道這些風格用在自己家會怎樣</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>有沒有輕量的生圖 API 可以直接用？</h3><p>FluxGate 只有兩個 API：提交拿 job id、輪詢取件，架在 Cloudflare Workers 上無伺服器，不綁 SDK。</p></div><div class="faq-item"><h3>FluxGate 用什麼模型？</h3><p>FLUX.1-schnell——目前最強的開源生圖模型之一，跑在 Cloudflare Workers AI 上。</p></div></div>

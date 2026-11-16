@@ -1,0 +1,60 @@
+---
+pagetitle: "產業情報雷達實作課：自建新聞監測與附來源週報"
+description: "給研究企劃與主管的課程：建立自己產業的新聞收集、去重、分類管線，每週自動產出附來源可查證的情報週報。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">工作與產業</span>
+<h1>打造自己的產業情報雷達</h1>
+<p class="detail-tagline">每天看很多新聞，怎麼知道哪些消息真的影響公司</p>
+<p class="detail-audience">適合：研究、企劃、業務、主管</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-c">C 建自己的知識庫</a><a class="axis-chip axis-chip-sm" href="/method/#axis-d">D 讓 AI 自動運轉</a></p>
+<a class="btn-primary" href="/apply/?course=industry-radar">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-industry-radar.png" alt="打造自己的產業情報雷達">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>為你自己的產業建立一條資訊管線：收集、去重、分類、來源查核，每週自動產出一份附來源的情報週報——規則由你定義，來源隨時可回查。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>情報監測規則</li><li>附來源的週報</li><li>待查證清單</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>研究問題與關鍵詞設計</li><li>RSS 與 API 自動收集、分類去重</li><li>原始公告核對、重要性矩陣、排程摘要</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>資訊蒐集、可信度判斷、事件研判、決策簡報</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>產業情報分析人才、企劃與研究顧問。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>每天自動運轉的產業新聞管線——站上的保險業知識庫就是它的成果</p>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/insurance-kb.html"><h3>保險業知識庫</h3><p>覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/ifrs-s2.html"><h3>IFRS S2 永續合規知識庫</h3><p>188 份文件、逐條對照原文出處的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p><span class="pcard-cta">看這個系統 →</span></a></div>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>自動摘要不是事實查核；課程教你區分報導時間、事件時間與推論，重要判斷需回原始來源。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>跟訂閱新聞摘要服務差在哪？</h3><p>摘要服務給所有人同一份內容。課程教你建立針對自己產業與關注議題的管線，規則由你定義、來源可回查。</p></div><div class="faq-item"><h3>AI 摘要可信嗎？</h3><p>摘要是入口不是結論。課程把來源核對設計進流程：每則情報附原始連結，重要決策前回查原文。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=industry-radar">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：打造自己的產業情報雷達」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "打造自己的產業情報雷達", "description": "給研究企劃與主管的課程：建立自己產業的新聞收集、去重、分類管線，每週自動產出附來源可查證的情報週報。", "url": "https://cooperation.tw/courses/industry-radar.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "打造自己的產業情報雷達", "item": "https://cooperation.tw/courses/industry-radar.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "跟訂閱新聞摘要服務差在哪？", "acceptedAnswer": {"@type": "Answer", "text": "摘要服務給所有人同一份內容。課程教你建立針對自己產業與關注議題的管線，規則由你定義、來源可回查。"}}, {"@type": "Question", "name": "AI 摘要可信嗎？", "acceptedAnswer": {"@type": "Answer", "text": "摘要是入口不是結論。課程把來源核對設計進流程：每則情報附原始連結，重要決策前回查原文。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```

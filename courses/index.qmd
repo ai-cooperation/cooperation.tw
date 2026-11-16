@@ -1,43 +1,98 @@
 ---
-title: "課程"
+pagetitle: "從你的問題找課程｜情境式 AI 實作課程"
+description: "不必先懂工具。從生活與家庭、工作與產業、教育與研究的真實情境進來，練四個關鍵能力，做出帶得走的 AI 作品。"
+page-layout: custom
 toc: false
 ---
 
-不需要程式背景，但需要理解每一步的機制邏輯。每一門課教的方法，都來自站上真實運轉的系統。
-
 ```{=html}
-<div class="course-card">
-<h3>AI 100 講</h3>
-<div class="course-meta"><span>10 模組 × 10 講</span><span>入門</span><span>線上自學</span><span>iPAS AI 應用規劃師導向</span></div>
-<p>把 AI 應用規劃師的知識體系拆成一百講，每講附中文 Podcast——通勤時聽完一講，回家對照教材動手。</p>
-<a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
+<section class="hero hero-lite hero-img" style="--hero-img:url('/assets/images/hero-courses.png')">
+<div class="hero-inner">
+<span class="hero-kicker reveal-fx">情境式 AI 實作課程</span>
+<h1 class="reveal-fx" style="--rd:.05s">從你在意的問題開始<br>做出<em>自己的第一個 AI 應用</em></h1>
+<p class="hero-sub reveal-fx" style="--rd:.15s">不必先懂工具 <br class="br-m">從真實的生活與工作情境進來<br>完成一個帶得走的作品 <br class="br-m">再看見背後的技術與路徑</p>
 </div>
-
-<div class="course-card">
-<h3>永續 100 講</h3>
-<div class="course-meta"><span>10 大主題</span><span>入門</span><span>線上自學</span><span>iPAS 淨零碳規劃師導向</span></div>
-<p>淨零碳排、ESG、碳交易的系統性知識。課程內容由 AI 驅動的生產流程製作——這條流程本身就是人機協作的示範。</p>
-<a class="btn-primary" href="https://ai-cooperation.github.io/sustainability-100/">進入課程</a>
+</section>
+<section class="home-section" id="find">
+<h2 class="reveal-fx">你最近在意哪一種問題</h2>
+<p class="section-lead reveal-fx">選一個入口 <br class="br-m">找到從你的情境出發的課程</p>
+<div class="entr-grid">
+<a class="entr-card reveal-fx" href="#cat-life"><img src="/assets/images/cat-life.png" alt="" loading="lazy"><h3>生活與家庭</h3><p>照顧家人、毛孩與自己的家，AI 可以多幫一點——智慧門鈴、遠距照護、寵物健康、裝修模擬。</p><span class="entr-cta">系列課程 →</span></a>
+<a class="entr-card reveal-fx" style="--rd:.08s" href="#cat-work"><img src="/assets/images/cat-work.png" alt="" loading="lazy"><h3>工作與產業</h3><p>重複的流程、看不完的資料，做一個自己的小系統——訂單系統、用電分析、會議追蹤、產業情報。</p><span class="entr-cta">系列課程 →</span></a>
+<a class="entr-card reveal-fx" style="--rd:.16s" href="#cat-learn"><img src="/assets/images/cat-learn.png" alt="" loading="lazy"><h3>教育與研究</h3><p>讓學習真的發生、讓研究想法變成可執行的計畫——學習教練、研究方法。</p><span class="entr-cta">系列課程 →</span></a>
 </div>
-
-<div class="course-card">
-<h3>AI 學習路徑（Vibe Coding）</h3>
-<div class="course-meta"><span>三階段</span><span>入門到進階</span><span>實體工作坊</span></div>
-<p>從會用 AI 到能與 AI 協作開發。每一階段以做出真實作品收尾——作品上線，才算學會。</p>
-<a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
+</section>
+<section class="home-section"><h2 class="reveal-fx">情境式課程</h2><p class="section-lead reveal-fx">每門課從一個真實的痛點開始，結束時你會帶走一件自己驗收過的作品。</p></section>
+<section class="home-section home-section-tight">
+<h3 class="cgroup-label reveal-fx" id="cat-life">生活與家庭</h3>
+<p class="section-lead reveal-fx">照顧家人、毛孩與自己的家，AI 可以多幫一點</p>
+<div class="cgrid">
+<a class="ccard reveal-fx" href="/courses/aiot-button.html"><img src="/assets/images/course-aiot-button.png" alt="AIoT 入門，從一顆門鈴按鍵開始" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>AIoT 入門，從一顆門鈴按鍵開始</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">想讓家裡聰明一點，一看到電路板和程式就想放棄</p><p class="ccard-meta">適合：想入門智慧家庭的生活玩家、想評估感測應用的工作者</p><p class="ccard-take">帶走：按一下就通知 AI 助手的智慧門鈴按鍵</p></div></a>
+<a class="ccard reveal-fx" href="/courses/remote-care.html"><img src="/assets/images/course-remote-care.png" alt="遠距安心照護實作營" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>遠距安心照護實作營</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p><p class="ccard-meta">適合：家庭照顧者、長照工作者</p><p class="ccard-take">帶走：異常提醒流程與模擬通知展示</p></div></a>
+<a class="ccard reveal-fx" href="/courses/pet-health.html"><img src="/assets/images/course-pet-health.png" alt="毛孩健康觀察與智慧照護工作坊" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>毛孩健康觀察與智慧照護工作坊</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">毛孩不會說話，最近好像吃得少了，是真的有變化嗎</p><p class="ccard-meta">適合：寵物飼主、寵物服務業</p><p class="ccard-take">帶走：可長期追蹤的寵物健康檔案</p></div></a>
+<a class="ccard reveal-fx" href="/courses/home-preview.html"><img src="/assets/images/course-home-preview.png" alt="我的家，裝修前先看見" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>我的家，裝修前先看見</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">想改造客廳，看了很多照片，卻不知道這些風格用在自己家會怎樣</p><p class="ccard-meta">適合：屋主、設計助理、房仲</p><p class="ccard-take">帶走：自己家的多風格模擬圖與方案比較</p></div></a>
 </div>
-
-<div class="course-card">
-<h3>YOLO 視覺辨識</h3>
-<div class="course-meta"><span>實作課</span><span>進階</span></div>
-<p>用真實場景資料訓練自己的物件辨識模型，從標註、訓練到部署完整走一遍。</p>
-<a class="btn-primary" href="/projects/yolo-vision.html">課程介紹</a>
+</section>
+<section class="home-section home-section-tight">
+<h3 class="cgroup-label reveal-fx" id="cat-work">工作與產業</h3>
+<p class="section-lead reveal-fx">重複的流程、看不完的資料，做一個自己的小系統</p>
+<div class="cgrid">
+<a class="ccard reveal-fx" href="/courses/no-code-system.html"><img src="/assets/images/course-no-code-system.png" alt="不會寫程式，也能打造自己的小系統" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>不會寫程式，也能打造自己的小系統</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><p class="ccard-meta">適合：中小企業主、行政與專案工作者</p><p class="ccard-take">帶走：可實際下單的訂購網頁與後台</p></div></a>
+<a class="ccard reveal-fx" href="/courses/energy-detective.html"><img src="/assets/images/course-energy-detective.png" alt="企業用電異常偵探實戰班" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>企業用電異常偵探實戰班</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p><p class="ccard-meta">適合：廠務、能源管理人員、ESCO</p><p class="ccard-take">帶走：異常假設矩陣與現場查證清單</p></div></a>
+<a class="ccard reveal-fx" href="/courses/meeting-follow.html"><img src="/assets/images/course-meeting-follow.png" alt="開完會，事情真的有在往前走嗎" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>開完會，事情真的有在往前走嗎</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">上週開會明明有結論，這週卻沒人追蹤——缺的不是逐字稿，是會後的追蹤機制</p><p class="ccard-meta">適合：主管、行政、PMO</p><p class="ccard-take">帶走：可稽核的決議紀錄與待辦追蹤表</p></div></a>
+<a class="ccard reveal-fx" href="/courses/industry-radar.html"><img src="/assets/images/course-industry-radar.png" alt="打造自己的產業情報雷達" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>打造自己的產業情報雷達</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">每天看很多新聞，怎麼知道哪些消息真的影響公司</p><p class="ccard-meta">適合：研究、企劃、業務、主管</p><p class="ccard-take">帶走：附來源可查證的情報週報</p></div></a>
 </div>
-
-<div class="course-card">
-<h3>企業內訓</h3>
-<div class="course-meta"><span>客製</span><span>半日到多日</span></div>
-<p>把貴公司的工作流程轉譯成 AI 可以參與的形式。課程設計從實際業務場景出發，不教通用工具操作。</p>
-<a class="btn-primary" href="mailto:ai@cooperation.tw">課程洽詢</a>
+</section>
+<section class="home-section home-section-tight">
+<h3 class="cgroup-label reveal-fx" id="cat-learn">教育與研究</h3>
+<p class="section-lead reveal-fx">讓學習真的發生、讓研究想法變成可執行的計畫</p>
+<div class="cgrid">
+<a class="ccard reveal-fx" href="/courses/learning-coach.html"><img src="/assets/images/course-learning-coach.png" alt="AI 檢索式學習教練培育班" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>AI 檢索式學習教練培育班</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><p class="ccard-meta">適合：教師、講師、企業訓練人員</p><p class="ccard-take">帶走：互動練習教案與評分規準</p></div></a>
+<a class="ccard reveal-fx" href="/courses/research-plan.html"><img src="/assets/images/course-research-plan.png" alt="從研究想法到可執行研究計畫" loading="lazy"><div class="ccard-body"><div class="ccard-head"><h3>從研究想法到可執行研究計畫</h3><span class="badge badge-pilot">預約試上</span></div><p class="ccard-pain">找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><p class="ccard-meta">適合：研究生、教師、研發人員</p><p class="ccard-take">帶走：研究問題、文獻矩陣與方法草案</p></div></a>
 </div>
+</section>
+<section class="home-section">
+<h2 class="reveal-fx">情境式課程練的是四個關鍵能力</h2>
+<p class="section-lead reveal-fx">情境是入口，能力才是你帶走的東西。每門課標示它練哪幾個。</p>
+<div class="axis-strip reveal-fx">
+<a class="axis-chip" href="/method/#axis-a">A 看懂文件與影像</a>
+<a class="axis-chip" href="/method/#axis-b">B 把資料變成系統</a>
+<a class="axis-chip" href="/method/#axis-c">C 建自己的知識庫</a>
+<a class="axis-chip" href="/method/#axis-d">D 讓 AI 自動運轉</a>
+<a class="axis-more" href="/method/">看完整學習地圖 →</a>
+</div>
+</section>
+<section class="home-section">
+<h2 class="reveal-fx">課怎麼上</h2>
+<p class="section-lead reveal-fx">每門課都用同一套方法：場景任務進、作品驗收出。</p>
+<div class="steps-grid">
+<div class="step-item reveal-fx"><h3>扮演一個真實角色</h3><p>你是情境裡的需求提出者——老闆、照顧者、老師、分析師，課程從你的任務開始。</p></div>
+<div class="step-item reveal-fx" style="--rd:.08s"><h3>三級深度自己選</h3><p>Level 1 用現成示範完成作品；Level 2 修改規則與資料；Level 3 設計跨工具整合。不會寫程式可以從 Level 1 走到 3。</p></div>
+<div class="step-item reveal-fx" style="--rd:.16s"><h3>作品驗收才算學會</h3><p>每門課結束時，你帶走一件自己驗收過、隔天就拿得出來用的作品。</p></div>
+</div>
+</section>
+<div class="proof-band">
+<div class="proof-inner">
+<h2 class="reveal-fx">課程背後是真實運轉的系統</h2>
+<p class="section-lead reveal-fx">我們不用假案例教學。課堂上的教材，來自這些每天真實運轉、在站上公開的系統。</p>
+<div class="proof-grid">
+<a class="proof-card reveal-fx" href="/projects/insurance-kb.html"><span class="proof-num">每日</span><h3>保險業知識庫</h3><p>覆蓋台日韓港與東南亞，每天自動累積的市場情報</p></a>
+<a class="proof-card reveal-fx" style="--rd:.06s" href="/projects/ifrs-s2.html"><span class="proof-num">188 份</span><h3>IFRS S2 合規知識庫</h3><p>永續揭露差距分析，逐條對照原文出處</p></a>
+<a class="proof-card reveal-fx" style="--rd:.12s" href="/projects/agent-kb.html"><span class="proof-num">12 模組</span><h3>Agent KB 教學知識庫</h3><p>學員上課用的同一套系統</p></a>
+<a class="proof-card reveal-fx" style="--rd:.18s" href="/projects/paperlab.html"><span class="proof-num">運行中</span><h3>PaperLab</h3><p>從研究想法到論文初稿的生產系統</p></a>
+</div>
+<p class="proof-more reveal-fx"><a href="/projects/">看全部運行中的專案 →</a></p>
+</div>
+</div>
+<section class="ent-band" id="enterprise">
+<div class="ent-inner reveal-fx">
+<div>
+<h2>企業內訓</h2>
+<p class="ent-lead">培育能帶領部門完成工作改善的種子人才</p>
+<p>六小時從入門到自動化的四階段實作，用你們自己的工作流程當教材，學員結業時直接交付部門可以用的改善方案。</p>
+<p class="ent-specs">小班實作｜六小時四階段｜學員無須程式背景</p>
+</div>
+<a class="btn-primary" href="/apply/enterprise.html">洽詢內訓方案</a>
+</div>
+</section>
 ```

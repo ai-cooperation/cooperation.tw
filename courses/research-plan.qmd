@@ -1,0 +1,60 @@
+---
+pagetitle: "研究計畫實作課：從模糊想法到文獻矩陣與研究提案"
+description: "給研究生與研發人員的課程：用 AI 把研究興趣收斂成研究問題、文獻比較矩陣與可執行的研究計畫草案。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">教育與研究</span>
+<h1>從研究想法到可執行研究計畫</h1>
+<p class="detail-tagline">找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p>
+<p class="detail-audience">適合：研究生、教師、研發人員</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-a">A 看懂文件與影像</a><a class="axis-chip axis-chip-sm" href="/method/#axis-c">C 建自己的知識庫</a></p>
+<a class="btn-primary" href="/apply/?course=research-plan">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-research-plan.png" alt="從研究想法到可執行研究計畫">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>把模糊的研究興趣收斂成明確的研究問題、文獻比較矩陣與研究提案——下次跟指導教授討論，拿的是矩陣與缺口，而不是一疊讀過的 PDF。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>明確的研究問題</li><li>文獻比較矩陣</li><li>資料與方法草案</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>研究問題拆解與 Boolean 搜尋</li><li>文獻方法、資料、指標萃取</li><li>Research Gap 審查與矩陣比較</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>批判閱讀、證據審查、研究設計、可行性評估</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>研究協作人才、研發專案規劃者、研究方法輔導者。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>自建的研究生產系統（PaperLab），從題目收斂到論文初稿都在站上運行</p>
+<div class="proof-grid cols-1"><a class="proof-card" href="/projects/paperlab.html"><h3>PaperLab 寫論文找方法</h3><p>從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>課程不代寫論文，也不保證論文發表或學位結果。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>這是論文代寫嗎？</h3><p>不是。課程教你用 AI 收斂研究問題、建立文獻矩陣與方法草案，論文本身由你完成，課程也不保證發表結果。</p></div><div class="faq-item"><h3>適合哪個階段的研究生？</h3><p>最適合題目還模糊、文獻讀了不少但說不清缺口的階段——通常是碩博士第一二年，或要寫研究計畫的在職研究者。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=research-plan">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：從研究想法到可執行研究計畫」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "從研究想法到可執行研究計畫", "description": "給研究生與研發人員的課程：用 AI 把研究興趣收斂成研究問題、文獻比較矩陣與可執行的研究計畫草案。", "url": "https://cooperation.tw/courses/research-plan.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "從研究想法到可執行研究計畫", "item": "https://cooperation.tw/courses/research-plan.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "這是論文代寫嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不是。課程教你用 AI 收斂研究問題、建立文獻矩陣與方法草案，論文本身由你完成，課程也不保證發表結果。"}}, {"@type": "Question", "name": "適合哪個階段的研究生？", "acceptedAnswer": {"@type": "Answer", "text": "最適合題目還模糊、文獻讀了不少但說不清缺口的階段——通常是碩博士第一二年，或要寫研究計畫的在職研究者。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```

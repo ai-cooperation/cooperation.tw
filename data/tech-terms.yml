@@ -1,0 +1,70 @@
+# 技術內容帶入清單（/method/ 學習地圖的 chip 資料源）
+# 來源盤點 2026-11-15：Agent KB 概念字典 29 條 + 課程模組 12 個（Stage 1-3）
+#   + data/courses.yml 九門課技巧欄 + data/projects.yml 專案技術架構。
+# link 規則：wiki:<term> = Agent KB 概念字典條目；module:<id> = Agent KB 課程模組。
+# 分層原則：Level 對應 Agent KB 的 Stage（教材實際怎麼教，不是憑感覺排）。
+
+levels:
+- id: level1
+  name: Level 1 會使用
+  stage: Stage 1（對話框到第一個系統）
+  plain: 會把需求說清楚，用現成工具完成第一件作品
+  terms:
+  - {label: Prompt 提示詞, link: "wiki:prompt"}
+  - {label: Prompt 四要素, link: "wiki:prompt-engineering"}
+  - {label: System Prompt, link: "wiki:system-prompt"}
+  - {label: AI 幫手封裝（Gem）, link: "module:m1-2"}
+  - {label: 試算表自動化（GAS）, link: "module:m1-3"}
+  - {label: API 與金鑰安全, link: "wiki:api"}
+
+- id: level2
+  name: Level 2 會調整
+  stage: Stage 2（走出對話框、上版本控制）
+  plain: 會改規則、改資料，讓作品公開上線且不洩密
+  terms:
+  - {label: AI 編輯器（IDE）, link: "module:m2-2"}
+  - {label: 版本控制與上線（GitHub）, link: "module:m2-1"}
+  - {label: 金鑰與資安三件套, link: "module:m2-2"}
+  - {label: 多家 AI 備援, link: "module:m2-4"}
+  - {label: 給 AI 對的資料（Context）, link: "wiki:context-engineering"}
+
+- id: level3
+  name: Level 3 會設計
+  stage: Stage 3（記憶、協定、自動化）
+  plain: 會設計跨工具的工作系統，讓 AI 自己跑
+  terms:
+  - {label: AI 代理人（Agent）, link: "wiki:agent"}
+  - {label: 工具協定（MCP）, link: "wiki:mcp"}
+  - {label: 技能封裝（Skill）, link: "wiki:skill"}
+  - {label: 長期記憶（CLAUDE.md）, link: "wiki:claude-md"}
+  - {label: 規格驅動開發（spec.md）, link: "wiki:spec-md"}
+  - {label: 三種自動化機制, link: "module:m3-4"}
+
+- id: advanced
+  name: 帶領人與系統層
+  stage: 內訓深化與站上系統的底層（不入門教，識貨者看）
+  plain: 站上運行系統實際用到的架構
+  terms:
+  - {label: 檢索增強生成（RAG）, link: "wiki:rag"}
+  - {label: 向量嵌入（Embedding）, link: "wiki:embedding"}
+  - {label: 向量資料庫, link: "wiki:vector-db"}
+  - {label: 脈絡工程（Context Engineering）, link: "wiki:context-engineering"}
+  - {label: 外殼工程（Harness）, link: "wiki:harness-engineering"}
+  - {label: 記憶系統（Memory）, link: "wiki:memory"}
+  - {label: 事件擴充（Hooks）, link: "wiki:hooks"}
+  - {label: 代理人互通（A2A）, link: "wiki:a2a"}
+  - {label: 知識可追溯性（Provenance）, link: "wiki:provenance"}
+  - {label: 邊緣推論（Workers AI）, link: "wiki:workers-ai"}
+
+# 能力軸 × 代表術語（/method/ 四軸區塊的「背後技術」小字）
+axes:
+- {id: A, name: 看懂文件與影像, terms: [多模態理解, OCR 管線, 視覺解析]}
+- {id: B, name: 把資料變成系統, terms: [GAS, 結構化資料, Web App, 表單觸發器]}
+- {id: C, name: 建自己的知識庫, terms: [RAG, Embedding, 向量檢索, Provenance, MCP]}
+- {id: D, name: 讓 AI 自動運轉, terms: [Agent, 排程爬蟲, GitHub Actions, Cloudflare Workers, 機械驗證閘]}
+
+# 盤點時發現的缺口（上線前決定）
+gaps:
+- Gem、GAS、GitHub Pages、IDE 在 Agent KB 沒有獨立字典條目，chip 先連對應模組頁
+- 概念字典另有 9 條未排入 chip（agents-md/claude-code/cursor/function-calling/oauth/rule/tasks/token/worktree/mhs），過深或工具綁定，保留在字典不上官網
+- 老師 skills 庫 94+ 個：不逐一上官網，/method/ 以一句話帶過＋連 Agent KB

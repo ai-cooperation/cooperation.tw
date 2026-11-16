@@ -1,0 +1,81 @@
+---
+pagetitle: "AI 學習地圖｜四個關鍵能力與三級深度"
+description: "AI Cooperation 的學習方法：看懂文件與影像、把資料變成系統、建自己的知識庫、讓 AI 自動運轉——四個關鍵能力、三級深度，每一級的課程與真實系統對照。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<section class="hero hero-lite hero-img" style="--hero-img:url('/assets/images/hero-method.png')">
+<div class="hero-inner">
+<span class="hero-kicker reveal-fx">學習地圖</span>
+<h1 class="reveal-fx" style="--rd:.05s">四個關鍵能力<br>三級深度</h1>
+<p class="hero-sub reveal-fx" style="--rd:.15s">情境是入口 <br class="br-m">能力才是你帶走的東西<br>每個能力都有課可以練 <br class="br-m">有真實系統當證據</p>
+</div>
+</section>
+<section class="home-section">
+<h2 class="reveal-fx">兩個底功 每門課都練</h2>
+<div class="steps-grid steps-grid-2">
+<div class="step-item reveal-fx"><h3>把需求說清楚</h3><p>AI 做得好不好，八成取決於你把問題說得清不清楚。需求拆解與提問方法是每門課的第一課。</p></div>
+<div class="step-item reveal-fx" style="--rd:.08s"><h3>驗收與風險判斷</h3><p>AI 的產出不等於可以用。每門課都教你驗收自己的作品：哪裡要查證、哪裡是系統做不到的。</p></div>
+</div>
+</section>
+<section class="home-section" id="axis-a">
+<h2 class="reveal-fx">A　看懂文件與影像</h2>
+<p class="section-lead reveal-fx">AI 幫你讀懂報告、照片、標籤與圖面，變成可以用的資訊。<br>拍一張食品標籤，就變成毛孩的飲食紀錄；一疊永續報告書，變成逐條對照原文出處的差距分析。</p>
+<img class="axis-visual reveal-fx" src="/assets/images/axis-a.png" alt="看懂文件與影像" loading="lazy">
+<h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/pet-health.html"><h3>毛孩健康觀察與智慧照護工作坊</h3><p>毛孩不會說話，最近好像吃得少了，是真的有變化嗎</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/energy-detective.html"><h3>企業用電異常偵探實戰班</h3><p>工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/home-preview.html"><h3>我的家，裝修前先看見</h3><p>想改造客廳，看了很多照片，卻不知道這些風格用在自己家會怎樣</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a></div>
+<h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/ifrs-s2.html"><h3>IFRS S2 永續合規知識庫</h3><p>188 份文件、逐條對照原文出處的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/medical-kb.html"><h3>醫學知識庫</h3><p>從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<p class="axis-tech">背後技術：多模態理解、OCR 管線、視覺解析</p>
+</section>
+<section class="home-section" id="axis-b">
+<h2 class="reveal-fx">B　把資料變成系統</h2>
+<p class="section-lead reveal-fx">把散落的表單與資料，變成會自動彙整的小系統。<br>同事用手機下單，後台自動整理成訂單表；22 間法院的公告，變成一張即時地圖。</p>
+<img class="axis-visual reveal-fx" src="/assets/images/axis-b.png" alt="把資料變成系統" loading="lazy">
+<h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/no-code-system.html"><h3>不會寫程式，也能打造自己的小系統</h3><p>每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/aiot-button.html"><h3>AIoT 入門，從一顆門鈴按鍵開始</h3><p>想讓家裡聰明一點，一看到電路板和程式就想放棄</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/pet-health.html"><h3>毛孩健康觀察與智慧照護工作坊</h3><p>毛孩不會說話，最近好像吃得少了，是真的有變化嗎</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/energy-detective.html"><h3>企業用電異常偵探實戰班</h3><p>工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/meeting-follow.html"><h3>開完會，事情真的有在往前走嗎</h3><p>上週開會明明有結論，這週卻沒人追蹤——缺的不是逐字稿，是會後的追蹤機制</p><span class="badge badge-pilot">預約試上</span></a></div>
+<h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/foreclosure-map.html"><h3>法拍物件地圖</h3><p>整合全台 22 間法院公告的法拍屋即時地圖，公開資料變成可以直接用的查詢工具</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/sustainability-platform.html"><h3>永續決策平台</h3><p>把永續數據整理成可以支撐決策的視覺化平台</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<p class="axis-tech">背後技術：GAS、結構化資料、Web App、表單觸發器</p>
+</section>
+<section class="home-section" id="axis-c">
+<h2 class="reveal-fx">C　建自己的知識庫</h2>
+<p class="section-lead reveal-fx">建立可檢索、查得到來源的自家知識庫，重要判斷回查得到原文。<br>每天自動累積的產業情報，每一條都附來源；上課用的教材庫，AI 助手直接查得到。</p>
+<img class="axis-visual reveal-fx" src="/assets/images/axis-c.png" alt="建自己的知識庫" loading="lazy">
+<h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/remote-care.html"><h3>遠距安心照護實作營</h3><p>家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a></div>
+<h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/insurance-kb.html"><h3>保險業知識庫</h3><p>覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<p class="axis-tech">背後技術：RAG、Embedding、向量檢索、Provenance、MCP</p>
+</section>
+<section class="home-section" id="axis-d">
+<h2 class="reveal-fx">D　讓 AI 自動運轉</h2>
+<p class="section-lead reveal-fx">讓 AI 照你定的規則自己跑：排程、監看、通知、產出。<br>研究想法丟進去，文獻、實驗、初稿整條管線自己跑完；生圖服務提交即回，背景慢慢算。</p>
+<img class="axis-visual reveal-fx" src="/assets/images/axis-d.png" alt="讓 AI 自動運轉" loading="lazy">
+<h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/no-code-system.html"><h3>不會寫程式，也能打造自己的小系統</h3><p>每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/aiot-button.html"><h3>AIoT 入門，從一顆門鈴按鍵開始</h3><p>想讓家裡聰明一點，一看到電路板和程式就想放棄</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/remote-care.html"><h3>遠距安心照護實作營</h3><p>家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/meeting-follow.html"><h3>開完會，事情真的有在往前走嗎</h3><p>上週開會明明有結論，這週卻沒人追蹤——缺的不是逐字稿，是會後的追蹤機制</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a></div>
+<h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/paperlab.html"><h3>PaperLab 寫論文找方法</h3><p>從模糊想法收斂成研究計畫，再交給自動化 pipeline 跑完實驗與初稿的論文生產系統</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/fluxgate.html"><h3>FluxGate</h3><p>建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<p class="axis-tech">背後技術：Agent、排程爬蟲、GitHub Actions、Cloudflare Workers、機械驗證閘</p>
+</section>
+<section class="home-section" id="ladder">
+<h2 class="reveal-fx">往深走的路徑</h2>
+<p class="section-lead reveal-fx">四個能力都能從 Level 1 走到 Level 3。每一級列出你會接觸到的詞——看不懂沒關係，到那一級自然會懂。</p>
+<div class="ladder"><div class="ladder-row reveal-fx"><div class="ladder-head"><h3>Level 1 會使用</h3><p class="ladder-stage">Stage 1（對話框到第一個系統）</p></div><div class="ladder-body"><p>會把需求說清楚，用現成工具完成第一件作品</p><div class="term-row"><span class="term-chip">Prompt 提示詞</span><span class="term-chip">Prompt 四要素</span><span class="term-chip">System Prompt</span><span class="term-chip">AI 幫手封裝（Gem）</span><span class="term-chip">試算表自動化（GAS）</span><span class="term-chip">API 與金鑰安全</span></div></div></div><div class="ladder-row reveal-fx"><div class="ladder-head"><h3>Level 2 會調整</h3><p class="ladder-stage">Stage 2（走出對話框、上版本控制）</p></div><div class="ladder-body"><p>會改規則、改資料，讓作品公開上線且不洩密</p><div class="term-row"><span class="term-chip">AI 編輯器（IDE）</span><span class="term-chip">版本控制與上線（GitHub）</span><span class="term-chip">金鑰與資安三件套</span><span class="term-chip">多家 AI 備援</span><span class="term-chip">給 AI 對的資料（Context）</span></div></div></div><div class="ladder-row reveal-fx"><div class="ladder-head"><h3>Level 3 會設計</h3><p class="ladder-stage">Stage 3（記憶、協定、自動化）</p></div><div class="ladder-body"><p>會設計跨工具的工作系統，讓 AI 自己跑</p><div class="term-row"><span class="term-chip">AI 代理人（Agent）</span><span class="term-chip">工具協定（MCP）</span><span class="term-chip">技能封裝（Skill）</span><span class="term-chip">長期記憶（CLAUDE.md）</span><span class="term-chip">規格驅動開發（spec.md）</span><span class="term-chip">三種自動化機制</span></div></div></div><div class="ladder-row reveal-fx"><div class="ladder-head"><h3>帶領人與系統層</h3><p class="ladder-stage">內訓深化與站上系統的底層（不入門教，識貨者看）</p></div><div class="ladder-body"><p>站上運行系統實際用到的架構</p><div class="term-row"><span class="term-chip">檢索增強生成（RAG）</span><span class="term-chip">向量嵌入（Embedding）</span><span class="term-chip">向量資料庫</span><span class="term-chip">脈絡工程（Context Engineering）</span><span class="term-chip">外殼工程（Harness）</span><span class="term-chip">記憶系統（Memory）</span><span class="term-chip">事件擴充（Hooks）</span><span class="term-chip">代理人互通（A2A）</span><span class="term-chip">知識可追溯性（Provenance）</span><span class="term-chip">邊緣推論（Workers AI）</span></div></div></div></div>
+<p class="reveal-fx">每個詞的白話定義、應用場景與相關案例，都在
+<a href="https://agent-kb.cooperation.tw">Agent KB 概念字典</a>——學員上課用的同一套知識庫。</p>
+</section>
+<section class="ent-band">
+<div class="ent-inner reveal-fx">
+<div>
+<h2>想一次走完整條路徑</h2>
+<p class="ent-lead">企業內訓六小時走完四階段</p>
+<p>用你們自己的工作流程當教材，從會使用到會設計，結業交付部門可以直接用的改善方案。</p>
+<p class="ent-specs">小班實作｜六小時四階段｜學員無須程式背景</p>
+</div>
+<a class="btn-primary" href="mailto:ai@cooperation.tw?subject=%E4%BC%81%E6%A5%AD%E5%85%A7%E8%A8%93%E6%B4%BD%E8%A9%A2">洽詢內訓方案</a>
+</div>
+</section>
+```

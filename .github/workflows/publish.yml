@@ -36,6 +36,8 @@ jobs:
       - name: Regenerate project pages from data/projects.yml
         run: |
           pip install pyyaml
+          python3 _scripts/gen_courses.py
+          python3 _scripts/gen_method.py
           python3 _scripts/gen_projects.py
 
       - name: Render

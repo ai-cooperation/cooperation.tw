@@ -1,0 +1,60 @@
+---
+pagetitle: "企業用電異常分析實戰班：從負載曲線找出異常用電"
+description: "給廠務與能源管理人員的實戰課程：判讀負載曲線、建立異常假設矩陣與現場查證清單，用資料支撐節能診斷。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">工作與產業</span>
+<h1>企業用電異常偵探實戰班</h1>
+<p class="detail-tagline">工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p>
+<p class="detail-audience">適合：廠務、能源管理人員、ESCO</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-a">A 看懂文件與影像</a><a class="axis-chip axis-chip-sm" href="/method/#axis-b">B 把資料變成系統</a></p>
+<a class="btn-primary" href="/apply/?course=energy-detective">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-energy-detective.png" alt="企業用電異常偵探實戰班">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>判讀去識別化的真實工廠負載曲線，提出異常原因假設，再設計現場查證方式——一步步建立可驗證的推論，支撐節能診斷。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>負載圖表</li><li>異常假設矩陣</li><li>現場查證清單</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>時序資料整理、時戳與單位查核</li><li>負載基準線與離群值分析</li><li>從總用電拆解設備行為的概念與限制（非侵入式負載監測 NILM）、AI 輔助報告</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>量測有效性判斷、證據推論、節能診斷規劃、成本效益溝通</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>能源數據人才、ESCO 專案協作者、節能應用顧問。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>工業電力與 NILM 多年研究成果</p>
+<a href="/projects/">看全部運行中的專案 →</a>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>不能憑負載曲線直接診斷設備故障，也不保證節能效益。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>需要先懂電力專業嗎？</h3><p>需要基本的廠務或能源管理背景。課程聚焦在資料判讀與假設驗證方法，不要求電機專業學位。</p></div><div class="faq-item"><h3>學完就能幫工廠省電嗎？</h3><p>課程教你找出值得查證的異常時段與設備假設，實際節能效益取決於現場驗證結果，課程不做節能保證。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=energy-detective">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：企業用電異常偵探實戰班」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "企業用電異常偵探實戰班", "description": "給廠務與能源管理人員的實戰課程：判讀負載曲線、建立異常假設矩陣與現場查證清單，用資料支撐節能診斷。", "url": "https://cooperation.tw/courses/energy-detective.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "企業用電異常偵探實戰班", "item": "https://cooperation.tw/courses/energy-detective.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "需要先懂電力專業嗎？", "acceptedAnswer": {"@type": "Answer", "text": "需要基本的廠務或能源管理背景。課程聚焦在資料判讀與假設驗證方法，不要求電機專業學位。"}}, {"@type": "Question", "name": "學完就能幫工廠省電嗎？", "acceptedAnswer": {"@type": "Answer", "text": "課程教你找出值得查證的異常時段與設備假設，實際節能效益取決於現場驗證結果，課程不做節能保證。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```

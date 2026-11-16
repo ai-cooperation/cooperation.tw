@@ -36,6 +36,7 @@ toc: false
 <p>進入 PaperLab，從「我想研究」開始一段引導對話。</p>
 <a class="btn-primary" href="https://paperlab.cooperation.tw">進入 PaperLab</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>研究題目一直收斂不了怎麼辦？</h3><p>PaperLab 用引導式對話把想法逐步收斂成研究契約：題目、研究問題、資料來源、方法逐項確認，資料源當場驗證可得才開工。</p></div><div class="faq-item"><h3>AI 寫的論文初稿會有假引用嗎？</h3><p>不會放行。所有引用經 CrossRef、OpenAlex、Semantic Scholar 三方 API 驗證，數字可追溯到實際跑出的實驗輸出，機械稽核閘不合格就擋下。</p></div></div>
