@@ -46,6 +46,7 @@
 
 ### AI 基礎設施
 - [FluxGate](https://fluxgate.cooperation.tw/): 建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件
+- [SmallGreen Cloud](https://github.com/smallgreen-cloud/spec): 讓每個人都能擁有自己的雲端服務——AI 協作部署的驗收與移除契約
 - [ClassClaw](https://ai100.cooperation.tw/classroom/host): 一支 QR code 就能開始的課堂即時互動系統，即將開源
 
 ### 資料應用

@@ -50,6 +50,7 @@ toc: false
 ```{=html}
 <div class="pgrid">
 <a class="pcard reveal-fx" href="/projects/fluxgate.html"><img src="/assets/images/proj-fluxgate.jpg" alt="FluxGate" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>FluxGate</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">建立在 Cloudflare Workers 上的非同步生圖服務，提交即回、輪詢取件</p><span class="pcard-cta">查看服務</span></div></a>
+<a class="pcard reveal-fx" href="/projects/smallgreen-cloud.html"><img src="/assets/images/proj-smallgreen.png" alt="SmallGreen Cloud" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>SmallGreen Cloud</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">讓每個人都能擁有自己的雲端服務——AI 協作部署的驗收與移除契約</p><span class="pcard-cta">看公開規格</span></div></a>
 <a class="pcard reveal-fx" href="/projects/classclaw.html"><img src="/assets/images/proj-classclaw.jpg" alt="ClassClaw" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>ClassClaw</h3><span class="badge badge-live">運行中</span></div><p class="pcard-tagline">一支 QR code 就能開始的課堂即時互動系統，即將開源</p><span class="pcard-cta">查看系統</span></div></a>
 <div class="pcard pcard-coming reveal-fx"><img src="/assets/images/proj-coming.jpg" alt="會議紀錄工作室" loading="lazy"><div class="pcard-body"><div class="pcard-head"><h3>會議紀錄工作室</h3><span class="badge badge-coming">建置中</span></div><p class="pcard-tagline">從錄音到結構化會議紀錄的自動化流程，建置中</p></div></div>
 </div>

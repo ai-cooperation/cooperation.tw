@@ -334,6 +334,35 @@ projects:
     a: FluxGate 只有兩個 API：提交拿 job id、輪詢取件，架在 Cloudflare Workers 上無伺服器，不綁 SDK。
   - q: FluxGate 用什麼模型？
     a: FLUX.1-schnell——目前最強的開源生圖模型之一，跑在 Cloudflare Workers AI 上。
+- id: smallgreen-cloud
+  name: SmallGreen Cloud
+  category: infrastructure
+  status: live
+  featured: false
+  tagline: 讓每個人都能擁有自己的雲端服務——AI 協作部署的驗收與移除契約
+  audience: 想把小型服務部署在自己帳號、保有完整控制權的個人與團隊
+  url: https://github.com/smallgreen-cloud/spec
+  image: proj-smallgreen.png
+  cta: 看公開規格
+  problem: 請 AI 幫你部署一個小服務不難，難的是之後：怎麼驗收它真的能用、怎麼維護、不要了怎麼乾淨移除？服務跑在別人的平台上，資源與資料的控制權也不在自己手上。
+  how: SmallGreen 把「部署到自己的 Cloudflare 帳號」變成可檢查的流程：每個服務帶三份契約檔（判定、驗收、維護），由機械驗證判定綠燈，留下可稽核的 Evidence Pack；不要了，照移除程序執行後帳號資源歸零。AI agent 是導遊不是裁判——引導你走流程，綠燈由機械檢查說了算。
+  tech:
+  - 契約檔三件套：profile（這是什麼、資料流向）、acceptance（怎樣算部署成功）、maintenance（更新、備份、移除）
+  - conformance CI：契約 schema、免費層允許清單、secrets 掃描、migration 空庫重放、本地 smoke
+  - small-service-template 起手範本——用它建的專案天生合規
+  - 免費層內 scale-to-zero，零常駐元件、零遙測
+  solves:
+  - 服務部署在你自己的帳號，資源與移除的控制權都在你手上
+  - 37 次實跑驗證：第三方不讀原始碼也能重現移除程序、留下可稽核證據
+  - 用範本開新專案，CI 綠燈即合規，不必先讀標準文件
+  start: 打開公開規格 repo，或直接用 small-service-template 建立你的第一個天生合規小服務。
+  seo_title: SmallGreen Cloud——自有雲端小型服務的部署驗收與移除契約
+  seo_description: 把 AI 協作部署變成可檢查的流程：契約檔、機械驗證、Evidence Pack，服務跑在你自己的 Cloudflare 帳號，移除後資源歸零。公開規格與起手範本。
+  faq:
+  - q: 這是一套新標準嗎？
+    a: 不是。SmallGreen 的定位是候選 conformance profile——把 AGENTS.md、JSON Schema、平台資源宣告等既有元件組起來，補一層機械可檢查的驗收與移除程序。跨平台互通與社群共識尚未證明，規格文件自己就這麼寫。
+  - q: 它實際被驗證過什麼？
+    a: 37 次實跑中有證據支持的效果是：第三方能在不讀原始碼、不執行 agent 的情況下重現移除程序並留下可稽核證據。它沒有提高初始部署成功率、也沒有明顯縮短部署時間——我們只宣稱驗證過的事。
 - id: classclaw
   name: ClassClaw
   category: infrastructure
