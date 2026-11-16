@@ -1,6 +1,6 @@
 ---
-pagetitle: "SmallGreen Cloud——自有雲端小型服務的部署驗收與移除契約"
-description: "把 AI 協作部署變成可檢查的流程：契約檔、機械驗證、Evidence Pack，服務跑在你自己的 Cloudflare 帳號，移除後資源歸零。公開規格與起手範本。"
+pagetitle: "SmallGreen Cloud——部署在自己帳號的開源小服務目錄"
+description: "14 個篩選過的開源 serverless 小服務：生圖、短網址、新聞聚合、知識庫、名片管理，全部可部署在你自己的 Cloudflare 帳號免費額度內，附服務卡與可稽核的部署驗收。"
 page-layout: custom
 toc: false
 ---
@@ -10,38 +10,38 @@ toc: false
 <header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">AI 基礎設施</span>
 <h1>SmallGreen Cloud</h1>
-<p class="detail-tagline">讓每個人都能擁有自己的雲端服務——AI 協作部署的驗收與移除契約</p>
-<p class="detail-audience">適合：想把小型服務部署在自己帳號、保有完整控制權的個人與團隊</p>
-<a class="btn-primary" href="https://github.com/smallgreen-cloud/spec">看公開規格</a>
+<p class="detail-tagline">讓每個人都能擁有自己的雲端服務——14 個可跑在自己帳號的開源小服務目錄</p>
+<p class="detail-audience">適合：想用小工具又不想把資料放在別人平台的個人、小團隊與中小企業</p>
+<a class="btn-primary" href="https://smallgreen.cooperation.tw/services/">逛服務目錄</a>
 </header>
 <img class="detail-hero reveal-fx" src="/assets/images/proj-smallgreen.png" alt="SmallGreen Cloud">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
-<p>請 AI 幫你部署一個小服務不難，難的是之後：怎麼驗收它真的能用、怎麼維護、不要了怎麼乾淨移除？服務跑在別人的平台上，資源與資料的控制權也不在自己手上。</p>
+<p>短網址、流量分析、新聞聚合、知識庫、名片管理——好用的小工具都有開源版，但散在各處：哪些真的跑得起來？要花多少？資料放哪？不要了怎麼辦？每一個都要自己從頭評估。</p>
 </section>
 <section class="detail-block reveal-fx">
 <h2>這個系統怎麼解</h2>
-<p>SmallGreen 把「部署到自己的 Cloudflare 帳號」變成可檢查的流程：每個服務帶三份契約檔（判定、驗收、維護），由機械驗證判定綠燈，留下可稽核的 Evidence Pack；不要了，照移除程序執行後帳號資源歸零。AI agent 是導遊不是裁判——引導你走流程，綠燈由機械檢查說了算。</p>
+<p>SmallGreen 把篩選過的開源小服務整理成一個目錄：每個服務一張服務卡，寫明用途、適合誰、資源量級、證據等級與驗證日期，全部設計成部署在你自己的 Cloudflare 帳號、免費額度內運行。背後有一層部署契約與機械驗證支撐——怎樣算部署成功、怎麼乾淨移除，都查得到證據。</p>
 </section>
 <section class="detail-block reveal-fx">
 <h2>技術架構</h2>
-<ul class="detail-gains"><li>契約檔三件套：profile（這是什麼、資料流向）、acceptance（怎樣算部署成功）、maintenance（更新、備份、移除）</li><li>conformance CI：契約 schema、免費層允許清單、secrets 掃描、migration 空庫重放、本地 smoke</li><li>small-service-template 起手範本——用它建的專案天生合規</li><li>免費層內 scale-to-zero，零常駐元件、零遙測</li></ul>
+<ul class="detail-gains"><li>14 個 catalogued 服務：FluxGate 生圖閘道、名片 MCP、TapCard 數位名片、NewsNow 新聞聚合、Sink 短網址、Second Brain 知識庫、serverless-dns 等</li><li>每個服務附服務卡：架構、部署需求、資料流向、限制，逐項可查</li><li>部署驗收與移除程序由機械檢查判定，留下可稽核證據</li><li>全部在 Cloudflare 免費層內 scale-to-zero，零常駐成本、零遙測</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>用了之後，解決什麼</h2>
-<ul class="detail-gains"><li>服務部署在你自己的帳號，資源與移除的控制權都在你手上</li><li>37 次實跑驗證：第三方不讀原始碼也能重現移除程序、留下可稽核證據</li><li>用範本開新專案，CI 綠燈即合規，不必先讀標準文件</li></ul>
+<ul class="detail-gains"><li>不用自己海選開源專案——目錄裡每個都篩過、跑過、標了證據等級</li><li>服務跑在你自己的帳號，資料與移除的控制權都在你手上</li><li>不要了照移除程序執行，帳號資源歸零，不留殘骸</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>怎麼開始</h2>
-<p>打開公開規格 repo，或直接用 small-service-template 建立你的第一個天生合規小服務。</p>
-<a class="btn-primary" href="https://github.com/smallgreen-cloud/spec">看公開規格</a>
+<p>打開服務目錄，從用途與對象挑一個，照服務卡部署到自己的帳號。</p>
+<a class="btn-primary" href="https://smallgreen.cooperation.tw/services/">逛服務目錄</a>
 </section>
 <section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
-<div class="faq-list"><div class="faq-item"><h3>這是一套新標準嗎？</h3><p>不是。SmallGreen 的定位是候選 conformance profile——把 AGENTS.md、JSON Schema、平台資源宣告等既有元件組起來，補一層機械可檢查的驗收與移除程序。跨平台互通與社群共識尚未證明，規格文件自己就這麼寫。</p></div><div class="faq-item"><h3>它實際被驗證過什麼？</h3><p>37 次實跑中有證據支持的效果是：第三方能在不讀原始碼、不執行 agent 的情況下重現移除程序並留下可稽核證據。它沒有提高初始部署成功率、也沒有明顯縮短部署時間——我們只宣稱驗證過的事。</p></div></div>
+<div class="faq-list"><div class="faq-item"><h3>跟自己去 GitHub 找開源專案差在哪？</h3><p>目錄裡每個服務都實際部署驗證過，服務卡寫明資源量級、證據等級與限制；你省掉的是「能不能跑、要花多少、怎麼移除」的評估成本。</p></div><div class="faq-item"><h3>這些服務要付費嗎？</h3><p>全部設計在 Cloudflare 免費額度內運行、scale-to-zero——沒有流量就沒有成本。你付的只有自己帳號的額度，超量與否自己看得到。</p></div><div class="faq-item"><h3>背後的部署契約是什麼角色？</h3><p>支撐層，不是賣點。它讓「部署成功」與「乾淨移除」變成機械可檢查的事；定位是候選 conformance profile，不宣稱新標準。</p></div></div>
 </section>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "SmallGreen Cloud", "description": "把 AI 協作部署變成可檢查的流程：契約檔、機械驗證、Evidence Pack，服務跑在你自己的 Cloudflare 帳號，移除後資源歸零。公開規格與起手範本。", "url": "https://github.com/smallgreen-cloud/spec", "applicationCategory": "AI 基礎設施", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "SmallGreen Cloud", "item": "https://cooperation.tw/projects/smallgreen-cloud.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "這是一套新標準嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不是。SmallGreen 的定位是候選 conformance profile——把 AGENTS.md、JSON Schema、平台資源宣告等既有元件組起來，補一層機械可檢查的驗收與移除程序。跨平台互通與社群共識尚未證明，規格文件自己就這麼寫。"}}, {"@type": "Question", "name": "它實際被驗證過什麼？", "acceptedAnswer": {"@type": "Answer", "text": "37 次實跑中有證據支持的效果是：第三方能在不讀原始碼、不執行 agent 的情況下重現移除程序並留下可稽核證據。它沒有提高初始部署成功率、也沒有明顯縮短部署時間——我們只宣稱驗證過的事。"}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "SmallGreen Cloud", "description": "14 個篩選過的開源 serverless 小服務：生圖、短網址、新聞聚合、知識庫、名片管理，全部可部署在你自己的 Cloudflare 帳號免費額度內，附服務卡與可稽核的部署驗收。", "url": "https://smallgreen.cooperation.tw/services/", "applicationCategory": "AI 基礎設施", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "SmallGreen Cloud", "item": "https://cooperation.tw/projects/smallgreen-cloud.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "跟自己去 GitHub 找開源專案差在哪？", "acceptedAnswer": {"@type": "Answer", "text": "目錄裡每個服務都實際部署驗證過，服務卡寫明資源量級、證據等級與限制；你省掉的是「能不能跑、要花多少、怎麼移除」的評估成本。"}}, {"@type": "Question", "name": "這些服務要付費嗎？", "acceptedAnswer": {"@type": "Answer", "text": "全部設計在 Cloudflare 免費額度內運行、scale-to-zero——沒有流量就沒有成本。你付的只有自己帳號的額度，超量與否自己看得到。"}}, {"@type": "Question", "name": "背後的部署契約是什麼角色？", "acceptedAnswer": {"@type": "Answer", "text": "支撐層，不是賣點。它讓「部署成功」與「乾淨移除」變成機械可檢查的事；定位是候選 conformance profile，不宣稱新標準。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```
