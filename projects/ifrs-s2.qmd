@@ -10,7 +10,7 @@ toc: false
 <header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
 <h1>IFRS S2 永續合規知識庫</h1>
-<p class="detail-tagline">188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p>
+<p class="detail-tagline">188 份文件、逐條對照原文出處的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p>
 <p class="detail-audience">適合：永續報告書編製者、合規顧問</p>
 <a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
 </header>
@@ -36,6 +36,7 @@ toc: false
 <p>進入系統，用一份現成的永續報告書跑一次差距分析。</p>
 <a class="btn-primary" href="https://ifrs-kb.cooperation.tw/">進入系統</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>永續報告書的 IFRS S2 差距分析要怎麼做？</h3><p>把報告書交給系統逐條勾稽：每一條揭露要求標示符合、部分符合或缺漏，附報告書頁碼與條號依據，數天的人工比對縮短成一次掃描。</p></div><div class="faq-item"><h3>差距分析的結果可以拿來稽核嗎？</h3><p>可以。每條判定都附報告書頁碼與條號出處，缺漏清單附補強優先序，直接變成報告書改版工作清單。</p></div><div class="faq-item"><h3>系統涵蓋哪些框架？</h3><p>IFRS S1/S2、TWSE 氣候揭露附表、GHG Protocol，各框架獨立計分，不會混在一起算。</p></div></div>

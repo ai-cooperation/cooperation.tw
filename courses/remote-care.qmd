@@ -1,0 +1,60 @@
+---
+pagetitle: "遠距照護實作課：長輩獨居的安心提醒系統｜非攝影機方案"
+description: "給家庭照顧者的智慧照護課程：用熱成像與門磁等低隱私感測，設計長輩活動異常提醒流程，不靠攝影機監看。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">生活與家庭</span>
+<h1>遠距安心照護實作營</h1>
+<p class="detail-tagline">家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p>
+<p class="detail-audience">適合：家庭照顧者、長照工作者</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-c">C 建自己的知識庫</a><a class="axis-chip axis-chip-sm" href="/method/#axis-d">D 讓 AI 自動運轉</a></p>
+<a class="btn-primary" href="/apply/?course=remote-care">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-remote-care.png" alt="遠距安心照護實作營">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>你設計一條「活動事件、異常規則、家屬通知、人工確認」的照護流程，用模擬資料展示：長輩夜間離床太久、白天長時間沒有活動，系統怎麼提醒家人。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>感測器選型表</li><li>事件處理流程圖</li><li>模擬通知展示</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>照護需求訪談 Prompt</li><li>熱成像、門磁、壓力墊等感測訊號的理解，與 AI 事件分類</li><li>小型感測裝置與手機通知的串接（課堂提供現成模組，不用自己焊電路）</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>場域訪談、感測系統規劃、風險管理、事件判讀、隱私設計</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>智慧照護應用帶領人、長照科技導入協作者。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>低解析度熱成像、夜間離床偵測等進行中的照護專案</p>
+<a href="/projects/">看全部運行中的專案 →</a>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>感測只能提示可能的變化，不能判斷吃飯喝水、醫療狀況或保證人身安全，不能取代人工照護與緊急應變。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>這會用攝影機監看長輩嗎？</h3><p>不會。課程採用熱成像、門磁、壓力墊等低隱私侵入感測，重點是事件提示與人工確認，不是影像監控。</p></div><div class="faq-item"><h3>系統可以保證長輩安全嗎？</h3><p>不能。感測與 AI 只能多一層提示，不能取代人工照護與緊急應變，課程會清楚教你劃分系統能做與不能做的界線。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=remote-care">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：遠距安心照護實作營」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "遠距安心照護實作營", "description": "給家庭照顧者的智慧照護課程：用熱成像與門磁等低隱私感測，設計長輩活動異常提醒流程，不靠攝影機監看。", "url": "https://cooperation.tw/courses/remote-care.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "遠距安心照護實作營", "item": "https://cooperation.tw/courses/remote-care.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "這會用攝影機監看長輩嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不會。課程採用熱成像、門磁、壓力墊等低隱私侵入感測，重點是事件提示與人工確認，不是影像監控。"}}, {"@type": "Question", "name": "系統可以保證長輩安全嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不能。感測與 AI 只能多一層提示，不能取代人工照護與緊急應變，課程會清楚教你劃分系統能做與不能做的界線。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```

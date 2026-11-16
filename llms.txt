@@ -1,7 +1,30 @@
 # AI Cooperation（cooperation.tw）
 
-> 打造人機協作的基礎架構。智慧人人可用，差距在協作的架構——
-> 這裡陳列的每個專案、每門課，都在真實運轉。
+> 情境式 AI 實作課程與真實運轉的 AI 專案。
+> 從生活與工作的問題開始，做出自己的第一個 AI 應用——
+> 這裡陳列的每個專案、每門課，背後都是真實運轉的系統。
+
+## 學習方法
+
+- [AI 學習地圖](https://cooperation.tw/method/): 四個關鍵能力（看懂文件與影像、把資料變成系統、建自己的知識庫、讓 AI 自動運轉）× 三級深度，課程與真實系統對照
+
+## 情境課程
+
+### 生活與家庭
+- [AIoT 入門，從一顆門鈴按鍵開始](https://cooperation.tw/courses/aiot-button.html)（預約試上）: 給智慧家庭入門者的 AIoT 實作課：用現成模組把實體門鈴按鍵接上你的 AI 助手，按一下就通知家人、自動記錄到訪，不用焊接不用寫程式。
+- [遠距安心照護實作營](https://cooperation.tw/courses/remote-care.html)（預約試上）: 給家庭照顧者的智慧照護課程：用熱成像與門磁等低隱私感測，設計長輩活動異常提醒流程，不靠攝影機監看。
+- [毛孩健康觀察與智慧照護工作坊](https://cooperation.tw/courses/pet-health.html)（預約試上）: 給飼主的寵物健康觀察課程：用 AI 整理食品標籤、健檢報告與日常紀錄，建立可長期追蹤的毛孩健康檔案。
+- [我的家，裝修前先看見](https://cooperation.tw/courses/home-preview.html)（預約試上）: 給屋主與設計助理的課程：用自家空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。
+
+### 工作與產業
+- [不會寫程式，也能打造自己的小系統](https://cooperation.tw/courses/no-code-system.html)（預約試上）: 給中小企業主與行政工作者的 AI 實作課：不寫程式，用 AI 做出可實測的訂購網頁與後台資料表，學會需求拆解與功能驗收。
+- [企業用電異常偵探實戰班](https://cooperation.tw/courses/energy-detective.html)（預約試上）: 給廠務與能源管理人員的實戰課程：判讀負載曲線、建立異常假設矩陣與現場查證清單，用資料支撐節能診斷。
+- [開完會，事情真的有在往前走嗎](https://cooperation.tw/courses/meeting-follow.html)（預約試上）: 給主管與 PMO 的課程：用 AI 把會議音檔整理成可稽核的決議紀錄與待辦追蹤表，讓每個決議都被追蹤到落地。
+- [打造自己的產業情報雷達](https://cooperation.tw/courses/industry-radar.html)（預約試上）: 給研究企劃與主管的課程：建立自己產業的新聞收集、去重、分類管線，每週自動產出附來源可查證的情報週報。
+
+### 教育與研究
+- [AI 檢索式學習教練培育班](https://cooperation.tw/courses/learning-coach.html)（預約試上）: 給教師與企業內訓人員的課程：用 AI 把教材做成診斷回想回饋重試的互動練習，學會提問設計與教學成效檢核。
+- [從研究想法到可執行研究計畫](https://cooperation.tw/courses/research-plan.html)（預約試上）: 給研究生與研發人員的課程：用 AI 把研究興趣收斂成研究問題、文獻比較矩陣與可執行的研究計畫草案。
 
 ## 專案
 
@@ -15,7 +38,7 @@
 ### 知識庫系統
 - [保險業知識庫](https://insurance-kb.cooperation.tw): 覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識
 - [醫學知識庫](https://hematology-kb.pages.dev): 從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫
-- [IFRS S2 永續合規知識庫](https://ifrs-kb.cooperation.tw/): 188 份文件、逐條可勾稽的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
+- [IFRS S2 永續合規知識庫](https://ifrs-kb.cooperation.tw/): 188 份文件、逐條對照原文出處的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol
 - [Agent KB 教學知識庫](https://agent-kb.cooperation.tw): 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
 
 ### 研究工具

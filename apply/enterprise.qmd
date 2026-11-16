@@ -1,0 +1,82 @@
+---
+pagetitle: "企業內訓諮詢｜AI Cooperation"
+description: "企業內訓諮詢：六小時四階段實作，用你們自己的工作流程當教材，一個工作天內回覆。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail form-page">
+<header class="detail-head reveal-fx">
+<h1>企業內訓諮詢</h1>
+<p class="detail-tagline">留下部門的情況，一個工作天內與你聯絡</p>
+<p class="detail-audience">流程：30 分鐘課前訪談 → 課程規劃與報價 → 排期開課</p>
+</header>
+<div id="apply-ok" class="form-ok" hidden>
+<h2>已收到諮詢</h2>
+<p>確認信已寄到你的信箱，我會在一個工作天內與你聯絡，先約一次 30 分鐘的課前流程訪談。</p>
+<p><a href="/">← 回首頁</a></p>
+</div>
+<form id="apply-form" class="apply-form reveal-fx">
+<label>公司與部門 <span class="req">必填</span>
+<input type="text" name="company" required autocomplete="organization"></label>
+<label>稱呼 <span class="req">必填</span>
+<input type="text" name="name_field" required autocomplete="name"></label>
+<label>Email <span class="req">必填</span>
+<input type="email" name="email" required autocomplete="email"></label>
+<label>電話
+<input type="tel" name="phone" autocomplete="tel"></label>
+<label>想改善的工作流程 <span class="req">必填</span>
+<textarea name="workflow" rows="4" required placeholder="例如：客服信件分類回覆、每月報表彙整、現場巡檢紀錄……"></textarea></label>
+<label>預計人數
+<select name="headcount"><option value="">未定</option><option>10 人以內</option><option>10-20 人</option><option>20 人以上</option></select></label>
+<label>期望時段
+<input type="text" name="schedule" placeholder="例如：12 月平日下午、明年 Q1"></label>
+<button type="submit" class="btn-primary">送出諮詢</button>
+<p id="apply-err" class="form-err" hidden>送出失敗，請再試一次，或直接寫信到 ai@cooperation.tw。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，註明「企業內訓洽詢」即可。</p>
+</form>
+</article>
+<script>
+(function() {
+  var form = document.getElementById('apply-form');
+  if (!form) return;
+  form.addEventListener('submit', function(ev) {
+    ev.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    var data = {
+      type: 'enterprise',
+      company: form.company.value.trim(),
+      name: form.name_field.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      workflow: form.workflow.value.trim(),
+      headcount: form.headcount.value,
+      schedule: form.schedule.value.trim()
+    };
+    btn.disabled = true;
+    btn.textContent = '送出中…';
+    fetch('https://script.google.com/macros/s/AKfycbwk6xMhzIgrxgONZatAkEDmdzWMYFWYJ31W6Inrlh5bf9PJrJ6qrFiUAxRjfi-Vx6w2/exec', {
+      method: 'POST', mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(data)
+    }).then(function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          lead_type: 'enterprise',
+          course_id: data.course_id || '',
+          transport_type: 'beacon'
+        });
+      }
+      form.hidden = true;
+      document.getElementById('apply-ok').hidden = false;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = '重新送出';
+      document.getElementById('apply-err').hidden = false;
+    });
+  });
+})();
+</script>
+```

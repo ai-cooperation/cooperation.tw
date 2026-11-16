@@ -36,6 +36,7 @@ toc: false
 <p>到路徑頁看三階段的說明與最近開課時間，從 Stage 1 開始。</p>
 <a class="btn-primary" href="https://aipath.cooperation.tw">查看路徑</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/no-code-system.html"><h3>不會寫程式，也能打造自己的小系統</h3><p>每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>不會寫程式能學 Vibe Coding 嗎？</h3><p>可以。第一階段從對話做出作品開始，不需要程式背景，但會帶你理解每一步的機制邏輯。</p></div><div class="faq-item"><h3>Vibe Coding 課程學完會得到什麼？</h3><p>每一階段的驗收標準是真實作品上線——學完手上有可以展示的成果，不是一疊筆記。</p></div></div>

@@ -36,6 +36,7 @@ toc: false
 <p>進入知識庫瀏覽最新市場動態，或從月度 Wiki 看整體趨勢。</p>
 <a class="btn-primary" href="https://insurance-kb.cooperation.tw">進入知識庫</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>要追蹤亞洲保險市場動態有什麼工具？</h3><p>保險業知識庫每天自動收集台、日、韓、港、東南亞新聞源，翻譯結構化後入庫，每月蒸餾成主題 Wiki。</p></div><div class="faq-item"><h3>知識庫的內容可信嗎？</h3><p>每條內容附原文出處連結，可回溯查證；公司譯名經一致性把關，同一家公司不會因翻譯不同而搜不到。</p></div></div>

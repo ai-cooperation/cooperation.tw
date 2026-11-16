@@ -1,0 +1,80 @@
+---
+pagetitle: "預約試上｜AI Cooperation"
+description: "登記課程試上：小班體驗場陸續安排，場次確定後第一時間通知您。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail form-page">
+<header class="detail-head reveal-fx">
+<h1>預約試上</h1>
+<p class="detail-tagline">留下你的情境，小班體驗場確定後第一時間通知你</p>
+</header>
+<div id="apply-ok" class="form-ok" hidden>
+<h2>已收到你的登記</h2>
+<p>確認信已寄到你的信箱。場次確定後，時間、時數與費用會在通知信中說明，依登記順序通知。</p>
+<p><a href="/courses/">← 回課程探索</a></p>
+</div>
+<form id="apply-form" class="apply-form reveal-fx">
+<label>想試上的課程
+<select name="course" required><option value="no-code-system">不會寫程式，也能打造自己的小系統</option><option value="aiot-button">AIoT 入門，從一顆門鈴按鍵開始</option><option value="remote-care">遠距安心照護實作營</option><option value="pet-health">毛孩健康觀察與智慧照護工作坊</option><option value="learning-coach">AI 檢索式學習教練培育班</option><option value="energy-detective">企業用電異常偵探實戰班</option><option value="meeting-follow">開完會，事情真的有在往前走嗎</option><option value="home-preview">我的家，裝修前先看見</option><option value="industry-radar">打造自己的產業情報雷達</option><option value="research-plan">從研究想法到可執行研究計畫</option></select></label>
+<label>稱呼 <span class="req">必填</span>
+<input type="text" name="name_field" required autocomplete="name"></label>
+<label>Email <span class="req">必填</span>
+<input type="email" name="email" required autocomplete="email"></label>
+<label>電話
+<input type="tel" name="phone" autocomplete="tel"></label>
+<label>你的情境：想解決什麼問題
+<textarea name="situation" rows="4" placeholder="例如：每天手動整理訂單表、家人獨居想多一層安心……"></textarea></label>
+<label>怎麼知道這門課
+<select name="source"><option value="">（可不選）</option><option>朋友推薦</option><option>搜尋找到</option><option>社群看到</option><option>上過其他課</option><option>其他</option></select></label>
+<button type="submit" class="btn-primary">送出登記</button>
+<p id="apply-err" class="form-err" hidden>送出失敗，請再試一次，或直接寫信到 ai@cooperation.tw。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，註明想試上的課程即可。</p>
+</form>
+</article>
+<script>(function(){var c=new URLSearchParams(location.search).get('course');if(!c)return;var s=document.querySelector('#apply-form select[name=course]');if(!s)return;for(var i=0;i<s.options.length;i++){if(s.options[i].value===c){s.selectedIndex=i;break;}}})();</script>
+<script>
+(function() {
+  var form = document.getElementById('apply-form');
+  if (!form) return;
+  form.addEventListener('submit', function(ev) {
+    ev.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    var data = {
+      type: 'trial',
+      course_id: form.course.value,
+      course: form.course.options[form.course.selectedIndex].text,
+      name: form.name_field.value.trim(),
+      email: form.email.value.trim(),
+      phone: form.phone.value.trim(),
+      situation: form.situation.value.trim(),
+      source: form.source.value
+    };
+    btn.disabled = true;
+    btn.textContent = '送出中…';
+    fetch('https://script.google.com/macros/s/AKfycbwk6xMhzIgrxgONZatAkEDmdzWMYFWYJ31W6Inrlh5bf9PJrJ6qrFiUAxRjfi-Vx6w2/exec', {
+      method: 'POST', mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(data)
+    }).then(function() {
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          lead_type: 'course_trial',
+          course_id: data.course_id || '',
+          transport_type: 'beacon'
+        });
+      }
+      form.hidden = true;
+      document.getElementById('apply-ok').hidden = false;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = '重新送出';
+      document.getElementById('apply-err').hidden = false;
+    });
+  });
+})();
+</script>
+```

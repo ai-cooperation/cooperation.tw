@@ -57,6 +57,45 @@ def jsonld(p, cat):
 
 
 STATUS_LABEL = {"live": "運行中", "beta": "測試中", "coming": "建置中"}
+COURSE_STATUS_LABEL = {"pilot": "預約試上", "planned": ""}
+
+# project id → 以它為教材的課程清單（main() 從 data/courses.yml 建立）
+COURSES_BY_PROJECT = {}
+
+
+def load_courses_by_project():
+    courses_yml = ROOT / "data" / "courses.yml"
+    if not courses_yml.is_file():
+        return
+    with open(courses_yml, encoding="utf-8") as f:
+        cdata = yaml.safe_load(f)
+    for c in cdata.get("courses", []):
+        for pid in c.get("projects", []):
+            COURSES_BY_PROJECT.setdefault(pid, []).append(c)
+
+
+def course_links_html(project_id):
+    """專案頁的「這套系統也是課堂教材」卡片；無對應課程回空字串。"""
+    courses = COURSES_BY_PROJECT.get(project_id, [])
+    if not courses:
+        return ""
+    cards = []
+    for c in courses:
+        # 僅開放試上課程掛「預約試上」徽章；未開課課程不掛標籤。
+        badge = ('<span class="badge badge-pilot">預約試上</span>'
+                 if c["status"] == "pilot" else "")
+        cards.append(
+            f'<a class="proof-card" href="/courses/{c["id"]}.html">'
+            f'<h3>{c["name"]}</h3>'
+            f'<p>{c["tagline"]}</p>{badge}</a>'
+        )
+    return (
+        '<section class="detail-block reveal-fx">'
+        "<h2>想學會用這套系統的方法</h2>"
+        "<p>這個系統同時是課堂教材，對應的情境課程：</p>"
+        f'<div class="proof-grid cols-{min(len(cards), 3)}">'
+        f'{"".join(cards)}</div></section>'
+    )
 
 
 def load_data():
@@ -179,6 +218,9 @@ def gen_detail(p, cat):
             f'{entry_btn}',
             "</section>",
         ]
+    course_links = course_links_html(p["id"])
+    if course_links:
+        lines.append(course_links)
     faq = p.get("faq", [])
     if faq:
         faq_html = "".join(
@@ -204,9 +246,37 @@ def gen_llms_txt(data):
     lines = [
         "# AI Cooperation（cooperation.tw）",
         "",
-        "> 打造人機協作的基礎架構。智慧人人可用，差距在協作的架構——",
-        "> 這裡陳列的每個專案、每門課，都在真實運轉。",
+        "> 情境式 AI 實作課程與真實運轉的 AI 專案。",
+        "> 從生活與工作的問題開始，做出自己的第一個 AI 應用——",
+        "> 這裡陳列的每個專案、每門課，背後都是真實運轉的系統。",
         "",
+    ]
+    courses_yml = ROOT / "data" / "courses.yml"
+    if courses_yml.is_file():
+        with open(courses_yml, encoding="utf-8") as f:
+            cdata = yaml.safe_load(f)
+        lines += [
+            "## 學習方法",
+            "",
+            "- [AI 學習地圖](https://cooperation.tw/method/): "
+            "四個關鍵能力（看懂文件與影像、把資料變成系統、建自己的知識庫、"
+            "讓 AI 自動運轉）× 三級深度，課程與真實系統對照",
+            "",
+            "## 情境課程",
+            "",
+        ]
+        for cid, cat in cdata["categories"].items():
+            items = [c for c in cdata["courses"] if c["category"] == cid]
+            if not items:
+                continue
+            lines.append(f'### {cat["name"]}')
+            for c in items:
+                url = f'https://cooperation.tw/courses/{c["id"]}.html'
+                label = "（預約試上）" if c["status"] == "pilot" else ""
+                lines.append(
+                    f'- [{c["name"]}]({url}){label}: {c["seo_description"]}')
+            lines.append("")
+    lines += [
         "## 專案",
         "",
     ]
@@ -233,6 +303,7 @@ def gen_llms_txt(data):
 
 def main():
     data = load_data()
+    load_courses_by_project()
     OUT_DIR.mkdir(exist_ok=True)
     for old in OUT_DIR.glob("*.qmd"):
         old.unlink()

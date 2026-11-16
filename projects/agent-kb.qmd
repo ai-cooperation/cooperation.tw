@@ -36,6 +36,7 @@ toc: false
 <p>用課程發的帳號登入，從案例庫開始逛。</p>
 <a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-2"><a class="proof-card" href="/courses/no-code-system.html"><h3>不會寫程式，也能打造自己的小系統</h3><p>每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>上完課回家找不回課堂內容怎麼辦？</h3><p>Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。</p></div></div>

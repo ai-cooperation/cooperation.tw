@@ -36,6 +36,7 @@ toc: false
 <p>打開課程網站，從模組一第一講開始，或直接挑你最弱的模組切入。</p>
 <a class="btn-primary" href="https://ai-cooperation.github.io/ai100/">進入課程</a>
 </section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>iPAS AI 應用規劃師有免費的中文課程嗎？</h3><p>有。AI 100 講把 iPAS AI 應用規劃師的知識體系拆成 10 個模組、100 講，全部免費開放，每講附中文 Podcast。</p></div><div class="faq-item"><h3>沒有程式背景可以準備 iPAS AI 應用規劃師嗎？</h3><p>可以。課程從機制與概念切入，不要求寫程式，重點是理解每個技術的原理與應用場景。</p></div><div class="faq-item"><h3>AI 100 講要怎麼開始？</h3><p>打開課程網站從模組一第一講開始，或先聽 Podcast 挑你最弱的模組切入。</p></div></div>

@@ -22,15 +22,19 @@ website:
   repo-url: https://github.com/ai-cooperation/cooperation.tw
 
   navbar:
-    background: "#0c0f14"
-    foreground: "#f4f6f8"
+    background: "#faf8f4"
+    foreground: "#28313d"
     title: false
     logo: assets/logo.svg
     left:
-      - text: "專案"
-        href: projects/index.qmd
       - text: "課程"
         href: courses/index.qmd
+      - text: "學習地圖"
+        href: method/index.qmd
+      - text: "作品案例"
+        href: projects/index.qmd
+      - text: "企業內訓"
+        href: "/#enterprise"
       - text: "關於"
         href: about.qmd
     right:
@@ -60,7 +64,7 @@ format:
         <link rel="icon" type="image/png" href="/assets/favicon.png">
         <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
         <link rel="manifest" href="/manifest.json">
-        <meta name="theme-color" content="#0c0f14">
+        <meta name="theme-color" content="#faf8f4">
         <!-- Google tag (gtag.js) — cooperation.tw total -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-975S6707DM"></script>
         <script>
@@ -84,4 +88,18 @@ format:
           if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
           var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -8% 0px',threshold:.08});
           els.forEach(function(e){io.observe(e);});})();
+        </script>
+        <script>
+        // GA4：全站 /apply CTA 點擊事件（成效漏斗上游；轉換事件 generate_lead 在表單頁送出時發）
+        document.addEventListener('click', function(ev){
+          var a = ev.target.closest && ev.target.closest('a[href^="/apply"]');
+          if (!a || typeof gtag !== 'function') return;
+          var u = new URL(a.getAttribute('href'), location.origin);
+          gtag('event', 'cta_click', {
+            cta_target: u.pathname,
+            course_id: u.searchParams.get('course') || '',
+            page_path: location.pathname,
+            transport_type: 'beacon'
+          });
+        });
         </script>

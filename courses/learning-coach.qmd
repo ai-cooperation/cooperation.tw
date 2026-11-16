@@ -1,0 +1,60 @@
+---
+pagetitle: "AI 檢索式學習教練培育班：把教材變成互動練習"
+description: "給教師與企業內訓人員的課程：用 AI 把教材做成診斷回想回饋重試的互動練習，學會提問設計與教學成效檢核。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">教育與研究</span>
+<h1>AI 檢索式學習教練培育班</h1>
+<p class="detail-tagline">學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p>
+<p class="detail-audience">適合：教師、講師、企業訓練人員</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-c">C 建自己的知識庫</a></p>
+<a class="btn-primary" href="/apply/?course=learning-coach">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-learning-coach.png" alt="AI 檢索式學習教練培育班">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>把你最熟悉的一份教材做成「診斷、回想、回饋、重試」的互動練習，並完成一次同儕試教——學生被要求回想與重試，而不是再看一次教材。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>互動練習教案</li><li>評分規準</li><li>試教觀察表</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>教學型 Prompt 與蘇格拉底提問</li><li>題目與評分規準設計、Retrieval Practice</li><li>學習資料分析與教材知識檢索</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>教學診斷、形成性評量、提問設計、回饋與教學成效檢核</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>AI 學習教練、企業內訓師、檢索式學習種子教師。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>自建的互動學習系統，以及 iPAS、英文學習的實際範例</p>
+<div class="proof-grid cols-3"><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/ai100.html"><h3>AI 100 講</h3><p>十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/wellap.html"><h3>WELL AP 學習站</h3><p>考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>師資資格須另有實務與試教評量制度，單堂課不保證任何資格。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>什麼是檢索式學習？</h3><p>讓學習者主動回想而不是重複閱讀的學習法，研究證實比重讀教材有效。課程教你把教材轉成診斷、回想、回饋、重試的練習循環。</p></div><div class="faq-item"><h3>上完課就是認證的學習教練嗎？</h3><p>不是。課程提供方法與試教練習，正式的帶領者或講師資格需要另外通過實務試教與評量。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=learning-coach">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：AI 檢索式學習教練培育班」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "AI 檢索式學習教練培育班", "description": "給教師與企業內訓人員的課程：用 AI 把教材做成診斷回想回饋重試的互動練習，學會提問設計與教學成效檢核。", "url": "https://cooperation.tw/courses/learning-coach.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "AI 檢索式學習教練培育班", "item": "https://cooperation.tw/courses/learning-coach.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "什麼是檢索式學習？", "acceptedAnswer": {"@type": "Answer", "text": "讓學習者主動回想而不是重複閱讀的學習法，研究證實比重讀教材有效。課程教你把教材轉成診斷、回想、回饋、重試的練習循環。"}}, {"@type": "Question", "name": "上完課就是認證的學習教練嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不是。課程提供方法與試教練習，正式的帶領者或講師資格需要另外通過實務試教與評量。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```

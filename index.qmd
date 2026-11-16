@@ -1,5 +1,6 @@
 ---
-pagetitle: "打造人機協作的基礎架構"
+pagetitle: "打造人機協作的基礎架構｜AI Cooperation"
+description: "AI Cooperation 打造人機協作的基礎架構：每天真實運轉的 AI 系統、從生活與工作出發的情境式實作課程、培育種子人才的企業內訓。"
 page-layout: custom
 toc: false
 ---
@@ -8,32 +9,53 @@ toc: false
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":"Organization","name":"AI Cooperation","alternateName":"cooperation.tw","url":"https://cooperation.tw","logo":"https://cooperation.tw/assets/icon-512.png","email":"ai@cooperation.tw","sameAs":["https://github.com/ai-cooperation"]},
-{"@type":"WebSite","name":"AI Cooperation","url":"https://cooperation.tw","description":"打造人機協作的基礎架構——運行中的 AI 專案入口與課程","inLanguage":"zh-TW"}]}
+{"@type":"WebSite","name":"AI Cooperation","url":"https://cooperation.tw","description":"打造人機協作的基礎架構——真實運轉的 AI 系統、情境式 AI 實作課程、企業內訓","inLanguage":"zh-TW"}]}
 </script>
 
-<section class="hero">
-<div class="hero-inner">
-<h1 class="reveal-fx">打造人機協作<br>的基礎架構</h1>
-<p class="hero-sub reveal-fx" style="--rd:.15s">智慧人人可用，差距在協作的架構<br>這裡的每個專案、每門課，都在真實運轉</p>
-<div class="hero-cta reveal-fx" style="--rd:.3s">
-<a class="btn-primary" href="/projects/">看運行中的專案</a>
-<a class="btn-ghost" href="/courses/">從課程開始</a>
+<section class="hero hero-split">
+<div class="hero-cols">
+<div class="hero-copy">
+<h1 class="reveal-fx">不必先懂程式<br>做出幫得上忙的 AI 系統</h1>
+<p class="hero-sub reveal-fx" style="--rd:.1s">從生活與工作的真實問題出發<br>每門課帶走一件親手驗收的作品<br>站上每套系統都在真實運轉 也是課堂教材</p>
+<div class="hero-cta reveal-fx" style="--rd:.2s">
+<a class="btn-primary" href="/courses/">找到能解決你問題的課</a>
 </div>
+</div>
+<img class="hero-photo reveal-fx" style="--rd:.15s" src="/assets/images/hero-home.png" alt="AI Cooperation 工作室實景">
 </div>
 </section>
 
-<div class="pulse-rail" aria-hidden="true"></div>
+<section class="home-section" id="doors">
+<h2 class="reveal-fx">你想從哪裡開始</h2>
+<div class="entr-grid">
+<a class="entr-card reveal-fx" href="/courses/">
+<h3>我想學 AI 實作</h3>
+<p>不必先懂工具。情境式課程從你的生活與工作問題出發，結束時帶走一件自己驗收過的作品。</p>
+<span class="entr-cta">從你的問題找課程 →</span>
+</a>
+<a class="entr-card reveal-fx" style="--rd:.08s" href="#enterprise">
+<h3>我要企業內訓</h3>
+<p>六小時四階段實作，用你們自己的工作流程當教材，培育能帶領部門完成改善的種子人才。</p>
+<span class="entr-cta">看內訓方案 →</span>
+</a>
+<a class="entr-card reveal-fx" style="--rd:.16s" href="/projects/">
+<h3>我想看運行中的系統</h3>
+<p>知識庫、研究工具、資料應用——站上陳列的每一件，都是每天在運轉的工作系統。</p>
+<span class="entr-cta">看全部作品 →</span>
+</a>
+</div>
+</section>
 
 <section class="home-section">
 <h2 class="reveal-fx">最新動態</h2>
 <div class="news-list">
-<a class="news-item reveal-fx" href="/projects/ifrs-s2.html">
-<span class="news-tag">新專案</span>
-<span class="news-title">IFRS S2 永續合規知識庫上線——188 份文件、逐條可勾稽的差距分析</span>
+<a class="news-item reveal-fx" href="/courses/">
+<span class="news-tag">新上線</span>
+<span class="news-title">情境實作課開放興趣登記——從智慧門鈴、遠距照護到產業情報雷達</span>
 </a>
-<a class="news-item reveal-fx" style="--rd:.1s" href="/projects/classclaw.html">
-<span class="news-tag">開源預告</span>
-<span class="news-title">ClassClaw 課堂即時互動系統，即將開源</span>
+<a class="news-item reveal-fx" style="--rd:.1s" href="/projects/ifrs-s2.html">
+<span class="news-tag">新專案</span>
+<span class="news-title">IFRS S2 永續合規知識庫上線——188 份文件、逐條對照原文出處的差距分析</span>
 </a>
 <a class="news-item reveal-fx" style="--rd:.2s" href="/blog/">
 <span class="news-tag">文章</span>
@@ -42,62 +64,35 @@ toc: false
 </div>
 </section>
 
-<section class="home-section">
-<h2 class="reveal-fx">精選專案</h2>
-<div class="pgrid">
-<a class="pcard reveal-fx" href="/projects/ai100.html">
-<img src="/assets/images/proj-ai100.png" alt="AI 100 講" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>AI 100 講</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">十個模組、一百講的 AI 應用課程，每講附中文 Podcast</p></div>
-</a>
-<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/insurance-kb.html">
-<img src="/assets/images/proj-kb.png" alt="保險業知識庫" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>保險業知識庫</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">覆蓋台日韓港與東南亞的保險市場情報，每天自動累積</p></div>
-</a>
-<a class="pcard reveal-fx" style="--rd:.16s" href="/projects/ifrs-s2.html">
-<img src="/assets/images/proj-ifrs.jpg" alt="IFRS S2 知識庫" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>IFRS S2 合規知識庫</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">永續揭露差距分析，188 份文件逐條可勾稽</p></div>
-</a>
-<a class="pcard reveal-fx" href="/projects/paperlab.html">
-<img src="/assets/images/proj-paperlab.png" alt="PaperLab" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>PaperLab</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">從模糊想法到研究計畫與論文初稿的生產系統</p></div>
-</a>
-<a class="pcard reveal-fx" style="--rd:.08s" href="/projects/sustainability-100.html">
-<img src="/assets/images/proj-s100.png" alt="永續 100 講" loading="lazy">
-<div class="pcard-body"><div class="pcard-head"><h3>永續 100 講</h3><span class="badge badge-live">運行中</span></div>
-<p class="pcard-tagline">淨零碳排、ESG、碳交易十大主題的永續知識系列</p></div>
-</a>
-<a class="pcard pcard-more reveal-fx" style="--rd:.16s" href="/projects/">
-<div class="pcard-body pcard-more-body">
-<h3>全部專案</h3>
-<p class="pcard-tagline">五個分類，持續擴增</p>
-<span class="pcard-cta">瀏覽全部</span>
+<div class="proof-band">
+<div class="proof-inner">
+<h2 class="reveal-fx">每天真實運轉的系統</h2>
+<p class="section-lead reveal-fx">這些系統每天真實工作，也是課堂上的教材。</p>
+<div class="proof-grid">
+<a class="proof-card reveal-fx" href="/projects/insurance-kb.html"><span class="proof-num">每日</span><h3>保險業知識庫</h3><p>覆蓋台日韓港與東南亞，每天自動累積的市場情報</p></a>
+<a class="proof-card reveal-fx" style="--rd:.06s" href="/projects/ifrs-s2.html"><span class="proof-num">188 份</span><h3>IFRS S2 合規知識庫</h3><p>永續揭露差距分析，逐條對照原文出處</p></a>
+<a class="proof-card reveal-fx" style="--rd:.12s" href="/projects/ai100.html"><span class="proof-num">100 講</span><h3>AI 100 講</h3><p>十模組一百講，每講附中文 Podcast</p></a>
+<a class="proof-card reveal-fx" style="--rd:.18s" href="/projects/paperlab.html"><span class="proof-num">運行中</span><h3>PaperLab</h3><p>從研究想法到論文初稿的生產系統</p></a>
 </div>
-</a>
+<p class="proof-more reveal-fx"><a href="/projects/">看全部運行中的專案 →</a></p>
 </div>
-</section>
+</div>
 
 <section class="home-section">
-<h2 class="reveal-fx">為什麼合作比智慧更重要</h2>
-<div class="video-wrap reveal-fx">
-<video controls preload="none" poster="/assets/images/video-brand.png">
-<source src="/assets/videos/brand-film.mp4" type="video/mp4">
-</video>
-</div>
+<h2 class="reveal-fx">一張地圖看懂學習路徑</h2>
+<p class="section-lead reveal-fx">場景任務進、作品驗收出。四個關鍵能力、三級深度，從第一門課到進階路線都在這。</p>
+<p class="reveal-fx"><a class="btn-ghost-dark" href="/method/">看學習地圖 →</a></p>
 </section>
 
-<section class="home-section">
-<h2 class="reveal-fx">課程</h2>
-<p class="section-lead reveal-fx">不需要程式背景，但需要理解每一步的機制邏輯。</p>
-<div class="course-row reveal-fx" style="--rd:.1s">
-<a class="course-chip" href="/courses/">AI 100 講</a>
-<a class="course-chip" href="/courses/">永續 100 講</a>
-<a class="course-chip" href="/courses/">AI 學習路徑</a>
-<a class="course-chip" href="/courses/">YOLO 視覺辨識</a>
-<a class="course-chip" href="/courses/">企業內訓</a>
+<section class="ent-band" id="enterprise">
+<div class="ent-inner reveal-fx">
+<div>
+<h2>企業內訓</h2>
+<p class="ent-lead">培育能帶領部門完成工作改善的種子人才</p>
+<p>六小時從入門到自動化的四階段實作，用你們自己的工作流程當教材，學員結業時直接交付部門可以用的改善方案。</p>
+<p class="ent-specs">小班實作｜六小時四階段｜學員無須程式背景</p>
+</div>
+<a class="btn-primary" href="/apply/enterprise.html">洽詢內訓方案</a>
 </div>
 </section>
 
