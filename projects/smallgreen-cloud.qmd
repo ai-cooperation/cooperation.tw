@@ -36,7 +36,7 @@ toc: false
 <p>打開服務目錄，從用途與對象挑一個，照服務卡部署到自己的帳號。</p>
 <a class="btn-primary" href="https://smallgreen.cooperation.tw/services/">逛服務目錄</a>
 </section>
-<section class="detail-block reveal-fx"><h2>想學會做這類系統</h2><p>站上的系統同時是課堂教材。從你的情境出發，做一件自己驗收過的作品。</p><a class="btn-ghost" href="/courses/">幫我找適合的課 →</a></section>
+<section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-1"><a class="proof-card" href="/courses/card-assistant.html"><h3>換了一疊名片，然後呢</h3><p>展會跑完、聚會結束，名片疊在抽屜——想找上個月那位廠商，只記得他做模具</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
 <div class="faq-list"><div class="faq-item"><h3>跟自己去 GitHub 找開源專案差在哪？</h3><p>目錄裡每個服務都實際部署驗證過，服務卡寫明資源量級、證據等級與限制；你省掉的是「能不能跑、要花多少、怎麼移除」的評估成本。</p></div><div class="faq-item"><h3>這些服務要付費嗎？</h3><p>全部設計在 Cloudflare 免費額度內運行、scale-to-zero——沒有流量就沒有成本。你付的只有自己帳號的額度，超量與否自己看得到。</p></div><div class="faq-item"><h3>背後的部署契約是什麼角色？</h3><p>支撐層，不是賣點。它讓「部署成功」與「乾淨移除」變成機械可檢查的事；定位是候選 conformance profile，不宣稱新標準。</p></div></div>

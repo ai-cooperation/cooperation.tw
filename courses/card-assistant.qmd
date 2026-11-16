@@ -1,0 +1,60 @@
+---
+pagetitle: "名片管理實作課：拍照建檔、AI 查詢，名片庫在自己帳號"
+description: "給業務與顧問的課程：手機拍名片 AI 自動分人建檔與查證校正，部署在自己雲端帳號的名片庫與 MCP 查詢，沒有月費、資料主權在自己。"
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<article class="detail">
+<header class="detail-head reveal-fx">
+<span class="badge badge-pilot">預約試上</span> <span class="badge badge-cat">工作與產業</span>
+<h1>換了一疊名片，然後呢</h1>
+<p class="detail-tagline">展會跑完、聚會結束，名片疊在抽屜——想找上個月那位廠商，只記得他做模具</p>
+<p class="detail-audience">適合：業務、顧問、接案者、常跑展會與交流活動的人</p>
+<p class="detail-axes">這門課練的能力：<a class="axis-chip axis-chip-sm" href="/method/#axis-a">A 看懂文件與影像</a><a class="axis-chip axis-chip-sm" href="/method/#axis-c">C 建自己的知識庫</a></p>
+<a class="btn-primary" href="/apply/?course=card-assistant">預約試上</a>
+</header>
+<img class="detail-hero reveal-fx" src="/assets/images/course-card-assistant.png" alt="換了一疊名片，然後呢">
+<section class="detail-block reveal-fx">
+<h2>這門課的情境</h2>
+<p>拿起手機一次拍下整桌名片，AI 自動分成一人一筆建檔，欄位不清楚的還會上網查證後校正——實測一次六張、六個人、六筆資料。名片庫部署在你自己的雲端帳號：打開名片牆網頁看全部，或直接問 AI「上次那位做模具的廠商是誰」，連人帶脈絡找出來。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會做出什麼（可帶走的作品）</h2>
+<ul class="detail-gains"><li>部署在自己帳號的名片庫與名片牆網頁</li><li>接上 AI 助手的名片查詢（MCP）</li><li>一套「拍了就建檔、建了就找得到」的聯絡紀錄流程</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>會用到的 AI 技巧</h2>
+<ul class="detail-gains"><li>名片照片轉結構化資料：AI 看圖、分人、自動查證校正</li><li>照服務卡把開源名片庫部署到自己的帳號</li><li>MCP 接上 ChatGPT／Claude，用自然語言查自己的名片庫</li></ul>
+</section>
+<section class="detail-block reveal-fx">
+<h2>你會帶走的能力</h2>
+<p>影像轉資料思維、資料主權意識、自然語言檢索、小服務部署</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>之後可以往哪走</h2>
+<p>業務流程數位化種子、個人 CRM 實踐者、部門小工具導入者。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>這門課背後的真實系統</h2>
+<p>站上公開運行的名片 MCP——開源專案，demo 可直接點，課堂部署的就是同一套</p>
+<div class="proof-grid cols-1"><a class="proof-card" href="/projects/smallgreen-cloud.html"><h3>SmallGreen Cloud</h3><p>讓每個人都能擁有自己的雲端服務——14 個可跑在自己帳號的開源小服務目錄</p><span class="pcard-cta">看這個系統 →</span></a></div>
+</section>
+<section class="detail-block detail-limits reveal-fx">
+<h2>誠實界線</h2>
+<p>這是個人名片庫，不是團隊 CRM；AI 辨識與查證結果仍需本人確認；名片屬個資，課堂用虛構名片練習，你自己的名片庫只存在你自己的帳號。</p>
+</section>
+<section class="detail-block reveal-fx">
+<h2>常見問題</h2>
+<div class="faq-list"><div class="faq-item"><h3>跟名片掃描 App 差在哪？</h3><p>訂閱制 App 把你的人脈資料存在廠商雲端、按月收費；這門課的名片庫部署在你自己的帳號，免費額度內運行，資料與刪除權都在你手上。</p></div><div class="faq-item"><h3>一次拍很多張可以嗎？</h3><p>可以。實測一次拍六張不同人的名片，AI 會自動分成六筆建檔；資訊不清楚的欄位會上網查證後校正，你只需要最後確認。</p></div><div class="faq-item"><h3>不會寫程式能上嗎？</h3><p>可以。部署照服務卡與 AI 導遊一步步走，課程重點是建檔與查詢的工作流程，不是寫程式。</p></div></div>
+</section>
+<section class="detail-block reveal-fx">
+<a class="btn-primary" href="/apply/?course=card-assistant">預約試上</a>
+<p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
+<p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：換了一疊名片，然後呢」。</p>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "換了一疊名片，然後呢", "description": "給業務與顧問的課程：手機拍名片 AI 自動分人建檔與查證校正，部署在自己雲端帳號的名片庫與 MCP 查詢，沒有月費、資料主權在自己。", "url": "https://cooperation.tw/courses/card-assistant.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "換了一疊名片，然後呢", "item": "https://cooperation.tw/courses/card-assistant.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "跟名片掃描 App 差在哪？", "acceptedAnswer": {"@type": "Answer", "text": "訂閱制 App 把你的人脈資料存在廠商雲端、按月收費；這門課的名片庫部署在你自己的帳號，免費額度內運行，資料與刪除權都在你手上。"}}, {"@type": "Question", "name": "一次拍很多張可以嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。實測一次拍六張不同人的名片，AI 會自動分成六筆建檔；資訊不清楚的欄位會上網查證後校正，你只需要最後確認。"}}, {"@type": "Question", "name": "不會寫程式能上嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以。部署照服務卡與 AI 導遊一步步走，課程重點是建檔與查詢的工作流程，不是寫程式。"}}]}]}</script>
+<p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
+</article>
+```
