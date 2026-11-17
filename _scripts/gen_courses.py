@@ -215,7 +215,7 @@ AXES = {
     "D": "讓 AI 自動運轉",
 }
 
-FUNNEL_HERO = """<section class="hero hero-lite hero-img" style="--hero-img:url('/assets/images/hero-courses.png')">
+FUNNEL_HERO = """<section class="hero hero-lite hero-lines">
 <div class="hero-inner">
 <span class="hero-kicker reveal-fx">情境式 AI 實作課程</span>
 <h1 class="reveal-fx" style="--rd:.05s">從你在意的問題開始<br>做出<em>自己的第一個 AI 應用</em></h1>

@@ -142,7 +142,7 @@ def main() -> None:
         "---",
         "",
         "```{=html}",
-        """<section class="hero hero-lite hero-img" style="--hero-img:url('/assets/images/hero-method.png')">
+        """<section class="hero hero-lite hero-lines">
 <div class="hero-inner">
 <span class="hero-kicker reveal-fx">學習地圖</span>
 <h1 class="reveal-fx" style="--rd:.05s">四個關鍵能力<br>三級深度</h1>

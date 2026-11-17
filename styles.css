@@ -144,15 +144,14 @@ p { color: var(--text); }
   margin-top: .7rem;
 }
 
-/* ── Hero 底圖：照片洗白成紙感，文字維持深色可讀 ── */
-.hero-img {
+/* ── 次級頁 hero 線條底：inline SVG 取代洗白照片（零圖檔請求；線條避開中央文字區）── */
+.hero-lines {
   background:
-    linear-gradient(180deg,
-      rgba(250, 248, 244, .93) 0%,
-      rgba(250, 248, 244, .84) 45%,
-      rgba(250, 248, 244, .96) 88%,
-      var(--bg) 100%),
-    var(--hero-img) center 35% / cover no-repeat;
+    url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 420' preserveAspectRatio='xMidYMid slice'%3E%3Cg fill='none' stroke-width='1.6'%3E%3Cpath d='M-20 330 C 220 260 420 380 640 300 S 1050 220 1240 290' stroke='rgba(194,84,31,0.14)'/%3E%3Cpath d='M-20 362 C 240 300 460 412 700 332 S 1080 262 1240 332' stroke='rgba(31,122,109,0.11)'/%3E%3Cpath d='M-20 90 C 200 150 440 40 680 110 S 1020 180 1240 100' stroke='rgba(194,84,31,0.09)'/%3E%3Cpath d='M-20 58 C 240 118 480 18 720 78 S 1040 148 1240 68' stroke='rgba(31,122,109,0.08)'/%3E%3C/g%3E%3Cg fill='rgba(194,84,31,0.2)'%3E%3Ccircle cx='640' cy='300' r='3'/%3E%3Ccircle cx='680' cy='110' r='3'/%3E%3C/g%3E%3Cg fill='rgba(31,122,109,0.18)'%3E%3Ccircle cx='700' cy='332' r='3'/%3E%3Ccircle cx='440' cy='93' r='3'/%3E%3C/g%3E%3C/svg%3E")
+      center / cover no-repeat,
+    radial-gradient(ellipse 55% 60% at 85% 10%, rgba(194, 84, 31, .07), transparent),
+    radial-gradient(ellipse 45% 50% at 10% 90%, rgba(31, 122, 109, .06), transparent),
+    var(--bg);
 }
 
 /* ── 能力軸 chips ── */

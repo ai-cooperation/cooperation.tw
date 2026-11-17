@@ -6,7 +6,7 @@ toc: false
 ---
 
 ```{=html}
-<section class="hero hero-lite hero-img" style="--hero-img:url('/assets/images/hero-method.png')">
+<section class="hero hero-lite hero-lines">
 <div class="hero-inner">
 <span class="hero-kicker reveal-fx">學習地圖</span>
 <h1 class="reveal-fx" style="--rd:.05s">四個關鍵能力<br>三級深度</h1>
@@ -25,7 +25,7 @@ toc: false
 <p class="section-lead reveal-fx">AI 幫你讀懂報告、照片、標籤與圖面，變成可以用的資訊。<br>拍一張食品標籤，就變成毛孩的飲食紀錄；一疊永續報告書，變成逐條對照原文出處的差距分析。</p>
 <img class="axis-visual reveal-fx" src="/assets/images/axis-a.png" alt="看懂文件與影像" loading="lazy">
 <h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
-<div class="proof-grid cols-2"><a class="proof-card" href="/courses/pet-health.html"><h3>毛孩健康觀察與智慧照護工作坊</h3><p>毛孩不會說話，最近好像吃得少了，是真的有變化嗎</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/energy-detective.html"><h3>企業用電異常偵探實戰班</h3><p>工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/home-preview.html"><h3>我的家，裝修前先看見</h3><p>想改造客廳，看了很多照片，卻不知道這些風格用在自己家會怎樣</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a></div>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/pet-health.html"><h3>毛孩健康觀察與智慧照護工作坊</h3><p>毛孩不會說話，最近好像吃得少了，是真的有變化嗎</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/energy-detective.html"><h3>企業用電異常偵探實戰班</h3><p>工廠電費增加了，設備看似正常，從哪個時段哪台設備開始查</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/home-preview.html"><h3>我的家，裝修前先看見</h3><p>想改造客廳，看了很多照片，卻不知道這些風格用在自己家會怎樣</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/card-assistant.html"><h3>換了一疊名片，然後呢</h3><p>展會跑完、聚會結束，名片疊在抽屜——想找上個月那位廠商，只記得他做模具</p><span class="badge badge-pilot">預約試上</span></a></div>
 <h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
 <div class="proof-grid cols-2"><a class="proof-card" href="/projects/ifrs-s2.html"><h3>IFRS S2 永續合規知識庫</h3><p>188 份文件、逐條對照原文出處的永續揭露差距分析系統，涵蓋 IFRS S1/S2、TWSE 氣候揭露與 GHG Protocol</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/medical-kb.html"><h3>醫學知識庫</h3><p>從醫學文獻自動蒸餾的專科知識系統，給臨床從業者的結構化參考庫</p><span class="pcard-cta">看這個系統 →</span></a></div>
 <p class="axis-tech">背後技術：多模態理解、OCR 管線、視覺解析</p>
@@ -45,7 +45,7 @@ toc: false
 <p class="section-lead reveal-fx">建立可檢索、查得到來源的自家知識庫，重要判斷回查得到原文。<br>每天自動累積的產業情報，每一條都附來源；上課用的教材庫，AI 助手直接查得到。</p>
 <img class="axis-visual reveal-fx" src="/assets/images/axis-c.png" alt="建自己的知識庫" loading="lazy">
 <h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
-<div class="proof-grid cols-2"><a class="proof-card" href="/courses/remote-care.html"><h3>遠距安心照護實作營</h3><p>家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a></div>
+<div class="proof-grid cols-2"><a class="proof-card" href="/courses/remote-care.html"><h3>遠距安心照護實作營</h3><p>家人獨自在家，不想一直盯著鏡頭，怎樣多一層安心</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/industry-radar.html"><h3>打造自己的產業情報雷達</h3><p>每天看很多新聞，怎麼知道哪些消息真的影響公司</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/research-plan.html"><h3>從研究想法到可執行研究計畫</h3><p>找了很多論文，教授問研究缺口在哪裡，卻說不清楚</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/card-assistant.html"><h3>換了一疊名片，然後呢</h3><p>展會跑完、聚會結束，名片疊在抽屜——想找上個月那位廠商，只記得他做模具</p><span class="badge badge-pilot">預約試上</span></a></div>
 <h3 class="cgroup-label reveal-fx">用這個能力做出來的系統</h3>
 <div class="proof-grid cols-2"><a class="proof-card" href="/projects/insurance-kb.html"><h3>保險業知識庫</h3><p>覆蓋台日韓港與東南亞的保險業情報系統，每天自動收集、翻譯、結構化，累積成可檢索的市場知識</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
 <p class="axis-tech">背後技術：RAG、Embedding、向量檢索、Provenance、MCP</p>
