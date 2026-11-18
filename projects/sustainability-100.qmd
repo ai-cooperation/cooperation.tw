@@ -28,7 +28,7 @@ toc: false
 <ul class="detail-gains"><li>Jekyll 靜態站部署在 GitHub Pages，內容版本全程 Git 管理</li><li>內容生產走 LLM 管線：資料蒐集、起草、名詞一致性掃描、人工終審</li><li>「永續動態」新聞板塊：每則動態標注來源與日期、LLM 摘要，並連結回對應講次，新知直接掛上知識體系</li><li>講次 Podcast 由 TTS 批次管線合成</li><li>引用的制度與數據標注來源，定期對照官方文件更新</li></ul>
 </section>
 <section class="detail-block reveal-fx">
-<h2>用了之後，解決什麼</h2>
+<h2>用了之後解決什麼</h2>
 <ul class="detail-gains"><li>名詞不再各說各話——一百講建立同一套概念地圖</li><li>考 iPAS 淨零碳規劃師有對應教材可循</li><li>制度變動有人追——內容隨官方文件更新</li></ul>
 </section>
 <section class="detail-block reveal-fx">

@@ -28,7 +28,7 @@ toc: false
 <ul class="detail-gains"><li>14 個 catalogued 服務：FluxGate 生圖閘道、名片 MCP、TapCard 數位名片、NewsNow 新聞聚合、Sink 短網址、Second Brain 知識庫、serverless-dns 等</li><li>每個服務附服務卡：架構、部署需求、資料流向、限制，逐項可查</li><li>部署驗收與移除程序由機械檢查判定，留下可稽核證據</li><li>全部在 Cloudflare 免費層內 scale-to-zero，零常駐成本、零遙測</li></ul>
 </section>
 <section class="detail-block reveal-fx">
-<h2>用了之後，解決什麼</h2>
+<h2>用了之後解決什麼</h2>
 <ul class="detail-gains"><li>不用自己海選開源專案——目錄裡每個都篩過、跑過、標了證據等級</li><li>服務跑在你自己的帳號，資料與移除的控制權都在你手上</li><li>不要了照移除程序執行，帳號資源歸零，不留殘骸</li></ul>
 </section>
 <section class="detail-block reveal-fx">

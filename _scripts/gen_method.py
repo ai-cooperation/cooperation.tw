@@ -5,12 +5,20 @@
 產出：method/index.qmd
 唯一資料源是上述三個 yml，不要手改產出檔。
 """
+import re
 import sys
 from html import escape
 from pathlib import Path
 from typing import Any
 
 import yaml
+
+
+def phrases(text):
+    """依「，」「；」切成語意片段（.ph，inline-block），窄螢幕只在片段之間換行，避免「變／成」「來／源」。
+    2026-11-18 加入；樣式在 styles.css 的 .ph。"""
+    parts = re.split(r"(?<=[，；])", text)
+    return "".join(f'<span class="ph">{escape(p)}</span>' for p in parts if p)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "method"
@@ -96,7 +104,7 @@ def axis_section(aid: str, courses: list[dict], projects: dict,
                  if terms else "")
     return f"""<section class="home-section" id="axis-{aid.lower()}">
 <h2 class="reveal-fx">{aid}　{escape(info["name"])}</h2>
-<p class="section-lead reveal-fx">{escape(info["define"])}<br>{escape(info["example"])}</p>
+<p class="section-lead reveal-fx"><span class="bl">{phrases(info["define"])}</span><span class="bl">{phrases(info["example"])}</span></p>
 <img class="axis-visual reveal-fx" src="/assets/images/axis-{aid.lower()}.png" alt="{escape(info["name"])}" loading="lazy">
 <h3 class="cgroup-label reveal-fx">練這個能力的課</h3>
 <div class="proof-grid cols-{min(len(mine), 2)}">{course_cards}</div>

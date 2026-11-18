@@ -138,7 +138,7 @@ def gen_listing(data):
         "toc: false",
         "---",
         "",
-        "站上陳列的每一件，都是每天在運轉的工作系統。",
+        "站上陳列的每一件，都是每天在運轉的工作系統",
         "",
     ]
     for cid, cat in data["categories"].items():
@@ -214,7 +214,7 @@ def gen_detail(p, cat):
     if gains_html:
         lines += [
             '<section class="detail-block reveal-fx">',
-            "<h2>用了之後，解決什麼</h2>",
+            "<h2>用了之後解決什麼</h2>",
             f'<ul class="detail-gains">{gains_html}</ul>',
             "</section>",
         ]

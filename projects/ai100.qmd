@@ -28,7 +28,7 @@ toc: false
 <ul class="detail-gains"><li>靜態課程站部署在 GitHub Pages，內容版本全程 Git 管理</li><li>講次內容由 LLM 協作管線起草、人工審校後上線</li><li>每講 Podcast 音訊由 TTS 模型批次合成</li></ul>
 </section>
 <section class="detail-block reveal-fx">
-<h2>用了之後，解決什麼</h2>
+<h2>用了之後解決什麼</h2>
 <ul class="detail-gains"><li>不用自己拼湊教材——考科範圍已拆成一百個可完成的單位</li><li>沒有整塊時間也能推進——通勤聽 Podcast 就是進度</li><li>零費用開始，不用先賭一筆學費</li></ul>
 </section>
 <section class="detail-block reveal-fx">

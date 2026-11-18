@@ -218,7 +218,7 @@ AXES = {
 FUNNEL_HERO = """<section class="hero hero-lite hero-lines">
 <div class="hero-inner">
 <span class="hero-kicker reveal-fx">情境式 AI 實作課程</span>
-<h1 class="reveal-fx" style="--rd:.05s">從你在意的問題開始<br>做出<em>自己的第一個 AI 應用</em></h1>
+<h1 class="reveal-fx" style="--rd:.05s">從你在意的問題開始<br>做出<em><span class="ph">自己的第一個</span> <span class="ph">AI 應用</span></em></h1>
 <p class="hero-sub reveal-fx" style="--rd:.15s">不必先懂工具 <br class="br-m">從真實的生活與工作情境進來<br>完成一個帶得走的作品 <br class="br-m">再看見背後的技術與路徑</p>
 </div>
 </section>"""

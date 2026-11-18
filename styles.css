@@ -25,11 +25,13 @@
 
 html { font-size: 20px; }
 
-/* CJK 斷行保險：全 typo 元素自動平衡斷行、長英文可折 */
+/* CJK 斷行保險：段落 pretty、長英文可折；標題 balance（2026-11-18：pretty 只防最後一行剩一個字，
+   中文標題常剩兩三字一行，如「小／系統」「怎／麼辦？」，標題改用 balance 讓各行等長） */
 :is(h1, h2, h3, h4, p, li, figcaption) {
   text-wrap: pretty;
   overflow-wrap: break-word;
 }
+:is(h1, h2, h3, h4) { text-wrap: balance; }
 
 body {
   background: var(--bg);
@@ -65,6 +67,8 @@ p { color: var(--text); }
     var(--bg);
   padding: 5.5rem 1.5rem 4rem;
   text-align: center;
+  /* 2026-11-18：.hero::before 光暈 inset:-15% 會超出畫面，手機上首頁／課程／方法頁可左右滑約 45px，這裡裁掉 */
+  overflow: hidden;
 }
 .hero-inner { max-width: 48rem; margin: 0 auto; }
 .hero-kicker {
@@ -591,3 +595,14 @@ footer.footer, .nav-footer {
 }
 .form-ok h2 { margin: 0 0 .6rem; font-size: 1.25rem; border-bottom: none; }
 .form-err { color: #b3261e; font-size: .92rem; margin: 0; }
+
+
+/* ── 中文標題與副標斷行（2026-11-18，與台灣智綠、台灣智能漁電同一規則）──
+   text-wrap: pretty 只防最後一行剩一個字，中文常剩兩三字一行（「小／系統」「怎／麼辦？」）。
+   緊接標題的說明段改用 balance；balance 只作用於 6 行以內，長內文自動退回一般斷行。 */
+/* 用 :is() 讓特異度高於上面的 :is(h1,…,p) 與 .hero-sub／.section-lead 原本的 pretty */
+:is(.hero-sub, .section-lead, h1 + p, h2 + p, h3 + p, .detail-tag li) { text-wrap: balance; }
+
+/* 語意片段：.ph 不可拆，窄螢幕只在片段之間換行；.bl 讓 <br> 分段的說明各自成段平衡斷行 */
+.ph { display: inline-block; }
+.section-lead .bl { display: block; text-wrap: balance; }

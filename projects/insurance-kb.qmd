@@ -28,7 +28,7 @@ toc: false
 <ul class="detail-gains"><li>排程爬蟲每日兩次收集台、日、韓、港、東南亞新聞源</li><li>LLM 管線做翻譯與結構化，公司譯名走 canonical 一致性把關（避免同一家公司多種譯名搜不到）</li><li>月度 Wiki 由 LLM 蒸餾、附原文出處連結</li><li>MCP server 介面：Claude 等 AI 助手可直連查詢、產出雙週報與研究報告</li><li>前端部署在 Cloudflare Pages</li></ul>
 </section>
 <section class="detail-block reveal-fx">
-<h2>用了之後，解決什麼</h2>
+<h2>用了之後解決什麼</h2>
 <ul class="detail-gains"><li>跨五個市場的動態一站看完，不用逐一追各國媒體</li><li>情報有累積——月度 Wiki 和報告庫越用越厚</li><li>要寫報告時，AI 助手直接引用庫內文章與出處，不是憑空生成</li></ul>
 </section>
 <section class="detail-block reveal-fx">

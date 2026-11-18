@@ -15,8 +15,8 @@ toc: false
 <section class="hero hero-split">
 <div class="hero-cols">
 <div class="hero-copy">
-<h1 class="reveal-fx">不必先懂程式<br>做出幫得上忙的 AI 系統</h1>
-<p class="hero-sub reveal-fx" style="--rd:.1s">從生活與工作的真實問題出發<br>每門課帶走一件親手驗收的作品<br>站上每套系統都在真實運轉 也是課堂教材</p>
+<h1 class="reveal-fx">不必先懂程式<br><span class="ph">做出幫得上忙的</span> <span class="ph">AI 系統</span></h1>
+<p class="hero-sub reveal-fx" style="--rd:.1s">從生活與工作的真實問題出發<br>每門課帶走一件親手驗收的作品<br><span class="ph">站上每套系統都在真實運轉</span> <span class="ph">也是課堂教材</span></p>
 <div class="hero-cta reveal-fx" style="--rd:.2s">
 <a class="btn-primary" href="/courses/">幫我找適合的課</a>
 </div>

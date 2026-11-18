@@ -28,7 +28,7 @@ toc: false
 <ul class="detail-gains"><li>學習站部署在 Cloudflare Pages，附登入驗證閘管理存取</li><li>題庫由考古題經 LLM 解析起草、逐題人工校對後入庫</li><li>題目與講義段落建立雙向對應索引</li></ul>
 </section>
 <section class="detail-block reveal-fx">
-<h2>用了之後，解決什麼</h2>
+<h2>用了之後解決什麼</h2>
 <ul class="detail-gains"><li>中文備考資源從零到有——講義與題庫都是中文解析</li><li>考點分布看得見，讀書時間花在對的章節</li><li>錯題直接連回觀念，不用自己翻手冊找</li></ul>
 </section>
 <section class="detail-block reveal-fx">
