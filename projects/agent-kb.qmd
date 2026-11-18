@@ -1,6 +1,6 @@
 ---
-pagetitle: "Agent KB——Vibe Coding 課程教學知識庫"
-description: "課堂真實案例、概念字典、可重用工作流的教學知識庫，學員的 AI 助手可直連查詢。"
+pagetitle: "Agent KB——把課程知識接到你的 AI｜BYOC 第一層實例"
+description: "講師自己的 BYOC 實例：Google 登入就能把課程案例、概念與私人筆記接到 ChatGPT 或 Claude，再到工作坊把第二大腦部署到自己的雲端帳號。"
 page-layout: custom
 toc: false
 ---
@@ -10,38 +10,34 @@ toc: false
 <header class="detail-head reveal-fx">
 <span class="badge badge-live">運行中</span> <span class="badge badge-cat">知識庫系統</span>
 <h1>Agent KB 教學知識庫</h1>
-<p class="detail-tagline">課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p>
-<p class="detail-audience">適合：Vibe Coding 課程學員</p>
+<p class="detail-tagline">講師自己的 BYOC 實例，課程知識接到你的 AI，再到工作坊部署屬於你的一套</p>
+<p class="detail-audience">適合：想讓 AI 接上自己知識與筆記的工作者、課程學員</p>
 <a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
 </header>
 <img class="detail-hero reveal-fx" src="/assets/images/proj-agent-kb.png" alt="Agent KB 教學知識庫">
 <section class="detail-block reveal-fx">
 <h2>你可能正卡在這裡</h2>
-<p>上完課回家，講過的案例、名詞、工作流散在筆記和記憶裡，要用的時候找不回來——課程的價值隨時間流失。</p>
+<p>換一個 AI 工具就要重新交代背景，筆記和經驗鎖在單一平台裡帶不走；上完課回家，講過的案例與工作流也散在記憶裡，要用的時候找不回來。</p>
 </section>
 <section class="detail-block reveal-fx">
 <h2>這個系統怎麼解</h2>
-<p>把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。</p>
+<p>把課堂內容整理成真實開發案例、概念字典、可重用工作流與行為準則四類，透過 MCP 讓你的 AI 直接查。你自己的筆記放在私人區，只有本人看得到，也能匯出帶走。</p>
 </section>
+<section class="detail-block reveal-fx"><h2>從看懂到擁有的三個階段</h2><div class="proof-grid cols-3"><a class="proof-card" href="https://agent-kb.cooperation.tw/insights/byoc-portable-personal-context/"><span class="badge badge-cat">看</span><h3>看懂 BYOC 在解決什麼</h3><p>Agent KB 本身就是講師的 BYOC 實例，課程簡報、案例與 MCP 服務都部署在講師自己的 Cloudflare 帳號。觀點文說明為什麼個人脈絡應該能被帶走</p><span class="pcard-cta">讀 BYOC 觀點文 →</span></a><a class="proof-card" href="https://agent-kb.cooperation.tw"><span class="badge badge-cat">試</span><h3>用自己的 AI 試第一層</h3><p>Google 登入後把 Agent KB 接到 ChatGPT 或 Claude，課程知識和你的私人筆記都讀得到，筆記也能匯出。這一層 Context 屬於你，資料仍放在 Agent KB</p><span class="pcard-cta">進入 Agent KB →</span></a><a class="proof-card" href="https://line.me/R/ti/p/@640tusbi"><span class="badge badge-cat">擁有</span><h3>部署屬於你的系統</h3><p>一日工作坊帶你把開源第二大腦部署到自己的 Cloudflare 帳號，知識、規則與筆記都在你名下，免費額度內月費 0 元</p><span class="pcard-cta">加入 LINE 看工作坊場次 →</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>技術架構</h2>
-<ul class="detail-gains"><li>前後端部署在 Cloudflare（Pages + Workers）</li><li>MCP server 介面：學員的 AI 助手可直連知識庫查案例、查概念</li><li>私人筆記與公開教材權限分離，個人資料只有本人可見</li></ul>
+<ul class="detail-gains"><li>部署在講師自己的 Cloudflare 帳號（Pages + Workers + D1）</li><li>MCP server 介面：你的 AI 助手可直連知識庫查案例、查概念</li><li>私人筆記與公開教材權限分離，個人資料只有本人可見，可匯出 zip</li></ul>
 </section>
 <section class="detail-block reveal-fx">
 <h2>用了之後解決什麼</h2>
-<ul class="detail-gains"><li>課堂案例含完整踩坑脈絡，回家還原得出來</li><li>概念查詢即開即用，複習成本降到最低</li><li>你的 AI 助手也查得到——上課學的工作流直接在自己環境重現</li></ul>
-</section>
-<section class="detail-block reveal-fx">
-<h2>怎麼開始</h2>
-<p>用課程發的帳號登入，從案例庫開始逛。</p>
-<a class="btn-primary" href="https://agent-kb.cooperation.tw">進入知識庫</a>
+<ul class="detail-gains"><li>課堂案例含完整踩坑脈絡，回家還原得出來</li><li>概念查詢即開即用，複習成本降到最低</li><li>ChatGPT 或 Claude 都接得上同一份知識，換工具不用重新自我介紹</li></ul>
 </section>
 <section class="detail-block reveal-fx"><h2>想學會用這套系統的方法</h2><p>這個系統同時是課堂教材，對應的情境課程：</p><div class="proof-grid cols-2"><a class="proof-card" href="/courses/no-code-system.html"><h3>不會寫程式，也能打造自己的小系統</h3><p>每天重複整理訂單與表單，只想做個小系統，為什麼需要找工程師</p><span class="badge badge-pilot">預約試上</span></a><a class="proof-card" href="/courses/learning-coach.html"><h3>AI 檢索式學習教練培育班</h3><p>學生看起來都懂，考試卻答不出來，怎樣幫他真正學會</p><span class="badge badge-pilot">預約試上</span></a></div></section>
 <section class="detail-block reveal-fx">
 <h2>常見問題</h2>
-<div class="faq-list"><div class="faq-item"><h3>上完課回家找不回課堂內容怎麼辦？</h3><p>Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。</p></div></div>
+<div class="faq-list"><div class="faq-item"><h3>上完課回家找不回課堂內容怎麼辦？</h3><p>Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。</p></div><div class="faq-item"><h3>Agent KB 跟 BYOC 有什麼關係？</h3><p>BYOC（Bring Your Own Context）指個人脈絡能被保存、授權給不同的 AI，並保留匯出與撤回的能力。Agent KB 是講師自己的 BYOC 實例，學員登入後可以先體驗第一層：讓自己的 AI 讀到課程知識與私人筆記。</p></div><div class="faq-item"><h3>在 Agent KB 寫的筆記放在哪裡？</h3><p>放在 Agent KB 的雲端資料庫，只有本人看得到，也可以匯出成 zip。想讓資料也在自己名下，可以在工作坊把開源第二大腦部署到自己的 Cloudflare 帳號。</p></div></div>
 </section>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Agent KB 教學知識庫", "description": "課堂真實案例、概念字典、可重用工作流的教學知識庫，學員的 AI 助手可直連查詢。", "url": "https://agent-kb.cooperation.tw", "applicationCategory": "知識庫系統", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "Agent KB 教學知識庫", "item": "https://cooperation.tw/projects/agent-kb.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "上完課回家找不回課堂內容怎麼辦？", "acceptedAnswer": {"@type": "Answer", "text": "Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。"}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Agent KB 教學知識庫", "description": "講師自己的 BYOC 實例：Google 登入就能把課程案例、概念與私人筆記接到 ChatGPT 或 Claude，再到工作坊把第二大腦部署到自己的雲端帳號。", "url": "https://agent-kb.cooperation.tw", "applicationCategory": "知識庫系統", "operatingSystem": "Web", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TWD"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "專案", "item": "https://cooperation.tw/projects/"}, {"@type": "ListItem", "position": 3, "name": "Agent KB 教學知識庫", "item": "https://cooperation.tw/projects/agent-kb.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "上完課回家找不回課堂內容怎麼辦？", "acceptedAnswer": {"@type": "Answer", "text": "Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。"}}, {"@type": "Question", "name": "Agent KB 跟 BYOC 有什麼關係？", "acceptedAnswer": {"@type": "Answer", "text": "BYOC（Bring Your Own Context）指個人脈絡能被保存、授權給不同的 AI，並保留匯出與撤回的能力。Agent KB 是講師自己的 BYOC 實例，學員登入後可以先體驗第一層：讓自己的 AI 讀到課程知識與私人筆記。"}}, {"@type": "Question", "name": "在 Agent KB 寫的筆記放在哪裡？", "acceptedAnswer": {"@type": "Answer", "text": "放在 Agent KB 的雲端資料庫，只有本人看得到，也可以匯出成 zip。想讓資料也在自己名下，可以在工作坊把開源第二大腦部署到自己的 Cloudflare 帳號。"}}]}]}</script>
 <p class="detail-back"><a href="/projects/">← 回專案總覽</a></p>
 </article>
 ```

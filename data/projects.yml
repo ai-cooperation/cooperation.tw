@@ -254,27 +254,47 @@ projects:
   category: knowledge-base
   status: live
   featured: false
-  tagline: 課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統
-  audience: Vibe Coding 課程學員
+  tagline: 講師自己的 BYOC 實例，課程知識接到你的 AI，再到工作坊部署屬於你的一套
+  audience: 想讓 AI 接上自己知識與筆記的工作者、課程學員
   url: https://agent-kb.cooperation.tw
   image: proj-agent-kb.png
   cta: 進入知識庫
-  problem: 上完課回家，講過的案例、名詞、工作流散在筆記和記憶裡，要用的時候找不回來——課程的價值隨時間流失。
-  how: 把課堂內容結構化成四類：真實開發案例（含踩坑過程）、概念字典、可重用工作流、行為準則。學員隨時可查，也能建立自己的私人筆記區。
+  problem: 換一個 AI 工具就要重新交代背景，筆記和經驗鎖在單一平台裡帶不走；上完課回家，講過的案例與工作流也散在記憶裡，要用的時候找不回來。
+  how: 把課堂內容整理成真實開發案例、概念字典、可重用工作流與行為準則四類，透過 MCP 讓你的 AI 直接查。你自己的筆記放在私人區，只有本人看得到，也能匯出帶走。
+  tiers_title: 從看懂到擁有的三個階段
+  tiers:
+  - label: 看
+    title: 看懂 BYOC 在解決什麼
+    body: Agent KB 本身就是講師的 BYOC 實例，課程簡報、案例與 MCP 服務都部署在講師自己的 Cloudflare 帳號。觀點文說明為什麼個人脈絡應該能被帶走
+    href: https://agent-kb.cooperation.tw/insights/byoc-portable-personal-context/
+    cta: 讀 BYOC 觀點文 →
+  - label: 試
+    title: 用自己的 AI 試第一層
+    body: Google 登入後把 Agent KB 接到 ChatGPT 或 Claude，課程知識和你的私人筆記都讀得到，筆記也能匯出。這一層 Context 屬於你，資料仍放在 Agent KB
+    href: https://agent-kb.cooperation.tw
+    cta: 進入 Agent KB →
+  - label: 擁有
+    title: 部署屬於你的系統
+    body: 一日工作坊帶你把開源第二大腦部署到自己的 Cloudflare 帳號，知識、規則與筆記都在你名下，免費額度內月費 0 元
+    href: https://line.me/R/ti/p/@640tusbi
+    cta: 加入 LINE 看工作坊場次 →
   tech:
-  - 前後端部署在 Cloudflare（Pages + Workers）
-  - MCP server 介面：學員的 AI 助手可直連知識庫查案例、查概念
-  - 私人筆記與公開教材權限分離，個人資料只有本人可見
+  - 部署在講師自己的 Cloudflare 帳號（Pages + Workers + D1）
+  - MCP server 介面：你的 AI 助手可直連知識庫查案例、查概念
+  - 私人筆記與公開教材權限分離，個人資料只有本人可見，可匯出 zip
   solves:
   - 課堂案例含完整踩坑脈絡，回家還原得出來
   - 概念查詢即開即用，複習成本降到最低
-  - 你的 AI 助手也查得到——上課學的工作流直接在自己環境重現
-  start: 用課程發的帳號登入，從案例庫開始逛。
-  seo_title: Agent KB——Vibe Coding 課程教學知識庫
-  seo_description: 課堂真實案例、概念字典、可重用工作流的教學知識庫，學員的 AI 助手可直連查詢。
+  - ChatGPT 或 Claude 都接得上同一份知識，換工具不用重新自我介紹
+  seo_title: Agent KB——把課程知識接到你的 AI｜BYOC 第一層實例
+  seo_description: 講師自己的 BYOC 實例：Google 登入就能把課程案例、概念與私人筆記接到 ChatGPT 或 Claude，再到工作坊把第二大腦部署到自己的雲端帳號。
   faq:
   - q: 上完課回家找不回課堂內容怎麼辦？
     a: Agent KB 把課堂內容結構化成案例、概念、工作流、準則四類，隨時可查，你的 AI 助手也能透過 MCP 直連。
+  - q: Agent KB 跟 BYOC 有什麼關係？
+    a: BYOC（Bring Your Own Context）指個人脈絡能被保存、授權給不同的 AI，並保留匯出與撤回的能力。Agent KB 是講師自己的 BYOC 實例，學員登入後可以先體驗第一層：讓自己的 AI 讀到課程知識與私人筆記。
+  - q: 在 Agent KB 寫的筆記放在哪裡？
+    a: 放在 Agent KB 的雲端資料庫，只有本人看得到，也可以匯出成 zip。想讓資料也在自己名下，可以在工作坊把開源第二大腦部署到自己的 Cloudflare 帳號。
 - id: paperlab
   name: PaperLab 寫論文找方法
   category: research

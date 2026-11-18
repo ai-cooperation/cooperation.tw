@@ -39,7 +39,7 @@ toc: false
 <section class="detail-block reveal-fx">
 <h2>這門課背後的真實系統</h2>
 <p>自建的互動學習系統，以及 iPAS、英文學習的實際範例</p>
-<div class="proof-grid cols-3"><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/ai100.html"><h3>AI 100 講</h3><p>十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/wellap.html"><h3>WELL AP 學習站</h3><p>考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<div class="proof-grid cols-3"><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>講師自己的 BYOC 實例，課程知識接到你的 AI，再到工作坊部署屬於你的一套</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/ai100.html"><h3>AI 100 講</h3><p>十個模組、一百講的 AI 應用課程，把 iPAS AI 應用規劃師的知識體系變成可以每天聽的中文 Podcast</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/wellap.html"><h3>WELL AP 學習站</h3><p>考古題解析、題庫練習、講義整合的 WELL AP 認證學習系統</p><span class="pcard-cta">看這個系統 →</span></a></div>
 </section>
 <section class="detail-block detail-limits reveal-fx">
 <h2>誠實界線</h2>

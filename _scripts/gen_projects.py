@@ -106,6 +106,32 @@ def course_links_html(project_id):
     )
 
 
+TIER_KEYS = ("label", "title", "body", "href", "cta")
+
+
+def tiers_section_html(p):
+    """選填的階段卡（例：agent-kb 的 看／試／擁有）；缺欄位直接中止 build。"""
+    tiers = p.get("tiers", [])
+    if not tiers:
+        return ""
+    for t in tiers:
+        missing = [k for k in TIER_KEYS if not t.get(k)]
+        if missing:
+            sys.exit(f'projects.yml {p["id"]} tiers 缺欄位：{", ".join(missing)}')
+    cards = "".join(
+        f'<a class="proof-card" href="{t["href"]}">'
+        f'<span class="badge badge-cat">{t["label"]}</span>'
+        f'<h3>{t["title"]}</h3><p>{t["body"]}</p>'
+        f'<span class="pcard-cta">{t["cta"]}</span></a>'
+        for t in tiers)
+    return (
+        '<section class="detail-block reveal-fx">'
+        f'<h2>{p.get("tiers_title", "階段")}</h2>'
+        f'<div class="proof-grid cols-{min(len(tiers), 3)}">{cards}</div>'
+        "</section>"
+    )
+
+
 def load_data():
     with open(DATA, encoding="utf-8") as f:
         data = yaml.safe_load(f)
@@ -203,6 +229,9 @@ def gen_detail(p, cat):
             f"<p>{p['how']}</p>",
             "</section>",
         ]
+    tiers_html = tiers_section_html(p)
+    if tiers_html:
+        lines.append(tiers_html)
     tech_html = "".join(f"<li>{t}</li>" for t in p.get("tech", []))
     if tech_html:
         lines += [

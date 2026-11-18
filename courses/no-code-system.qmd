@@ -39,7 +39,7 @@ toc: false
 <section class="detail-block reveal-fx">
 <h2>這門課背後的真實系統</h2>
 <p>既有課程知識庫（Agent KB），以及課堂實際使用的飲料訂購系統案例</p>
-<div class="proof-grid cols-2"><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>課堂案例、概念字典、可重用工作流的教學知識庫，學員上課用的同一套系統</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/aipath.html"><h3>AI 學習路徑</h3><p>從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾</p><span class="pcard-cta">看這個系統 →</span></a></div>
+<div class="proof-grid cols-2"><a class="proof-card" href="/projects/agent-kb.html"><h3>Agent KB 教學知識庫</h3><p>講師自己的 BYOC 實例，課程知識接到你的 AI，再到工作坊部署屬於你的一套</p><span class="pcard-cta">看這個系統 →</span></a><a class="proof-card" href="/projects/aipath.html"><h3>AI 學習路徑</h3><p>從零到能動手的 Vibe Coding 三階段路徑，每一階段都以做出真實作品收尾</p><span class="pcard-cta">看這個系統 →</span></a></div>
 </section>
 <section class="detail-block detail-limits reveal-fx">
 <h2>誠實界線</h2>
