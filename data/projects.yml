@@ -277,7 +277,7 @@ projects:
     title: 部署屬於你的系統
     body: 一日工作坊帶你把開源第二大腦部署到自己的 Cloudflare 帳號，知識、規則與筆記都在你名下，免費額度內月費 0 元
     href: https://line.me/R/ti/p/@640tusbi
-    cta: 加入 LINE 看工作坊場次 →
+    cta: 加 LINE 詢問工作坊場次 →
   tech:
   - 部署在講師自己的 Cloudflare 帳號（Pages + Workers + D1）
   - MCP server 介面：你的 AI 助手可直連知識庫查案例、查概念
