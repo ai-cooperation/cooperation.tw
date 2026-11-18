@@ -149,7 +149,7 @@ p { color: var(--text); }
 }
 
 /* ── 次級頁 hero 線條底：SVG 流線取代洗白照片（線條避開中央文字區）。
-   2026-11-18 改為外部檔 assets/images/hero-lines.svg 並加動態（流動虛線＋沿線光點，參考台灣智綠官網），
+   2026-11-18 改為外部檔 assets/images/hero-lines.svg 並加動態（只有光點沿線移動，線條靜止），
    尊重 prefers-reduced-motion。用根路徑，因為 styles.css 會被打包進 site_libs/bootstrap/，相對路徑會失效。 */
 .hero-lines {
   background:
