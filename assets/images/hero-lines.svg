@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" preserveAspectRatio="xMidYMid slice">
+  <!-- 次級頁 hero 線條底（courses／method）。2026-11-18 加動態，做法參考台灣智綠官網的曲線底紋：
+       原本 4 條流線與節點不變；上層加流動虛線（往右流），光點沿線移動並淡入淡出。
+       純裝飾；系統設定「減少動態效果」時只顯示靜態線條。顏色＝品牌陶土橘 rgba(194,84,31)、深青 rgba(31,122,109)。 -->
+  <defs>
+    <path id="a" d="M-20 330 C 220 260 420 380 640 300 S 1050 220 1240 290"/>
+    <path id="b" d="M-20 362 C 240 300 460 412 700 332 S 1080 262 1240 332"/>
+    <path id="c" d="M-20 90 C 200 150 440 40 680 110 S 1020 180 1240 100"/>
+    <path id="d" d="M-20 58 C 240 118 480 18 720 78 S 1040 148 1240 68"/>
+    <style>
+      .flow{stroke-dasharray:2 16;animation:flow 3s linear infinite}
+      .flow.slow{animation-duration:4.5s}
+      @keyframes flow{to{stroke-dashoffset:-36}}
+      .breathe{animation:breathe 4s ease-in-out infinite}
+      @keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+      @media (prefers-reduced-motion:reduce){.flow,.breathe{animation:none}.mv{display:none}}
+    </style>
+  </defs>
+
+  <!-- 靜態底線（與原版相同） -->
+  <g fill="none" stroke-width="1.6">
+    <use href="#a" stroke="rgba(194,84,31,0.14)"/>
+    <use href="#b" stroke="rgba(31,122,109,0.11)"/>
+    <use href="#c" stroke="rgba(194,84,31,0.09)"/>
+    <use href="#d" stroke="rgba(31,122,109,0.08)"/>
+  </g>
+
+  <!-- 流動虛線 -->
+  <g fill="none" stroke-width="1.8" stroke-linecap="round">
+    <use href="#a" class="flow" stroke="rgba(194,84,31,0.32)"/>
+    <use href="#b" class="flow slow" stroke="rgba(31,122,109,0.26)"/>
+    <use href="#c" class="flow slow" stroke="rgba(194,84,31,0.2)"/>
+    <use href="#d" class="flow" stroke="rgba(31,122,109,0.18)"/>
+  </g>
+
+  <!-- 節點（原版位置），緩慢呼吸 -->
+  <g class="breathe">
+    <circle cx="640" cy="300" r="3" fill="rgba(194,84,31,0.3)"/>
+    <circle cx="680" cy="110" r="3" fill="rgba(194,84,31,0.3)"/>
+    <circle cx="700" cy="332" r="3" fill="rgba(31,122,109,0.28)"/>
+    <circle cx="440" cy="93" r="3" fill="rgba(31,122,109,0.28)"/>
+  </g>
+
+  <!-- 沿線移動的光點，錯開時間 -->
+  <g class="mv">
+    <circle r="4" fill="rgba(194,84,31,0.55)"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#a"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="9s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="rgba(31,122,109,0.5)"><animateMotion dur="11s" begin="-4s" repeatCount="indefinite"><mpath href="#b"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="11s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="rgba(194,84,31,0.42)"><animateMotion dur="12s" begin="-7s" repeatCount="indefinite"><mpath href="#c"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="12s" begin="-7s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="rgba(31,122,109,0.4)"><animateMotion dur="10s" begin="-2s" repeatCount="indefinite"><mpath href="#d"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="10s" begin="-2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
