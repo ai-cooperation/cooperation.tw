@@ -8,6 +8,7 @@ project:
     - assets/scenario-video.js
     - assets/card-fx.js
     - assets/card-fx.css
+    - assets/share.js
     - assets/icon-*.png
     - assets/icon.svg
     - assets/apple-touch-icon.png
@@ -111,3 +112,4 @@ format:
         });
         </script>
         <script src="/assets/card-fx.js" defer></script>
+        <script src="/assets/share.js" defer></script>
