@@ -46,6 +46,7 @@ toc: false
 </div>
 </section>
 
+<!-- 2026-11-21 使用者裁定：情境影片區塊品質還不夠，先隱藏。要恢復就拿掉這段註解與下方 scenario-video.js 的註解。
 <section class="home-section" id="scenarios">
 <h2 class="reveal-fx">二十秒看一個情境</h2>
 <div class="sv-grid">
@@ -57,6 +58,7 @@ toc: false
 <div class="sv-item sv-soon reveal-fx" style="--rd:.14s"><span class="sv-cover"><span class="sv-soon-tag">即將推出</span></span><span class="sv-body"><span class="sv-kicker">情境三</span></span></div>
 </div>
 </section>
+-->
 
 <section class="home-section">
 <h2 class="reveal-fx">最新動態</h2>
@@ -118,5 +120,5 @@ toc: false
 </p>
 <p class="vision-cta reveal-fx"><a class="btn-primary" href="/courses/">幫我找適合的課</a></p>
 </section>
-<script src="/assets/scenario-video.js" defer></script>
+<!-- <script src="/assets/scenario-video.js" defer></script> -->
 ```
