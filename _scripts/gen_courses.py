@@ -120,6 +120,13 @@ def load_data() -> dict[str, Any]:
                 or p["id"] == "index" or p["id"] in seen):
             sys.exit(f"courses.yml {context}.id 無效或重複：{p['id']}")
         seen.add(p["id"])
+        # 選填：卡片轉場短片（assets/card-fx.js 讀 data-fx-video）。檔案不存在就停，避免上線後 404。
+        if "fx_video" in p:
+            fx = p["fx_video"]
+            if (not isinstance(fx, str)
+                    or not re.fullmatch(r"[a-z0-9-]+\.mp4", fx)
+                    or not (ROOT / "assets" / "videos" / "fx" / fx).is_file()):
+                sys.exit(f"courses.yml {context}.fx_video 無效或檔案不存在：{fx}")
         if p["category"] not in CATEGORY_ORDER:
             sys.exit(f"courses.yml {context}.category 無效：{p['category']}")
         if p["status"] not in STATUS_LABEL:
@@ -202,8 +209,10 @@ def card_html(p: dict[str, Any]) -> str:
         f'<p class="ccard-take">帶走：{escape(p.get("take", p["deliverables"][0]))}</p>'
         '</div>'
     )
+    fx = (f' data-fx-video="/assets/videos/fx/{escape(p["fx_video"])}"'
+          if p.get("fx_video") else "")
     return (
-        f'<a class="ccard reveal-fx" href="/courses/{p["id"]}.html">'
+        f'<a class="ccard reveal-fx" href="/courses/{p["id"]}.html"{fx}>'
         f'{inner}</a>'
     )
 
