@@ -276,6 +276,16 @@ courses:
   seo_description: 給屋主與設計助理的課程：用自家空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。
   image: course-home-preview.png
   fx_video: course-home-preview.mp4
+  demo:
+    video: home-preview.mp4
+    poster: home-preview-poster.jpg
+    steps:
+    - image: home-preview-plan.jpg
+      caption: 平面圖
+    - image: home-preview-model.jpg
+      caption: 3D 模型
+    - image: home-preview-styled.jpg
+      caption: 風格完成圖
 
 - id: industry-radar
   axes: [C, D]
