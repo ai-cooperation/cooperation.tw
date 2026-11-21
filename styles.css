@@ -608,3 +608,94 @@ footer.footer, .nav-footer {
 /* 語意片段：.ph 不可拆，窄螢幕只在片段之間換行；.bl 讓 <br> 分段的說明各自成段平衡斷行 */
 .ph { display: inline-block; }
 .section-lead .bl { display: block; text-wrap: balance; }
+
+/* ── 情境影片卡（assets/scenario-video.js；首頁 #scenarios）──
+   點卡：封面以 View Transition 放大成全螢幕 → 播影片 → 播完縮回原卡、原卡下方出現 CTA。
+   全螢幕時 9:16 影片置中，兩側用同一支影片的模糊放大版填滿（canvas 低解析度取格，不重複下載）。
+   參考：Codrops 介紹的 Jason Bergh 作品站（點作品從原位放大成全螢幕、關閉縮回原處）。
+   新增情境只要照抄一個 .sv-item，換影片、封面、文字；還沒有影片的格子用 .sv-soon。
+   mobile-first：基底是手機，min-width 加桌機。 */
+.sv-grid { display: grid; gap: 1rem; width: 100%; grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 761px) { .sv-grid { gap: 1.2rem; grid-template-columns: repeat(3, 1fr); } }
+.sv-item { display: flex; flex-direction: column; gap: .6rem; }
+.sv-card { display: flex; flex-direction: column; gap: .7rem; text-decoration: none; color: var(--text); }
+.sv-cover {
+  position: relative; display: block; aspect-ratio: 9 / 16; overflow: hidden;
+  border-radius: 16px; background: #1b2028; box-shadow: 0 8px 24px rgba(40, 49, 61, .14);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+@media (min-width: 761px) { .sv-cover { aspect-ratio: 4 / 5; } }
+.sv-cover img { width: 100%; height: 100%; object-fit: cover; object-position: center 45%; display: block; }
+.sv-card:hover .sv-cover, .sv-card:focus-visible .sv-cover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(40, 49, 61, .22); }
+.sv-play {
+  position: absolute; left: 50%; top: 50%; width: 56px; height: 56px; margin: -28px 0 0 -28px;
+  border-radius: 50%; background: rgba(194, 84, 31, .92); box-shadow: 0 6px 20px rgba(0, 0, 0, .3);
+  transition: transform .2s ease;
+}
+.sv-play::after {
+  content: ""; position: absolute; left: 22px; top: 18px;
+  border-style: solid; border-width: 10px 0 10px 16px; border-color: transparent transparent transparent #fff;
+}
+.sv-card:hover .sv-play { transform: scale(1.08); }
+.sv-dur {
+  position: absolute; right: 8px; bottom: 8px; padding: .1rem .5rem; border-radius: 6px;
+  background: rgba(0, 0, 0, .6); color: #fff; font-size: .8rem; font-variant-numeric: tabular-nums;
+}
+.sv-watched .sv-play { background: rgba(40, 49, 61, .85); }
+.sv-body { display: flex; flex-direction: column; gap: .25rem; }
+.sv-kicker { font-size: .8rem; font-weight: 700; color: var(--accent); letter-spacing: .06em; }
+.sv-card .sv-title { margin: 0; font-size: 1.02rem; line-height: 1.5; color: var(--text); text-wrap: pretty; }
+.sv-pain { font-size: .88rem; line-height: 1.7; color: var(--text-dim); text-wrap: pretty; }
+.sv-after { align-self: flex-start; font-size: .92rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+.sv-after:hover { text-decoration: underline; }
+/* 還沒有影片的格子：手機版隱藏（兩欄放不下空格），桌機補滿三欄 */
+.sv-soon { display: none; }
+@media (min-width: 761px) { .sv-soon { display: flex; } }
+.sv-soon .sv-cover {
+  display: flex; align-items: center; justify-content: center; box-shadow: none;
+  background: var(--bg2); border: 1px dashed var(--line);
+}
+.sv-soon-tag { font-size: .95rem; font-weight: 600; color: var(--text-dim); letter-spacing: .08em; }
+.sv-soon .sv-kicker { color: var(--text-dim); }
+
+body.sv-open { overflow: hidden; }
+.sv-overlay { position: fixed; inset: 0; z-index: 2000; background: #000; }
+.sv-shell { position: relative; width: 100%; height: 100%; }
+.sv-phone { position: absolute; inset: 0; overflow: hidden; background: #000; }
+.sv-ambient {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  filter: blur(36px) brightness(.5) saturate(1.15); transform: scale(1.15);
+}
+.sv-video { position: relative; width: 100%; height: 100%; object-fit: contain; display: block; background: transparent; }
+.sv-progress { position: absolute; left: 0; right: 0; top: 0; height: 3px; background: rgba(255, 255, 255, .18); }
+.sv-progress span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .25s linear; }
+.sv-close, .sv-sound, .sv-tap {
+  position: absolute; min-height: 44px; padding: .5rem 1.1rem; border: 0; border-radius: 999px;
+  font-size: .95rem; font-weight: 600; color: #fff; background: rgba(20, 24, 30, .62); backdrop-filter: blur(6px);
+}
+.sv-close { right: 12px; top: calc(12px + env(safe-area-inset-top)); }
+.sv-sound { left: 12px; top: calc(12px + env(safe-area-inset-top)); }
+.sv-tap { left: 50%; top: 50%; transform: translate(-50%, -50%); background: var(--accent); padding: .8rem 1.6rem; }
+.sv-side {
+  position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: center;
+  padding: 1rem 16px calc(1.2rem + env(safe-area-inset-bottom));
+}
+.sv-side :is(.sv-kicker, .sv-side-title, .sv-side-pain) { display: none; }
+@media (min-width: 761px) {
+  .sv-close { right: 24px; top: 20px; }
+  .sv-sound { right: 112px; left: auto; top: 20px; }
+}
+/* 寬螢幕：影片兩側空間夠放字卡時，情境文字與 CTA 放左下角的模糊區，不壓到影片 */
+@media (min-width: 1024px) and (min-aspect-ratio: 5 / 4) {
+  .sv-side {
+    left: 40px; right: auto; bottom: 40px; width: min(18rem, calc((100vw - 100vh * 9 / 16) / 2 - 80px));
+    flex-direction: column; align-items: flex-start; gap: .6rem; padding: 0;
+  }
+  .sv-side :is(.sv-kicker, .sv-side-title, .sv-side-pain) { display: block; margin: 0; }
+  .sv-side-title { font-size: 1.4rem; font-weight: 700; line-height: 1.45; color: #f4f0e9; text-wrap: pretty; }
+  .sv-side-pain { font-size: .98rem; line-height: 1.8; color: #d3cbbf; text-wrap: pretty; }
+  .sv-side .sv-cta { margin-top: .5rem; }
+}
+::view-transition-group(sv-hero) { animation-duration: .45s; animation-timing-function: cubic-bezier(.2, .7, .2, 1); }
+::view-transition-old(sv-hero), ::view-transition-new(sv-hero) { height: 100%; object-fit: cover; }
+@media (prefers-reduced-motion: reduce) { .sv-cover, .sv-play { transition: none; } }

@@ -5,6 +5,9 @@ project:
   resources:
     - assets/images/**
     - assets/videos/**
+    - assets/scenario-video.js
+    - assets/card-fx.js
+    - assets/card-fx.css
     - assets/icon-*.png
     - assets/icon.svg
     - assets/apple-touch-icon.png
@@ -60,6 +63,10 @@ format:
     include-in-header:
       text: |
         <script>document.documentElement.classList.add('js');</script>
+        <!-- 卡片轉場：從卡片轉場進來的頁面，先蓋同色底再淡出（assets/card-fx.js 設 sessionStorage fx-in） -->
+        <script>try{if(sessionStorage.getItem('fx-in')){sessionStorage.removeItem('fx-in');document.documentElement.classList.add('fx-in');}}catch(e){}</script>
+        <style>html.fx-in::before{content:"";position:fixed;inset:0;z-index:3000;background:#faf8f4;pointer-events:none;animation:fx-in .6s ease-out .05s forwards}@keyframes fx-in{to{opacity:0;visibility:hidden}}@media (prefers-reduced-motion: reduce){html.fx-in::before{display:none}}</style>
+        <link rel="stylesheet" href="/assets/card-fx.css">
         <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
         <link rel="icon" type="image/png" href="/assets/favicon.png">
         <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -103,3 +110,4 @@ format:
           });
         });
         </script>
+        <script src="/assets/card-fx.js" defer></script>
