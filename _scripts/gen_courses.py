@@ -127,6 +127,8 @@ def load_data() -> dict[str, Any]:
                     or not re.fullmatch(r"[a-z0-9-]+\.mp4", fx)
                     or not (ROOT / "assets" / "videos" / "fx" / fx).is_file()):
                 sys.exit(f"courses.yml {context}.fx_video 無效或檔案不存在：{fx}")
+        if "demo" in p:
+            check_demo(p["demo"], f"{context}.demo")
         if p["category"] not in CATEGORY_ORDER:
             sys.exit(f"courses.yml {context}.category 無效：{p['category']}")
         if p["status"] not in STATUS_LABEL:
@@ -148,6 +150,49 @@ def load_data() -> dict[str, Any]:
                 if not isinstance(item[key], str) or not item[key].strip():
                     sys.exit(f"courses.yml {faq_context}.{key} 必須是非空文字")
     return data
+
+
+DEMO_DIR = ROOT / "assets" / "videos" / "demo"
+DEMO_FILE = r"[a-z0-9-]+\.(?:mp4|jpg|png)"
+
+
+def check_demo(demo: Any, context: str) -> None:
+    """選填 demo：課程頁主圖下方的成果影片＋過程圖。檔案都要在 assets/videos/demo/，缺檔就停。"""
+    if not isinstance(demo, dict):
+        sys.exit(f"courses.yml {context} 必須是物件")
+    require_keys(demo, ("video", "poster", "steps"), context)
+    names = [demo["video"], demo["poster"]]
+    steps = demo["steps"]
+    if not isinstance(steps, list) or not steps:
+        sys.exit(f"courses.yml {context}.steps 必須是非空清單")
+    for number, step in enumerate(steps, start=1):
+        require_keys(step, ("image", "caption"), f"{context}.steps 第 {number} 筆")
+        if not isinstance(step["caption"], str) or not step["caption"].strip():
+            sys.exit(f"courses.yml {context}.steps 第 {number} 筆 caption 必須是非空文字")
+        names.append(step["image"])
+    for name in names:
+        if (not isinstance(name, str) or not re.fullmatch(DEMO_FILE, name)
+                or not (DEMO_DIR / name).is_file()):
+            sys.exit(f"courses.yml {context} 檔名無效或檔案不存在：{name}")
+
+
+def demo_html(p: dict[str, Any]) -> str:
+    demo = p.get("demo")
+    if not demo:
+        return ""
+    base = "/assets/videos/demo/"
+    steps = "".join(
+        f'<figure><img src="{base}{escape(s["image"])}" alt="{escape(s["caption"])}"'
+        f' loading="lazy"><figcaption>{escape(s["caption"])}</figcaption></figure>'
+        for s in demo["steps"]
+    )
+    return (
+        '<figure class="detail-demo reveal-fx">'
+        f'<video src="{base}{escape(demo["video"])}" poster="{base}{escape(demo["poster"])}"'
+        ' controls muted playsinline preload="metadata"></video>'
+        f'<div class="detail-demo-steps">{steps}</div>'
+        "</figure>"
+    )
 
 
 PROJECTS: dict[str, dict[str, Any]] = {}
@@ -390,6 +435,7 @@ def gen_detail(p: dict[str, Any], cat: dict[str, str]) -> None:
         '<img class="detail-hero reveal-fx"'
         f' src="/assets/images/{escape(p["image"])}"'
         f' alt="{escape(p["name"])}">',
+        *([demo_html(p)] if p.get("demo") else []),
         '<section class="detail-block reveal-fx">',
         "<h2>這門課的情境</h2>",
         f'<p>{escape(p["story"])}</p>',
