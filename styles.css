@@ -57,6 +57,23 @@ p { color: var(--text); }
   font-size: 0.95rem; min-height: 44px; display: flex; align-items: center;
 }
 .navbar .nav-link:hover { color: var(--accent) !important; }
+/* 分享按鈕（assets/share.js 插在搜尋圖示旁，手機收合時也看得到） */
+.share-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; padding: 0; border: 0; background: transparent;
+  color: var(--text); font-size: 1.05rem; cursor: pointer;
+  /* Quarto 用 flex order 排導覽列：搜尋在手機是 4、桌機是 999。同 order 時照 DOM 順序，分享就排在搜尋左邊 */
+  order: 4; margin-left: auto;
+}
+.share-btn + #quarto-search { margin-left: 0 !important; }
+@media (min-width: 992px) { .share-btn { order: 999; margin-left: .25rem; } }
+.share-btn:hover, .share-btn:focus-visible { color: var(--accent); }
+.share-toast {
+  position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); z-index: 3000;
+  transform: translateX(-50%); padding: .55rem 1.1rem; border-radius: 999px;
+  background: rgba(40, 49, 61, .92); color: #fff; font-size: .92rem; transition: opacity .4s;
+}
+.share-toast.out { opacity: 0; }
 
 /* ── Hero：問題導向，字為主、不壓照片 ── */
 .hero {
