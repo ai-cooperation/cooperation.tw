@@ -1,0 +1,99 @@
+---
+title: "隱私權政策"
+pagetitle: "隱私權政策 — AI Cooperation"
+description: "AI Cooperation 網站與 YouTube 上傳工具如何收集、使用與保存資料"
+toc: false
+---
+
+最後更新：2026 年 11 月 23 日
+
+本政策說明 AI Cooperation（cooperation.tw）在你瀏覽網站、送出報名表單，以及我們使用自家的 YouTube 上傳工具時，會收集哪些資料、用在哪裡、保存多久，以及你可以行使的權利。
+
+## 我們收集的資料
+
+### 你主動提供的資料
+
+送出「課程試上報名」或「企業內訓洽詢」表單時，我們會收到你填寫的內容：
+
+- 課程試上報名：想試上的課程、稱呼、Email、電話（選填）、想解決的情境、得知課程的管道（選填）
+- 企業內訓洽詢：公司與部門、稱呼、Email、電話（選填）、想改善的工作流程、預計人數（選填）、希望的時程（選填）
+
+你寫信到 ai@cooperation.tw 或加入官方 LINE 帳號時，我們會收到你在信件或對話中提供的內容。
+
+### 瀏覽時自動產生的資料
+
+本站使用兩項分析工具，了解哪些內容有幫助、哪些頁面需要改善：
+
+- Google Analytics 4：記錄造訪的頁面、停留時間、來源網站、大致地區、裝置與瀏覽器類型，以及報名按鈕的點擊
+- Microsoft Clarity：記錄頁面上的點擊、捲動與滑鼠移動，用來產生熱點圖與操作重播
+
+這兩項工具會在你的瀏覽器存放 cookie 來辨識同一次造訪。網站代管服務（GitHub Pages）與內容傳遞服務（Cloudflare）也會依其標準作業記錄連線的 IP 位址與時間。
+
+我們不會把分析資料與你在表單填寫的身分資料合併比對。
+
+## 資料的用途
+
+- 回覆你的洽詢，通知課程場次，寄送報名確認信
+- 規劃課程內容與企業內訓方案
+- 統計網站流量，改善頁面內容與操作流程
+
+我們不會把你的資料用於上述以外的目的，不會出售，也不會提供給第三方作行銷用途。
+
+## 資料存放的位置與處理者
+
+| 資料 | 處理的服務 | 用途 |
+|---|---|---|
+| 表單內容 | Google Apps Script、Google 試算表 | 接收並保存報名資料 |
+| 確認信與通知信 | Gmail | 寄送報名確認與內部通知 |
+| 瀏覽分析 | Google Analytics 4、Microsoft Clarity | 流量統計與操作分析 |
+| 網站連線紀錄 | GitHub Pages、Cloudflare | 網站代管與傳遞 |
+
+這些服務的伺服器可能位於台灣以外的地區，資料會依各服務提供者的隱私權政策處理。能存取報名資料的只有 AI Cooperation 負責課程與洽詢的人員。
+
+## 保存期間
+
+- 報名與洽詢資料：保存至相關課程或洽詢結束後兩年，之後刪除或去識別化
+- 瀏覽分析資料：依 Google Analytics 與 Microsoft Clarity 的預設保存期間
+
+你可以隨時要求提前刪除自己的報名資料。
+
+## 你的權利
+
+依個人資料保護法，你可以就自己的個人資料向我們提出下列請求：
+
+- 查詢或請求閱覽
+- 請求製給複製本
+- 請求補充或更正
+- 請求停止收集、處理或利用
+- 請求刪除
+
+請寫信到 ai@cooperation.tw，並說明你送出表單時使用的 Email。查詢、閱覽與複製本的請求，我們會在收到後十五日內回覆；補充、更正、停止利用與刪除的請求，會在三十日內回覆。
+
+不希望被分析工具記錄的話，可以在瀏覽器停用 cookie，或安裝 [Google Analytics 不透露資訊瀏覽器外掛程式](https://tools.google.com/dlpage/gaoptout)。停用後仍可正常瀏覽本站。
+
+## YouTube 上傳工具
+
+AI Cooperation 有一個自用的工具「AI Cooperation Uploader」，用來把我們自己製作的影片上傳到 AI Cooperation 的 YouTube 頻道。這個工具不對外提供，使用者只有 AI Cooperation 自己。
+
+- 存取範圍：只使用 YouTube Data API 的上傳權限（`youtube.upload`），用途是把影片檔與標題、說明等資料上傳到 AI Cooperation 自己的頻道
+- 不會讀取、收集或保存其他 Google 使用者的資料
+- 不會把透過 Google API 取得的資料提供給第三方，也不會用於廣告或訓練人工智慧模型
+- 授權憑證只保存在 AI Cooperation 自有的電腦上
+
+這個工具對 Google API 所取得資料的使用與傳輸，遵守 [Google API 服務使用者資料政策](https://developers.google.com/terms/api-services-user-data-policy)，包含其中的有限使用規定。這個工具透過 YouTube API 服務運作，相關行為同時受 [YouTube 服務條款](https://www.youtube.com/t/terms) 與 [Google 隱私權政策](https://policies.google.com/privacy) 規範。授權可以隨時在 [Google 帳戶的安全性設定](https://myaccount.google.com/permissions) 撤銷。
+
+### YouTube upload tool (English summary)
+
+"AI Cooperation Uploader" is an internal tool used only by AI Cooperation to upload our own videos to our own YouTube channel. It requests only the `youtube.upload` scope of the YouTube Data API. It does not read, collect, store or share any other Google user's data, and data obtained through Google APIs is never sold, used for advertising, or used to train AI models. Its use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. The tool uses YouTube API Services; see the [YouTube Terms of Service](https://www.youtube.com/t/terms) and the [Google Privacy Policy](https://policies.google.com/privacy). Access can be revoked at any time from the [Google Account permissions page](https://myaccount.google.com/permissions).
+
+## 兒童的隱私
+
+本站的課程與內容以成年人為對象，我們不會刻意收集未滿十六歲者的個人資料。
+
+## 政策的修訂
+
+本政策有修訂時，會在本頁更新內容與最後更新日期。涉及資料用途的重大變更，會在網站上公告。
+
+## 聯絡我們
+
+對本政策或個人資料的處理有疑問，請寫信到 [ai@cooperation.tw](mailto:ai@cooperation.tw)。

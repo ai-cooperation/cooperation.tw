@@ -546,6 +546,12 @@ footer.footer, .nav-footer {
   background: var(--bg3) !important; border-top: 1px solid var(--line); color: var(--text-dim);
 }
 .nav-footer a { color: var(--teal); }
+/* 頁尾只用中欄：左右空欄不佔寬，避免連結一多就在窄欄裡斷行（2026-11-23 加隱私權政策連結後「聯絡我們」被拆成兩行） */
+@media (min-width: 768px) {
+  .nav-footer .nav-footer-left, .nav-footer .nav-footer-right { flex: 0 0 0; min-width: 0; padding: 0; }
+  .nav-footer .nav-footer-center { flex: 1 1 auto; }
+}
+.nav-footer .nav-footer-center { text-wrap: balance; }
 
 /* ── 內頁（專案 + 課程共用）── */
 .detail { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 4rem; }
