@@ -48,7 +48,7 @@ website:
         href: https://github.com/ai-cooperation
 
   page-footer:
-    center: "AI Cooperation | cooperation.tw | [Blog](/blog/) | [聯絡我們](mailto:ai@cooperation.tw)"
+    center: "AI Cooperation | cooperation.tw | [Blog](/blog/) | [隱私權政策](/privacy.html) | [聯絡我們](mailto:ai@cooperation.tw)"
     background: "#0c0f14"
 
   open-graph:
