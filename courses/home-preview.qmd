@@ -1,6 +1,6 @@
 ---
 pagetitle: "裝修前先看見：用 AI 生成自己家的風格模擬圖"
-description: "給屋主與設計助理的課程：用自家空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。"
+description: "給屋主與設計助理的課程：用自家平面圖或空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。"
 page-layout: custom
 toc: false
 ---
@@ -16,9 +16,10 @@ toc: false
 <a class="btn-primary" href="/apply/?course=home-preview">預約試上</a>
 </header>
 <img class="detail-hero reveal-fx" src="/assets/images/course-home-preview.png" alt="我的家，裝修前先看見">
+<figure class="detail-demo reveal-fx"><video src="/assets/videos/demo/home-preview.mp4" poster="/assets/videos/demo/home-preview-poster.jpg" controls muted playsinline preload="metadata"></video><div class="detail-demo-steps"><figure><img src="/assets/videos/demo/home-preview-plan.jpg" alt="自繪平面圖" loading="lazy"><figcaption>自繪平面圖</figcaption></figure><figure><img src="/assets/videos/demo/home-preview-model.jpg" alt="3D 模型" loading="lazy"><figcaption>3D 模型</figcaption></figure><figure><img src="/assets/videos/demo/home-preview-styled.jpg" alt="風格完成圖" loading="lazy"><figcaption>風格完成圖</figcaption></figure></div></figure>
 <section class="detail-block reveal-fx">
 <h2>這門課的情境</h2>
-<p>用自己空間的照片與需求條件，生成不同風格的改造方案並排比較——跟設計師溝通時，拿的是「我家的樣子」，而不是別人家的參考圖。</p>
+<p>用自家的平面圖或空間照片，加上需求條件，生成不同風格的改造方案並排比較——跟設計師溝通時，拿的是「我家的樣子」，而不是別人家的參考圖。</p>
 </section>
 <section class="detail-block reveal-fx">
 <h2>你會做出什麼（可帶走的作品）</h2>
@@ -54,7 +55,7 @@ toc: false
 <p>小班體驗場陸續安排，時間、時數與費用會在通知信中說明，登記後依序通知。</p>
 <p class="detail-cta-note">不方便填表單？直接寫信到 ai@cooperation.tw，標題註明「試上申請：我的家，裝修前先看見」。</p>
 </section>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "我的家，裝修前先看見", "description": "給屋主與設計助理的課程：用自家空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。", "url": "https://cooperation.tw/courses/home-preview.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "我的家，裝修前先看見", "item": "https://cooperation.tw/courses/home-preview.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "生成的圖可以直接拿去施工嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不行。模擬圖是風格溝通工具，不含精確尺寸與工法；課程教你用它跟設計師有效溝通，不是取代設計師。"}}, {"@type": "Question", "name": "需要會修圖軟體嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。課程用 AI 工具完成風格生成與比較，你負責的是表達需求與評估方案。"}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Course", "name": "我的家，裝修前先看見", "description": "給屋主與設計助理的課程：用自家平面圖或空間照片生成多種裝修風格模擬圖，做出需求書與方案比較，跟設計師高效溝通。", "url": "https://cooperation.tw/courses/home-preview.html", "provider": {"@type": "Organization", "name": "AI Cooperation", "url": "https://cooperation.tw"}, "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "onsite"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://cooperation.tw/"}, {"@type": "ListItem", "position": 2, "name": "課程", "item": "https://cooperation.tw/courses/"}, {"@type": "ListItem", "position": 3, "name": "我的家，裝修前先看見", "item": "https://cooperation.tw/courses/home-preview.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "生成的圖可以直接拿去施工嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不行。模擬圖是風格溝通工具，不含精確尺寸與工法；課程教你用它跟設計師有效溝通，不是取代設計師。"}}, {"@type": "Question", "name": "需要會修圖軟體嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。課程用 AI 工具完成風格生成與比較，你負責的是表達需求與評估方案。"}}]}]}</script>
 <p class="detail-back"><a href="/courses/">← 回課程探索</a></p>
 </article>
 ```
